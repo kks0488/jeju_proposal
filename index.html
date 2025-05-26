@@ -3,164 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>주택 설계 상세 요청사항 (최종)</title>
+    <title>건축 설계 2차 요청 사항</title>
     <style>
         body {
             font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
             font-size: 14px;
-            line-height: 1.7; /* 가독성을 위해 줄 간격 조정 */
-            color: #374151; /* 기본 텍스트 색상 (약간 어둡게) */
-            background-color: #F9FAFB; /* 전체 배경색 (매우 밝은 회색) */
+            line-height: 1.7;
+            color: #374151;
+            background-color: #F9FAFB;
             margin: 0;
             padding: 0;
         }
         .container {
             max-width: 800px;
             margin: 2rem auto;
-            background-color: #fff; /* 컨텐츠 배경색 */
-            border: 1px solid #E5E7EB; /* 컨테이너 테두리 (밝은 회색) */
+            background-color: #fff;
+            border: 1px solid #E5E7EB;
             border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03); /* 부드러운 그림자 */
-            overflow: hidden; /* Ensure child margins don't collapse */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            overflow: hidden;
         }
         .header {
             padding: 1.5rem 2rem;
-            background-color: #F3F4F6; /* 헤더 배경색 (밝은 회색) */
-            border-bottom: 1px solid #E5E7EB; /* 헤더 하단 구분선 */
-            /* border-radius: 8px 8px 0 0; Removed for consistency */
+            background-color: #F3F4F6;
+            border-bottom: 1px solid #E5E7EB;
         }
         .header h1 {
             margin: 0;
-            font-size: 1.7rem; /* 제목 크기 약간 조정 */
+            font-size: 1.7rem;
             font-weight: 700;
-            color: #1F2937; /* 헤더 제목 색상 (어두운 회색) */
+            color: #1F2937;
         }
         .header p {
             margin: 0.3rem 0 0;
             font-size: 0.9rem;
-            color: #4B5563; /* 헤더 부제목 색상 (중간 회색) */
+            color: #4B5563;
         }
         .content {
             padding: 2rem;
         }
-        /* 목차 스타일 */
-        .toc {
-            background-color: #F9FAFB;
-            border: 1px solid #E5E7EB;
-            padding: 1rem 1.5rem;
-            margin-bottom: 2.5rem;
-            border-radius: 6px;
-        }
-        .toc h3 {
-            margin-top: 0;
-            margin-bottom: 0.8rem;
-            font-size: 1.1rem;
-            color: #374151;
-        }
-        .toc ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .toc li {
-            margin-bottom: 0.5rem;
-        }
-        .toc a {
-            text-decoration: none;
-            color: #4B5563;
-            font-size: 0.9rem;
-            transition: color 0.2s ease;
-        }
-        .toc a:hover {
-            color: #1E40AF; /* Main blue accent color */
-        }
-
         .content h2 {
-            font-size: 1.4rem; /* 소제목 크기 약간 조정 */
+            font-size: 1.4rem;
             font-weight: 600;
-            color: #1F2937; /* 소제목 색상 */
-            margin: 3.5rem 0 1.2rem; /* 상단 여백 증가 */
+            color: #1F2937;
+            margin: 2.5rem 0 1.2rem; /* 상단 여백 조정 */
             padding-bottom: 0.6rem;
-            border-bottom: 2px solid #E5E7EB; /* 소제목 하단 구분선 */
+            border-bottom: 2px solid #E5E7EB;
         }
         .content h2:first-of-type {
-             margin-top: 0; /* 첫번째 h2는 상단 여백 제거 */
+            margin-top: 0;
         }
-        .content h3 {
-            font-size: 1.15rem; /* 중제목 크기 약간 조정 */
+        .content h3 { /* 새로운 소제목 스타일 */
+            font-size: 1.15rem;
             font-weight: 600;
-            color: #374151; /* 중제목 색상 */
-            margin: 1.8rem 0 0.8rem; /* 여백 조정 */
+            color: #374151;
+            margin: 1.8rem 0 0.8rem;
         }
-        .content p, .content ul, .content ol {
+        .content p, .content ul {
             margin-bottom: 1rem;
             font-size: 0.95rem;
-            color: #374151; /* 본문 텍스트 색상 */
+            color: #374151;
         }
-        .content ul, .content ol {
+        .content ul {
             padding-left: 1.5rem;
         }
         .content li {
-            margin-bottom: 0.6rem; /* 리스트 항목 간격 조정 */
+            margin-bottom: 0.6rem;
         }
         .content strong {
             font-weight: 600;
-            color: #111827; /* 강조 텍스트 색상 (더 어둡게) */
+            color: #111827;
         }
-        .image-placeholder {
+        .image-placeholder-text { /* 이미지 플레이스홀더 텍스트 스타일 */
             display: block;
-            width: 98%; /* 너비 조정 */
-            max-width: 600px; /* 최대 너비 설정 */
-            min-height: 50px; /* 이미지 로딩 전 최소 높이 */
-            background-color: #F3F4F6; /* Placeholder 배경색 */
-            border: 1px solid #E5E7EB; /* Placeholder 테두리 */
-            margin: 1.5rem auto; /* 중앙 정렬 및 여백 */
-            padding: 0; /* 이미지 래퍼 자체 패딩 제거 */
-            box-sizing: border-box; /* Padding 포함 크기 계산 */
-            overflow: hidden; /* 이미지가 넘칠 경우 대비 */
-            border-radius: 4px; /* 컨테이너에도 약간의 둥근 모서리 */
-        }
-        .image-placeholder img {
-            max-width: 100%;
-            height: auto;
-            display: block; /* 불필요한 하단 여백 제거 */
-            margin: 0 auto; /* 이미지가 컨테이너보다 작을 경우 중앙 정렬 */
-            /* border-radius: 4px; Optional: 이미지 자체에 둥근 모서리 */
+            width: 98%;
+            max-width: 600px;
+            min-height: 50px;
+            background-color: #F3F4F6;
+            border: 1px solid #E5E7EB;
+            margin: 1.5rem auto;
+            padding: 1rem;
+            box-sizing: border-box;
+            border-radius: 4px;
+            text-align: center;
+            color: #6B7280;
+            font-style: italic;
         }
         .note {
-            background-color: #F9FAFB; /* 노트 배경색 */
-            border-left: 4px solid #D1D5DB; /* 노트 좌측 테두리 */
-            padding: 1rem 1.5rem; /* 패딩 조정 */
-            margin: 2rem 0; /* 여백 조정 */
+            background-color: #F9FAFB;
+            border-left: 4px solid #D1D5DB;
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
             font-size: 0.9rem;
-            color: #4B5563; /* 노트 텍스트 색상 */
+            color: #4B5563;
         }
         .note strong {
             color: #1F2937;
         }
-        /* 추가: 강조 블록 스타일 */
-        .highlight {
-            background-color: #EFF6FF; /* Tailwind blue-50 */
-            border: 1px solid #BFDBFE; /* Tailwind blue-200 */
-            padding: 0.8rem 1.2rem;
-            margin: 1.5rem 0;
-            border-radius: 4px;
-            font-size: 0.95rem;
-            color: #1E40AF; /* Tailwind blue-800 */
-        }
-        .highlight strong {
-            color: #1E3A8A; /* Tailwind blue-900 */
-        }
-        /* 추가: 코드/수치 강조 */
-        code {
-            background-color: #E5E7EB;
-            padding: 0.2em 0.5em;
-            border-radius: 4px;
-            font-size: 0.9em;
-            color: #1F2937;
-            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-        }
-        /* 반응형 디자인 */
         @media (max-width: 640px) {
             .container {
                 margin: 1rem;
@@ -179,19 +118,19 @@
             }
             .content h2 {
                 font-size: 1.25rem;
-                margin-top: 2.5rem;
+                margin-top: 2rem;
             }
             .content h3 {
                 font-size: 1.1rem;
             }
-            body, .content p, .content ul, .content ol, .toc a, .note {
-                font-size: 0.9rem; /* 모바일 기본 폰트 크기 조정 */
+            body, .content p, .content ul, .note {
+                font-size: 0.9rem;
             }
-            .image-placeholder {
-                 width: 100%;
-                 margin-left: 0;
-                 margin-right: 0;
-                 border-radius: 0;
+            .image-placeholder-text {
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
+                border-radius: 0;
             }
         }
     </style>
@@ -199,222 +138,93 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>주택 설계 상세 요청사항</h1>
+            <h1>건축 설계 2차 요청 사항</h1>
             <p>건축가님께 전달드리는 상세 설계 요청 사항입니다.</p>
         </div>
         <div class="content">
-            <nav class="toc">
-                <h3>목차</h3>
-                <ul>
-                    <li><a href="#section-1">1. 대지 조건 및 목표 면적</a></li>
-                    <li><a href="#section-2">2. 공간 구성 및 방 크기</a></li>
-                    <li><a href="#section-3">3. 마감재 및 면 정렬 (건축 품질의 핵심)</a></li>
-                    <li><a href="#section-4">4. 단열 강화 (최우선 고려사항)</a></li>
-                    <li><a href="#section-5">5. 1층 공간 상세 계획</a></li>
-                    <li><a href="#section-6">6. 계단 및 2층 공간 상세 계획</a></li>
-                    <li><a href="#section-7">7. 구조, 설비, 기술 인프라 배치</a></li>
-                    <li><a href="#section-8">8. 벽체, 문, 창호의 정렬 및 마감 디테일 (재강조)</a></li>
-                    <li><a href="#section-9">9. 평면도 및 스케치업 모델 파일 다운로드</a></li>
-                </ul>
-            </nav>
+            <p>건축가님, 앞서 전달드린 2차 설계 요청 사항에 더하여, 제주도라는 위치와 환경, 건축물의 장기적 유지보수, 그리고 저희가 추구하는 건축 스타일에 대한 심도 있는 검토를 통해 아래와 같이 구체적인 결정 및 추가 수정 사항을 전달드립니다.</p>
 
-            <p>건축가님께, 본 주택 설계에 대한 구체적인 요청사항을 아래와 같이 종합하여 전달드립니다. 저희의 라이프스타일, 효율성, 미적 기준, 그리고 실질적인 거주 경험을 바탕으로 한 내용이므로, 설계 시 각 항목을 면밀히 검토하고 반영 부탁드립니다. <strong>(설계 전문가가 아니기 때문에 치수가 차이가 있을수 있습니다. 전문가의 입장으로 꼭 의견 부탁드립니다)</strong></p>
-
-            <h2 id="section-1">1. 대지 조건 및 목표 면적</h2>
-            <p>• 본 주택은 세로(짧은 방향) <code>10m</code>, 가로(긴 방향) <code>23.1m</code>의 대지 형태에 맞춰 설계됩니다. (상황에 따라 세로를 짧게, 가로를 더 길게 등 약간의 치수 조정 가능하며 가로로 길고 집 오른쪽으로 부터 차가 다닐 수 있기 때문에 이런 형태가 되지 않을까 예상합니다)</p>
-            <p>• 1층은 약 <code>70평</code>, 2층은 약 <code>30평</code> 규모로 계획하며, 이 대지 규격과 목표 면적(총 약 <code>100평</code>)에 맞춰 전체적으로 리사이징 및 계획되어야 합니다.</p>
-            <p>• 2층이 배면에 붙어서 설계되었기 때문에 2층 지붕의 라인이 1층 라인보다 좀 더 들어갈 것으로 예상합니다. (2층은 후정이 없기 때문에 앞으로 나오는게 아니라 뒤에 붙어야 함)</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/exterior1.png" alt="외관 예상 1"/> </div>
-            <!-- IMAGE PLACEHOLDER -->
-          <div class="image-placeholder"><img src="images/exterior2.png" alt="외관 예상 2"/> </div>
-
-            <div class="image-placeholder"><img src="images/exterior3.png" alt="외관 예상 3"/> </div>
-
-            <h2 id="section-2">2. 공간 구성 및 방 크기</h2>
-            <p>• 각 실(방)의 크기는 단순히 면적 분할이 아닌, <strong>실제 사용될 가구 배치와 크기를 고려하여 너무 크거나 작지 않도록 기능적인 면적을 확보</strong>하는 것이 중요합니다. 불필요하게 넓거나 좁은 공간 없이 효율적으로 사용될 수 있도록 설계해 주십시오.</p>
-
-            <h2 id="section-3">3. 마감재 및 면 정렬 (건축 품질의 핵심)</h2>
-            <p>• <strong>내부 벽 마감:</strong> 전체 내부 벽면은 벽지 시공 없이 <strong>모두 페인트로 마감</strong>합니다.</p>
-            <p>• <strong>바닥 마감:</strong> 가능한 한 집 전체의 바닥재 종류를 <strong>통일</strong>하여 시각적인 연속성과 관리의 용이성을 확보합니다. (욕실 바닥은 최대한 안 미끄럽도록 요철이 있는 타일로)</p>
-            <div class="highlight">
-                <p><strong>• 면 정렬 및 단차 없음 (매우 중요):</strong> 벽체, 문, 창호, 붙박이 가구 등 각기 다른 요소의 면이 서로 만나는 부분에서 <strong>단차나 어긋남 없이 하나의 평면처럼 완벽하게 일직선으로 정렬</strong>되도록 설계 단계부터 정밀하게 계획해야 합니다. 특히, 나중에 마감을 하면서 단차가 발생하여 공간 낭비(인테리어 맞춤을 위해 덧붙이는 등)가 생기지 않도록 미리 계획하는 것이 중요합니다. 이러한 정밀한 면 정렬은 건물의 시각적인 완성도와 품질을 위해 매우 중요한 부분입니다.</p>
-            </div>
-            <p>• <strong>외관 샷시 정렬:</strong> 특히 외관에서 보았을 때 창호(샷시)들의 정렬이 일관성 있게 보이도록 디자인해야 합니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/sash_alignment1.png" alt="깔끔한 샷시 정렬 예시"/></div>
-
-            <h2 id="section-4">4. 단열 강화 (최우선 고려사항)</h2>
-            <p>• 해당 부지는 도시가스가 공급되지 않아 LPG 또는 기름 보일러 사용 시 난방 비용이 크게 발생합니다.</p>
-            <p>• 따라서, 예상되는 높은 난방비 부담을 완화하기 위해 건물의 <strong>단열 성능에 특별히 신경 써 주셔야 하며</strong>, 법적 기준 이상의 가능한 수준 높은 단열을 벽체, 지붕, 바닥 등 건물 전체 외피에 적용하고, <strong>고효율 창호 및 기밀 시공</strong>을 통해 에너지 효율을 극대화하는 설계를 <strong>최우선으로 고려</strong>해주십시오. 장기적인 유지 비용 절감을 위해 필수적입니다. <strong>열교 방지에도 각별히 유의</strong> 바랍니다.</p>
-
-
-            <h2 id="section-5">5. 1층 공간 상세 계획</h2>
-
-            <h3>5.1 현관 및 공용 욕실</h3>
-            <p>• <strong>현관:</strong> 깔끔하고 실용적인 공간으로 구성하며, 너비는 계단 폭과 연계하여 약 <code>2400mm</code> 정도로 예상합니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/entrance1.png" alt="현관 예상"/></div>
-            <p>• <strong>1층 공용 욕실 (현관 옆):</strong> 변기, 샤워부스(세로 길이 약 <code>1.2m</code> 정도면 충분), 세면대, 최소한의 작은 수납 공간만 포함하는 <strong>미니멀한 구성</strong>으로 만듭니다. 크기를 최대한 줄여서, 확보되는 공간을 주방, 거실, 복도 수납 등 다른 필요한 곳에 활용합니다. 욕실 진입 시 변기가 바로 보이지 않도록 동선이 한 번 꺾이는 구조를 선호합니다. <strong>다만, 변기와 샤워부스 간 간격이 너무 좁아 사용 시 무릎이 닿는 등 불편함이 없도록 배치에 유의해주시기 바랍니다.</strong> 모든 욕실에는 편하게 창문을 열어서 <strong>자연 환기</strong>가 충분히 이루어질 수 있도록 창문을 필수적으로 설치해 주십시오.</p>
-            <p>• <strong>욕실 미니멀화 이유:</strong> 욕실을 최대한 작고 미니멀하게 만드는 주된 이유는 다른 공간들을 더 효율적으로 사용하기 위해서입니다. 예를 들어, 1층 욕실(현관 옆 작은 욕실)은 머드룸 기능을 겸하며, 그 옆의 다용도실 공간은 드럼을 두거나 가족을 위한 홈짐 공간, 혹은 일반 창고로 활용될 예정인데, 욕실 크기를 줄여서 공간을 확보하더라도 다른 용도로 활용 시 공간이 부족할 수 있으므로 다른 공간 확보가 매우 중요합니다. 따라서 <strong>욕실 공간은 기능에 충실하되 최소한의 면적만 차지하도록 설계</strong> 부탁드립니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/1f_guest_bathroom.png" alt="1층 공용 욕실 예상"/></div>
-
-            <h3>5.2 다용도실 (홈짐/창고/취미 공간)</h3>
-            <p>• <strong>위치 및 용도:</strong> 1층 현관 욕실 옆 공간으로, 드럼 연습이나 가족을 위한 홈짐 공간, 혹은 일반 창고로 사용할 예정입니다. 앞서 언급했듯이, 욕실 크기를 줄여 이 공간의 활용도를 높이는 것이 중요합니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/utility_room1.png" alt="다용도실 예상 1"/></div>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/utility_room2.png" alt="다용도실 예상 2"/></div>
-
-            <h3>5.3 거실 및 주방/다이닝</h3>
-            <p>• <strong>거실:</strong> 개방감 있고 편안한 휴식 공간으로 계획합니다. (컨셉이미지)</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/living_room1.png" alt="1층 거실 컨셉 예상"/></div>
-            <p>• <strong>주방/다이닝:</strong></p>
+            <h2 id="item1">1. 현관 접근성 및 배수 처리</h2>
             <ul>
-                <li><strong>주방 수납:</strong> 주방에는 도면 상에 표시된 것처럼 양쪽에 충분한 붙박이 수납장을 확보하여 수납 효율을 극대화합니다.</li>
-                <li><strong>아일랜드:</strong> 길이가 <code>3미터</code>인 아일랜드가 설치되며, 그 옆으로는 최소 <code>900mm</code> 이상의 편안한 동선 공간을 확보해야 합니다.</li>
-                <li><strong>주방 양옆 빌트인 깊이:</strong> 세탁실/팬트리 공간과 접한 쪽 붙박이 깊이는 물건 수납과 냉장고 빌트인등의 효율을 위해 일반적 가구 깊이인 대략 <code>700mm</code>로, 1층 마스터룸 욕실과 접한 쪽 붙박이 깊이는 욕실 공간 확보를 위해 <code>450mm</code> 정도로 합니다. 이쪽에는 소가전들을 둘 수 있습니다.</li>
-                <li><strong>빌트인 배치 개념:</strong> 주방 폭(<code>4800mm</code>)은 아일랜드와 주된 동선을 위해 확보되며, 양옆 붙박이 가구는 이 폭 안으로 돌출되는 것이 아니라 인접 공간(세탁실/팬트리, 1층 욕실) 쪽으로 <strong>빌트인(들여 짜는)</strong>되는 개념입니다.</li>
-                <li><strong>붙박이 면 정렬:</strong> 모든 붙박이 가구(빌트인 포함) 면은 인접 벽면이나 다른 가구 면과 <strong>단차 없이 평행하게 일치</strong>하도록 사전에 계획하여 마감을 깔끔하게 합니다. 특히 나중에 인테리어 시공 시 덧붙임 등으로 공간이 낭비되지 않도록 설계 단계부터 마감 두께를 고려부탁드립니다.</li>
+                <li>현관 앞 단차를 제거하고 건물 바닥 면과 높이를 일치시켜 주십시오.</li>
+                <li>추후 빗물 누수 방지를 위해 사람이 인지하지 못할 정도의 미세한 구배를 두어 자연 배수를 유도해 주십시오.</li>
             </ul>
-             <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/kitchen1.png" alt="주방 예상 1"/></div>
-             <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/kitchen2.png" alt="주방 예상 2"/></div>
-             <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/kitchen3.png" alt="주방 예상 3"/></div>
-            <div class="image-placeholder"><img src="images/kitchen4.png" alt="주방 예상 4"/></div>
+          
+            <div class="image-placeholder-text">  <img src="images/floorlevel.png" width="100%" height="auto" alt=""/></div>
 
-
-            <h3>5.4 세탁실 / 팬트리</h3>
-            <p>• <strong>크기 및 효율:</strong> 이 공간 자체는 크게 클 필요가 없으며 <strong>내부 수납 효율</strong>이 중요합니다. 주방-세탁실쪽 팬트리 붙박이 가구의 외곽선이 다이닝 공간 쪽 벽면과 정확히 일치하도록 설계하여 다이닝 공간에서 보았을 때 깔끔한 일직선 벽면처럼 보이게 부탁드립니다.</p>
-            <p>• <strong>내부 구조:</strong> 내부에는 도면과 같이 가구가 이중으로 배치되는 구조로 수납량을 늘립니다.</p>
-            <p>• <strong>기능 및 위치:</strong> 이 공간은 세탁물 분류, (실내/외)건조, 손빨래(싱크대 유무), 다림질, 청소 용품 수납, 분리수거 등 다양한 생활 편의 기능이 이루어지는 공간이 될 것입니다. 이러한 다목적 활용 때문에 막상 주방 용품 수납 공간이 제약될 수 있습니다. 흙 묻은 옷 등을 바로 처리할 수 있도록, <strong>현관에서 가장 가까운 위치에 세탁 공간이 있는 구조</strong>를 선호합니다.</p>
-            <p>• <strong>행거:</strong> <strong>빨래 건조를 위해 천장형 행거 설치</strong>가 필요합니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/laundry_room1.png" alt="세탁실 예상 1"/></div>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/laundry_room2.png" alt="세탁실 예상 2"/></div>
-            <div class="image-placeholder"><img src="images/laundry_room3.png" alt="세탁실 예상 3"/></div>
-
-            <h3>5.5 1층 마스터룸 (부모님)</h3>
-            <p>• <strong>구성:</strong> 침실, 드레스룸, 전용 욕실로 구성되며, 연세 있으신 분들이 사용할 예정입니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/1f_master_bedroom1.png" alt="1층 마스터룸 예상"/></div>
-            <p>• <strong>마스터룸 욕실:</strong> 욕조, 샤워부스, 변기, 세면대, 그리고 깔끔한 수납 공간이 모두 들어갈 수 있도록 하되, 공간이 과도하지 않게 필요한 기능이 효율적으로 배치될 수 있는 <strong>컴팩트한 크기</strong>로 설계합니다. 1층 마스터룸은 연세 있으신 분들이 사용할 예정이기 때문에 넘어지지 않도록  <strong>욕조와 샤워부스가 분리</strong>되어야 합니다. 욕실 진입 시 변기가 바로 보이지 않도록 동선이 한 번 꺾이는 구조를 선호합니다. 모든 욕실에는 편하게 창문을 열어서 <strong>자연 환기</strong>가 충분히 이루어질 수 있도록 창문을 필수적으로 설치해 주십시오.</p>
-            <p>• <strong>수납 공간 확보의 우선순위:</strong> 주방 및 거실의 충분한 수납 공간 확보가 최우선이며, 안방 욕실 사이즈를 일부 줄여서 수납 공간을 확보했습니다. 세탁실/팬트리의 다목적 활용으로 인해 주방 전체의 수납이 부족해지지 않도록, 욕실 쪽에도 붙박이장을 설치한 것입니다. 이 또한 거실 쪽에서 바라봤을 때 가구가 깔끔하게 떨어지도록 미리 벽을 설계합니다.</p>
-            <div class="note">
-                <p><strong>마스터룸 드레스룸-욕실 동선 및 문 위치 결정 이유:</strong><br>
-                제공해주신 도면과 관련하여, 드레스룸에서 욕실로 진입하는 문의 위치에 대해 설명드립니다.</p>
-                <ul>
-                    <li>당초 설계(또는 다른 배치안)에서는 욕실 문이 벽면에서 약간 안쪽으로 들어가는 형태(후퇴된 형태)도 고려되었을 수 있습니다.</li>
-                    <li>하지만 현재 설계에서처럼 문을 <strong>한쪽 벽에 맞춰 붙여서 배치</strong>한 이유는 다음과 같습니다:
-                        <ul>
-                            <li>만약 문이 안쪽으로 들어가 배치되면, 드레스룸 내부에서 욕실로 향하는 동선이 'ㄱ'자로 꺾이는 비효율적인 형태가 됩니다.</li>
-                            <li>이러한 'ㄱ'자 동선 때문에 드레스룸 내부에 계획된 붙박이장을 한 섹션 덜 배치해야 하는 공간 손실이 발생합니다.</li>
-                            <li>또한, 'ㄱ'자로 꺾이는 동선 자체에서 불가피하게 사용되지 않는 데드 스페이스가 생길 수밖에 없습니다.</li>
-                        </ul>
-                    </li>
-                    <li>따라서, 문을 벽에 붙여 배치함으로써 드레스룸에서 욕실로의 동선을 최대한 직선화하고, 그 결과 붙박이장 공간을 최대한 확보하며 동선상의 데드 스페이스 발생을 방지하려는 <strong>실용적인 목적</strong>이 반영된 것입니다. 이는 공간 효율성과 수납 최대화를 중요하게 생각하는 저희의 요구사항과 일치하는 설계 방향입니다.</li>
-                </ul>
-            </div>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/1f_main_bathroom1.png" alt="1층 마스터룸 욕실 예상 1"/></div>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/1f_main_bathroom2.png" alt="1층 마스터룸 욕실 예상 2"/></div>
-            <div class="image-placeholder"><img src="images/1f_main_bathroom3.png" alt="1층 마스터룸 욕실 예상 3"/></div>
-
-            <h3>5.6 이모님방</h3>
-            <p>• <strong>구성:</strong> 기본적인 침실 기능과 붙박이 수납 공간을 갖춘 방으로 계획합니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/helper_room1.png" alt="이모님방 예상 1"/></div>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/helper_room2.png" alt="이모님방 예상 2"/></div>
-
-            <h3>5.7 서재</h3>
-            <p>• <strong>구성:</strong> 조용히 작업하거나 책을 읽을 수 있는 공간으로 계획합니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/study_room1.png" alt="서재 예상 1"/></div>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/study_room2.png" alt="서재 예상 2"/></div>
-
-            <h3>5.8 1층 전체 평면 예상</h3>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/1f_floor_plan.png" alt="1층 평면도 예상"/></div>
-
-            <h2 id="section-6">6. 계단 및 2층 공간 상세 계획</h2>
-
-            <h3>6.1 계단 설계</h3>
-            <p>• <strong>방향:</strong> 1층에서 2층으로 오를 때 <strong>오른쪽에서 왼쪽으로 진행</strong>되도록 설계합니다. 이는 2층 공간의 데드 스페이스를 최소화하고 거실 등의 활용 가능한 면적을 최대한 확보하기 위함이며 (실제 가구 시뮬레이션 결과 반영), 2층 거실과 자연스럽게 연결되는 미니바 공간을 효율적으로 만들기 위한 중요한 결정입니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/stairs1.png" alt="계단 방향 및 형태 예시"/></div>
-            <p>• <strong>단 구성:</strong> 단 높이 <code>200mm</code>(마감 완료 단높이) 로 하고, 계단참까지 8개 단, 계단참에서 2층 바닥까지 8개 단, <strong>총 16개 단</strong>으로 구성합니다. (실제 사용 시 가장 편안함을 느낀 구성)</p>
-            <p>• <strong>공간:</strong> 계단 공간은 <strong>완전히 오픈형</strong>으로 설계하며, 뒤쪽에 큰 창을 설치하여 풍부한 채광과 통풍을 확보합니다. 계단 하부는 습기 및 곰팡이 문제, 사용의 불편함 때문에 창고를 만들지 않고 통풍이 잘 되는 개방 구조로 계획합니다.</p>
-            <p>• <strong>폭:</strong> 계단 공간의 <strong>마감면 가로 길이(난간 포함)</strong>는 동선의 편안함, 미관, 그리고 <strong>계단 상부에 계획된 2층 미니바의 실용성</strong> 등 여러 이유로 현관 너비와 동일한 <code>2400mm</code>로 하는 것이 좋아 보입니다. 폭이 이보다 좁아질 경우(예: <code>2100mm</code>), 특히 미니바 공간이 너무 협소해져 사용성이 크게 저하될 것으로 예상됩니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/stairs2.png" alt="오픈형 계단 및 하부 공간 예시"/></div>
-
-            <h3>6.2 2층 거실 및 미니바</h3>
-            <p>• <strong>2층 거실:</strong> 2층 거실 공간에는 상당히 큰 크기의 펜디 소파가 배치될 예정입니다. 따라서 거실 본연의 기능(휴식, 대화 등)을 충분히 수행할 수 있도록 이 <strong>소파 크기를 고려하여 거실 공간을 최대한 넓게 확보</strong>하는 것이 중요합니다.</p>
-            <p>• <strong>미니바:</strong> 1층에서 모든 주방 조리 기능이 이루어지므로, 2층 미니바는 간단한 음료를 준비하는 등 <strong>미니바 역할에 충실한 크기</strong>로 설계되어야 하며 클 필요가 없습니다.</p>
-            <p>• <strong>미니바 위치 및 구성:</strong> 미니바는 <strong>계단실 상부의 데드 스페이스를 활용</strong>하여 배치합니다. 정수기, 간단한 싱크를 놓을 수 있는 공간을 마련하고, 하부에는 작은 와인 냉장고 또는 빌트인 와인 셀러를 구성할 수 있도록 계획합니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/minibar1.png" alt="미니바 예상 1"/></div>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/minibar2.png" alt="미니바 예상 2"/></div>
-
-            <h3>6.3 2층 마스터룸 (형님방)</h3>
-             <p>• <strong>구성:</strong> 침실, 드레스룸, 전용 욕실로 구성됩니다.</p>
-             <p>• <strong>드레스룸:</strong> 드레스룸 내 붙박이 가구는 벽면과 <strong>단차 없이 깔끔하게 빌트인</strong>하여 동선을 방해하지 않고 공간 효율성을 높입니다. 이는 스타일러 등 다른 가전을 배치할 수 있는 유연성을 확보하기 위함입니다. (붙박이 외 가구 배치될 벽면 고려) 마스터룸 드레스룸에서 욕실로 진입하는 문의 위치는 'ㄱ'자 동선으로 인한 붙박이장 공간 손실 및 데드 스페이스 발생을 방지하기 위해 <strong>문을 한쪽 벽에 맞춰 붙여서 배치</strong>하는 실용적인 목적이 반영되었습니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/2f_dressing_room1.png" alt="2층 드레스룸 예상"/></div>
-            <p>• <strong>마스터룸 욕실:</strong> 욕조, 샤워부스, 변기, 세면대, 그리고 깔끔한 수납 공간이 모두 들어갈 수 있도록 하되, 공간이 과도하지 않게 필요한 기능이 효율적으로 배치될 수 있는 <strong>컴팩트한 크기</strong>로 설계합니다. 2층 마스터룸 욕실의 경우, <strong>욕조와 샤워부스를 한 공간에서 사용할 수 있도록 배치</strong>해 주십시오. 참고 이미지에는 스탠드형 욕조가 있지만 실제 시공 시에는 <strong>일반적인 사각형 매립형 욕조</strong> 설치를 선호합니다. 욕실 진입 시 변기가 바로 보이지 않도록 동선이 한 번 꺾이는 구조를 선호하며, 2층 마스터룸 욕실 진입부 근처(예: 세면대 거울 등)에 거울을 배치하여 간단한 용모 단장이나 옷매무새 확인을 할 수 있도록 기능적인 배치를 해 <strong>별도의 파우더룸이 없이 수납에 집중</strong>할 수 있도록 합니다. 모든 욕실에는 편하게 창문을 열어서 <strong>자연 환기</strong>가 충분히 이루어질 수 있도록 창문을 필수적으로 설치해 주십시오. <strong>구조상 배면에만 창문 설치가 가능할 것</strong>으로 예상됩니다.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/2f_master_bathroom1.png" alt="2층 마스터룸 욕실 예상"/></div>
-
-            <h3>6.4 2층 게스트 공간 (계단 우측)</h3>
-            <p>• <strong>위치 및 형태:</strong> 계단을 올라와 2층에 도착했을 때 오른쪽에 위치하는 공간은 게스트룸과 이에 연결된 욕실의 <strong>en-suite 형태</strong>로 계획됩니다.</p>
-            <p>• <strong>주 사용 목적 및 수납:</strong> 이 공간은 '게스트용'으로 명칭은 붙었으나 실제로는 게스트가 대부분 가족이며, 평소에는 문을 열어두어 <strong>2층 거실의 공용 화장실처럼 사용</strong>해도 무방합니다. 따라서 욕실은 필요한 기능만 갖춘 <strong>미니멀한 구성으로 최소화</strong>하고, 욕실 크기를 줄여 게스트룸 내부에 가족 구성원의 옷이나 이불 등을 보관할 수 있는 <strong>충분한 수납 공간을 확보</strong>하는 데 중점을 둡니다. 수납 공간은 평소 가족들의 의류나 이불 등을 효율적으로 보관할 수 있도록 계획되어야 합니다.</p>
-            <p>• <strong>동선 효율성:</strong> 게스트룸 사용자가 복도로 나가지 않고 바로 욕실을 이용하기 편리하도록, 욕실 진입 동선을 효율적으로 설계하는 것을 선호합니다.</p>
-            <p>• <strong>게스트룸 욕실:</strong> 변기, 샤워부스(세로 길이 약 <code>1.2m</code> 정도면 충분), 세면대, 최소한의 작은 수납 공간만 포함하는 미니멀한 구성으로 만듭니다. 크기를 최대한 줄여서, 확보되는 공간을 게스트룸 수납 등에 활용합니다. 단, 2층 게스트 욕실은 <strong>구조 및 면적 제약으로 변기 가림 구조 적용은 어려울 수 있습니다.</strong> 모든 욕실에는 편하게 창문을 열어서 <strong>자연 환기</strong>가 충분히 이루어질 수 있도록 창문을 필수적으로 설치해 주십시오.</p>
-            <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/2f_guest_room1.png" alt="2층 게스트룸 예상"/></div>
-             <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/2f_guest_bathroom1.png" alt="2층 게스트 욕실 예상"/></div>
-
-            <h3>6.5 2층 전체 평면 예상</h3>
-             <!-- IMAGE PLACEHOLDER -->
-            <div class="image-placeholder"><img src="images/2f_floor_plan.png" alt="2층 평면도 예상"/></div>
-
-            <h2 id="section-7">7. 구조, 설비, 기술 인프라 배치</h2>
-            <p>• <strong>내력벽 위치:</strong> 향후 공간 활용 계획에 따른 가벽(비내력벽) 이동 가능성을 고려하여, 내력벽의 위치는 가벽 이동의 유연성을 고려해 최소화하거나 구조적으로 변경이 비교적 용이한 위치에 배치될 수 있도록 검토해주십시오. 장기적인 공간 변화에 대한 잠재력을 열어두고 싶습니다.</p>
-            <p>• <strong>설비 장비 위치:</strong></p>
+            <h2 id="item2">2. 건물 전면부 바닥 마감</h2>
             <ul>
-                <li>보일러 본체(기름/LPG 보일러) 등 주요 설비는 <strong>1층 옥상(지붕 위)</strong>에 설치를 기본으로 하되, 건물의 <strong>전면(입면)에서는 절대 보이지 않도록</strong> 배면(뒤편) 쪽 등 노출이 적은 위치에 배치합니다. 이는 설계 단계부터 정확히 계획해야 합니다.</li>
-                <li>에어컨 실외기는 소음이 심하기 때문에 2층 마스터룸에 붙여서 둘 시 소음으로 생활이 어렵습니다. 가급적 <strong>2층 옥상(건물의 가장 꼭대기)</strong> 쪽에 설치되면 좋겠습니다.</li>
+                <li>건물 전면 바닥은 잔디 마감을 제외하고, 석재 또는 시멘트 계열로 마감해 주십시오.</li>
             </ul>
 
-            <p>• <strong>기술 인프라 (네트워크, 스마트홈):</strong> 기술 활용을 위해 집 전체에 걸쳐 충분한 <strong>유선 네트워크(Ethernet, Cat 7 이상)</strong> 배선 계획을 세우고 주요 위치에 포트를 확보합니다. 인터넷 모뎀, 공유기 등 주요 통신 장비는 배면부에 가까운 세탁실 부근 혹은 보일러실로 사용할 곳에 <strong>모아서 설치</strong>하여 <strong>한 곳에서 관리</strong>하는 것을 선호합니다. 조명, 냉난방 등 스마트홈 시스템 도입 시 필요한 전원 및 통신선 배선 계획을 초기 설계에 반영합니다.</p>
-            <p>• <strong>배관/배선 외부 노출 최소화 및 배면 집중:</strong> 수도, 오수, 우수(빗물) 배관, 전기/통신 인입선, 에어컨 냉매 배관, 보일러 배관/연통, 외부 수전 등 외부 마감 면에 노출될 수 있는 모든 배관 및 배선은 가능한 <strong>배면(뒤편)이나 눈에 띄지 않는 위치로 집중</strong>시켜 외관을 깔끔하게 유지하는 것이 중요합니다.</p>
-            <p>• <strong>통신 배선 유지보수 경로:</strong> 통신 배선은 향후 유지보수/점검 시 인력이 접근하기 용이하도록 <strong>배면쪽이나 2층 계단 공간(개방형 부분) 등을 활용</strong>하는 경로를 고려해 주십시오.</p>
+            <h2 id="item3">3. 좌측 처마 및 테라스 계획 (수정)</h2>
+            <ul>
+                <li>건물 좌측 부분에 처마는 형성하되, 테라스는 조성하지 않는 것으로 요청드립니다.</li>
+                <li>처마를 통해 건물 좌측면이 명확하고 깔끔하게 마무리될 수 있도록 디자인 부탁드립니다. (관리 부담 및 누수 위험 감소 목적)</li>
+				<li><strong>몇가지 디자인 제안을 부탁드립니다</strong></li>
+				<li>측면 처마가 배면부만큼 짧은 경우 디자인적으로 좀더 완성도 있을것 같은데 가능하다면 그게 더 좋을 겉 같고 그럴 경우 생길 문제도 의견 주시면 좋겠습니다.</li>
+            </ul>
+            <div class="image-placeholder-text"><img src="images/evades_1.png" width="100%" height="auto" alt=""/></div>
+			
 
+          <h2 id="item4">4. 난간 디자인 및 재질</h2>
+            <ul>
+                <li>난간은 안전성이 확실히 보장되는 강화유리 펜스를 최우선으로 적용해 주십시오. (제주 해안의 강풍 및 외부 충격에 대한 내구성, 파손 시 안전성 등 종합적 검토 필요)</li>
+				<li>난간에 바람길이 있어야 할것 같고, 사진과 같이 프레임을 위쪽과 아래쪽에 잡아주었으면 합니다.아래만 있으면 약하고 유리와 유리 사이에 있으면 뷰를 망치고 디자인 완성도가 떨어질것 같습니다.</li>
+                <li>만약 적합한 강화유리 펜스 제품을 찾기 어렵거나 안전성에 대한 우려가 해소되지 않을 경우, 건물 외장재와 동일한 재질 및 디자인으로 통일하여 일체감 및 안정성을 확보하는 방안을 고려해 주십시오.</li>
+            </ul>
+            <div class="image-placeholder-text"><img src="images/glass_fence.png" width="100%" height="auto" alt=""/></div>
 
-            <h2 id="section-8">8. 벽체, 문, 창호의 정렬 및 마감 디테일 (재강조)</h2>
-            <div class="highlight">
-                <p>• 건축물의 시각적 품질과 마감의 완성도를 위해 벽체, 문, 창호 등 각 요소들의 <strong>'정렬(Alignment)'이 완벽하게 이루어져야 합니다.</strong></p>
-                <p>• 특히 외관에서 보았을 때 <strong>샷시들의 정렬이 일관성 있게</strong> 되어야 합니다.</p>
-                <p>• 벽체와 문이 만나는 부분, 같은 높이에 위치해야 하는 창틀(sill) 또는 상인방(header)의 높이, 문틀/문짝/인접 벽체의 정렬 등이 <strong>정확하게 일치</strong>되어야 합니다. 이러한 정밀한 정렬은 시공을 넘어 <strong>설계 단계부터 각 요소의 위치, 치수, 마감 두께가 정확하게 계획되어야 가능</strong>하므로, 설계 시 세심한 주의를 기울여 주십시오.</p>
-            </div>
+            <h2 id="item5">5. 우측 외부 계단 디자인 변경 및 기능성 확보</h2>
+            <ul>
+                <li>현재 우측 건물 외부 계단의 줄리엣 발코니 형태 구조물과 벽을 철거해 주십시오.</li>
+                <li>해당 공간을 외장재로 마감하는 대신, 개방형 레일(난간)을 설치하여 안전 확보 및 통풍을 원활하게 해주십시오. (계단 하부 공간 사용성 증진 및 보일러 연료 운반 용이성 확보 목적)</li>
+            </ul>
+            <div class="image-placeholder-text"><img src="images/outside_stair.png" width="100%" height="auto" alt=""/></div>
+
+            <h2 id="item6">6. 창호 계획: 개방감 및 조망 극대화</h2>
+            <ul>
+              <li>전면부는 1, 2층 모두 통창(2층에서 앉았을 때 반창일 경우 거실에서 뷰가 아예 안 보입니다.)으로, 측면부와 배면부는 1, 2층 모두 반창으로 시공해 주십시오.</li>
+                <li>창호 프레임의 분할을 최소화 및 시선이 걸리는 부분을 얇게(바깥쪽 프레임은 크더라도도) 하여 시야의 단절 없는 연속적인 뷰(파노라믹뷰)를 확보해 주십시오.</li>
+				<li>프레임과 건물 외장재의 색은 통일하여 외부에서 봤을때 [건물외장재+유리] 2가지 소재로만 보이도록 해주십시오 </li>
+            </ul>
+            <div class="image-placeholder-text"><img src="images/panoramic_view.png" width="100%" height="auto" alt=""/></div>
+
+            <h2 id="item7">7. 드레스룸 창문 설치</h2>
+            <ul>
+                <li>드레스룸은 빛이 안 들어오기 때문에 환기가 필수적이라 후면에 창문을 설치하여 자연 채광 및 환기 기능을 확보해 주십시오. (오픈형 시스템 행거 설치 예정)</li>
+            </ul>
+
+          <h2 id="item8">8. 외장재 선택 (최종 결정 및 구체화)</h2>
+            <ul>
+                <li><strong>제외 대상:</strong> 스타코, 드라이비트, 현무암 (습기 및 누수 우려).- 현무암 판재도 습기를 많이 머금어서 외장재로 적합하지 않은 것으로 알고있습니다</li>
+                <li><strong>최종 고려 자재:</strong> 벽돌, 석재, 세라믹사이딩 등</li>
+                <li><strong>색상 및 질감:</strong> 제주 현무암과 유사한 질감 및 어두운 계열의 색상(예: 다크 그레이, 차콜, 회갈색 등)으로 부탁드립니다.</li>
+                <li><strong>디자인 의도:</strong> <strong>건물 전체가 아래쪽 벽과 뒤옹벽과 함께 하나의 견고한 덩어리(Mass)처럼 보이도록</strong> 연출하고, 단순하면서도 의도된 현대적인 미학을 구현하고자 합니다.</li>
+                <li><strong>건축가님께 요청:</strong> 위 결정에 부합하는 고품질 벽돌(종류, 제품)을 추천해 주시고, 예상되는 문제점(예: 백화현상, 특정 색상 벽돌의 장기적 변색 가능성 등)과 그에 대한 최적의 예방 및 대응 방안(시공법, 줄눈 처리, 발수 처리 등)에 대한 전문적인 조언을 구합니다.</li>
+            </ul>
+			<div class="image-placeholder-text"><img src="images/frontview_2.png" width="100%" height="auto" alt=""/></div>
+            <div class="image-placeholder-text"><img src="images/frontview_1.png" width="100%" height="auto" alt=""/></div>
+			
+
+          <h2 id="item9">9. 대문 크기</h2>
+            <ul>
+                <li>신발장의 깊이가 한쪽에 대략 350mm 정도일 것으로 예상하고 있습니다. 2400mm에서 양쪽합해 700mm, 마감 200mm를 제외하면 현관 내부 폭이 약 1500mm 정도일 텐데, 현재 도면상 대문의 사이즈가 상대적으로 작아 보입니다. 대형 피봇 현관문 등을 설치하여 대문 크기가 좀 더 커지고 웅장한 느낌을 주었으면 좋겠습니다.</li>
+            </ul>
+			<div class="image-placeholder-text"><img src="images/entrance_door_1.png" width="100%" height="auto" alt=""/></div>
+            <div class="image-placeholder-text"><img src="images/entrance_door_2.png" width="100%" height="auto" alt=""/></div>
+
+            <h2 id="item10">10. 2층 좌측, 배면부 콘크리트 구조 삭제</h2>
+            <ul>
+                <li>2층의 좌측 테라스 쪽과 배면부에 있는  콘크리트 구조물(혹은 장식적 요소로 판단되는 부분)을 삭제하여 더욱 깔끔하고 미니멀한 외관을 만들어 주십시오.</li>
+            </ul>
+			<div class="image-placeholder-text"><img src="images/delete_structure_1.png" width="100%" height="auto" alt=""/></div>
+            <div class="image-placeholder-text"><img src="images/delete_structure_2.png" width="100%" height="auto" alt=""/></div>
 
             <div class="note">
-                <p>이상의 모든 요청사항들을 충분히 검토하시어, 기능적이고 효율적이며 저희가 추구하는 미적 기준에 부합하는 최적의 주택 설계를 제안해 주시면 감사하겠습니다.</p>
+                <p><strong>종합 의견:</strong><br>
+                저희가 추구하는 주택의 목적은 제주도의  자연환경과 조화를 이루면서도, 모던하게 간결함과 기능적 효율성을 담아내는 것입니다. 특히 이에 대응하여 건물의 내구성과 유지관리 용이성을 확보하는 것을 매우 중요하게 생각하고 있습니다. 건축가님의 전문적인 지식과 경험을 통해 더욱 완성도 높은 설계로 발전하기를 기대합니다. 수정 및 구체화된 내용에 대한 건축가님의 고견을 부탁드립니다.</p>
             </div>
-
-            <h2 id="section-9">9. 평면도 및 스케치업 모델 파일 다운로드</h2>
-            <p>아래 링크에는 설계사무소에서 검토하실 수 있도록 <strong>1층 평면도, 2층 평면도, 그리고 스케치업 모델 파일</strong>을 첨부하였습니다. 제가 설계 전문가가 아니기에, 가구 배치나 세부 계획을 시각화하기 위해 작업한 내용입니다. <strong>전문가이시므로, 전문가의 입장에서 면밀히 검토해주시고 의견 제시 및 수정 부탁드립니다.</strong></p>
-            <p><a href="https://gofile.me/5Ad1V/JBjqnbuGK" target="_blank" rel="noopener noreferrer">평면도 및 스케치업 모델 파일 다운로드 (GoFile 외부 링크)</a></p>
         </div>
     </div>
 </body>
