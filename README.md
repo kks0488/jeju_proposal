@@ -1,53 +1,25 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-</p>
+# Jeju Proposal — 제주 주택 시공사 검토
 
-<h1 align="center">🏝️ Jeju Proposal</h1>
+현재 목적은 **기존 설계를 유지한 제주 주택 시공사 선정 준비**입니다. 과거 HTML의 도면·공간 구성은 현재 설계가 아닙니다.
 
-<p align="center">
-  <strong>Jeju Island Business & Travel Proposal Templates</strong><br/>
-  <em>제주도 관련 제안서 및 프레젠테이션 템플릿</em>
-</p>
+- `index.html`: 12개 업체·협업팀, 설계 조건, 검증 질문, 견적 준비
+- `research.json`: 출처와 연결된 실적·판단·미확인 항목
+- `RESEARCH.md`: 조사 기록 및 출처
+- `SEARCH-LOG.md`: 조사 경로·접근 한계·6곳의 자료 요청 우선순위
+- `templates/`: 공종별 견적 비교표, 평가표, 발송 전 문의 문안
+- `history/archive.html`: 이전 HTML 기록의 진입점
+- `history/index.html`, `history/2nd.html`, `history/stone.html`: 기존 문서 보존본
+- `images/`: 과거 자료 이미지. 현재 도면으로 사용하지 않음
 
----
+## 조사 상태
 
-## 🎯 Overview
+2026-09-09 공개자료 조사. 최신 설계 근거는 2026-09-08 수정도면 송부와 후속 메일입니다. DWG 내부는 직접 검증하지 않았습니다. 정확한 면적·치수·구조는 최신 PDF 도서로 재확인해야 합니다.
+‘우선 검토’는 자료 확인 우선순위이며 계약 적격·품질 보증이 아닙니다. 견적, 현장방문, 고객 확인, 공적 등록·행정처분·재무·보증 확인은 미완료입니다. 업체에 문의하거나 도면을 전달하지 않았습니다.
 
-제주도 관련 비즈니스 제안서 및 여행 기획 프레젠테이션 템플릿 모음입니다.
+## 수정·열기
 
-## 📁 Files
+`research.json`과 `build.py`를 수정한 뒤 `python build.py`를 실행합니다. 정적 HTML이라 `index.html`을 열면 됩니다. 설치는 필요 없습니다. 외부 이미지는 인터넷 연결이 필요합니다.
 
-| File | Description |
-|------|-------------|
-| `index.html` | 메인 제안서 |
-| `2nd.html` | 2차 제안서 |
-| `stone.html` | 제주 돌 관련 콘텐츠 |
-| `images/` | 이미지 리소스 |
+기존 원본은 Git 커밋 `0f29504a5fcdbecdaae698844af4e05e9438fe2d`에 그대로 남아 있습니다. 보존본에는 현재 미사용 안내와 이미지 경로용 base 요소만 추가했습니다. 루트 `2nd.html`, `stone.html`은 기존 링크 호환을 위해 보존본으로 연결합니다.
 
-## ✨ Features
-
-- 🏝️ **제주 테마 디자인** - 제주도 특색을 살린 레이아웃
-- 📊 **데이터 시각화** - 통계 및 차트 포함
-- 📱 **반응형** - 모바일/태블릿 대응
-- 🖼️ **이미지 갤러리** - 제주 관련 비주얼
-
-## 🚀 Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/kks0488/jeju_proposal.git
-
-# Open main proposal
-open index.html
-```
-
-## 📜 License
-
-This project is for personal use.
-
----
-
-<p align="center">
-  <sub>Built with 🍊 by <a href="https://github.com/kks0488">@kks0488</a></sub>
-</p>
+메일 원문·첨부·사적 연락처·가족 배경은 공개 저장소에 복사하지 않았습니다. 상세 근거는 페이지의 출처·한계에서 확인하십시오.
