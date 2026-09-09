@@ -1,0 +1,117 @@
+{
+  "checked": "2026-09-09",
+  "publisher": "건축명장 · 새건축사협의회",
+  "method": "검색 색인에서 확인한 링크를 브라우저로 열어 실제 상세 본문을 읽었다. 준공일·연면적·도급범위는 포트폴리오 표기이며 공적 사용승인·계약 원문이 아니다. 게시일은 원문 미표기. 동일 자료의 재인용은 독립 검증으로 세지 않는다.",
+  "projects": [
+    {
+      "contractor": "하백",
+      "name": "솔비나무집",
+      "architect": "에이루트 · 이창규",
+      "structure_area": "RC 2층 · 194.90㎡",
+      "completion": "2024-04-11",
+      "scope": "건축·인테리어·기계·전기·창호",
+      "partners": "현우건설 / 제일전력 / 양지설비 / MK창호 / 에이앤디브릭",
+      "slug": "solbinamujib"
+    },
+    {
+      "contractor": "하백",
+      "name": "재재소소",
+      "architect": "지랩 · 강해천",
+      "structure_area": "RC · 278.23㎡ · 원문 2층(6개동)",
+      "completion": "2023-06-28",
+      "scope": "건축·인테리어·전기·기계·창호",
+      "partners": "현우건설 / 건영전력 / 양지설비 / 룩스 / 에이앤디브릭",
+      "slug": "jaejaesoso"
+    },
+    {
+      "contractor": "하백",
+      "name": "연안재",
+      "architect": "이성범건축사사무소 · 이성범",
+      "structure_area": "RC 2층 · 280.33㎡",
+      "completion": "2024-05-17",
+      "scope": "건축만 표기",
+      "partners": "현우건설 / 제일전력 / 양지설비 / 영운기업 / 에이앤디브릭",
+      "slug": "yeonanjae"
+    },
+    {
+      "contractor": "하백",
+      "name": "어흥, 어음",
+      "architect": "건축사사무소 오 · 김지희·오정헌",
+      "structure_area": "RC · 188.12㎡ · 원문 1층(3개동)",
+      "completion": "2024-04-26",
+      "scope": "건축만 표기",
+      "partners": "현우건설 / 제일전력 / 양지설비 / 영운기업 / 에이앤디브릭",
+      "slug": "eoheung-eoeum"
+    },
+    {
+      "contractor": "GAU",
+      "name": "HOMI",
+      "architect": "유현준건축사사무소 · 건축가란 전지영",
+      "structure_area": "RC 1층 · 131.59㎡",
+      "completion": "2023-10-05",
+      "scope": "건축·기계·전기·통신·인테리어·조경",
+      "partners": "루다전기 / 우리설비 / 필로브 / 제주돌건축연구소 / 케이엔엘 / 플레스크",
+      "slug": "homi"
+    },
+    {
+      "contractor": "GAU",
+      "name": "Ara_Owall House",
+      "architect": "리을도랑 · 김성률",
+      "structure_area": "RC 지하1·지상3층 · 319.14㎡",
+      "completion": "2022-09-30",
+      "scope": "건축·기계·전기·통신·인테리어",
+      "partners": "동녘전기 / 하나기업 / 이건창호 / 벨룩스 / 팀오더메이드",
+      "slug": "ara_owall-house"
+    },
+    {
+      "contractor": "GAU",
+      "name": "오라동 현이네",
+      "architect": "우연히프로젝트 · 우대성",
+      "structure_area": "RC 2층 · 409.15㎡",
+      "completion": "2021-12-03",
+      "scope": "건축·기계·전기·인테리어",
+      "partners": "칠십리 / 용부전기 / 하나설비 / 이젠 / 창작시스템",
+      "slug": "oradong-hyeonine"
+    },
+    {
+      "contractor": "GAU",
+      "name": "세거리집",
+      "architect": "푸하하하 · 한양규",
+      "structure_area": "RC 2층 · 189.18㎡",
+      "completion": "2018-11-13",
+      "scope": "건축·기계·조경·인테리어",
+      "partners": "신가기업 / 이젠 / 바이빅테이블",
+      "slug": "segeorijib"
+    },
+    {
+      "contractor": "포엠",
+      "name": "필하우스",
+      "architect": "시유재 · 고성천",
+      "structure_area": "RC 3층 · 508.96㎡",
+      "completion": "2024-10-04",
+      "scope": "공란 · 총괄 범위 미확인",
+      "partners": "두성전력 / 화인종합설비 / 창작시스템",
+      "slug": "pilhauseu?type=gyoyugsiseol%2Cjonggyosiseol%2Cdandogjutaeg"
+    },
+    {
+      "contractor": "포엠",
+      "name": "JS빌딩",
+      "architect": "중도건축사사무소 · 장미량",
+      "structure_area": "RC 4층 · 650.66㎡ · 근린생활시설",
+      "completion": "2025-01-13",
+      "scope": "공란 · 총괄 범위 미확인",
+      "partners": "두성전력 / 화인종합설비 / 창작시스템",
+      "slug": "jsbilding-1"
+    },
+    {
+      "contractor": "시스홈",
+      "name": "산방풍경",
+      "architect": "더함건축사사무소 · 조한준",
+      "structure_area": "경량목구조 2층 · 145.49㎡",
+      "completion": "2018-11-27",
+      "scope": "건축·기계·전기·인테리어",
+      "partners": "협력사 미기재",
+      "slug": "sanbangpunggyeong"
+    }
+  ]
+}

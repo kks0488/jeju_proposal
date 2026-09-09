@@ -2,6 +2,8 @@
 
 현재 목적은 **기존 설계를 유지한 제주 주택 시공사 선정 준비**입니다. 과거 HTML의 도면·공간 구성은 현재 설계가 아닙니다.
 
+- `DUE-DILIGENCE.md` / `review.html#responsibility`: 11개 현장의 도급범위·반복 협력사·변경된 판단
+- `responsibility-review.json` / `build_responsibility.py`: 상세 원문 검증 데이터·기존 검토 페이지 통합 생성기
 - `portfolio.html` / `PORTFOLIO-REVIEW.md`: 다른 9개 후보의 실제 시공 포트폴리오·근거 수준·혼동 방지
 - `portfolio-review.json` / `build_portfolio.py`: 포트폴리오 검증 데이터·생성기
 - `index.html`: 12개 업체·협업팀, 설계 조건, 검증 질문, 견적 준비
