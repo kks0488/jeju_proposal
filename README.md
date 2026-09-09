@@ -2,6 +2,8 @@
 
 현재 목적은 **기존 설계를 유지한 제주 주택 시공사 선정 준비**입니다. 과거 HTML의 도면·공간 구성은 현재 설계가 아닙니다.
 
+- `ranking.html` / `RANKING.md`: 12개 후보의 공통 채점·항목별 근거·가중치 민감도
+- `ranking.json` / `build_ranking.py`: 채점 단계·배점·생성기
 - `DUE-DILIGENCE.md` / `review.html#responsibility`: 11개 현장의 도급범위·반복 협력사·변경된 판단
 - `responsibility-review.json` / `build_responsibility.py`: 상세 원문 검증 데이터·기존 검토 페이지 통합 생성기
 - `portfolio.html` / `PORTFOLIO-REVIEW.md`: 다른 9개 후보의 실제 시공 포트폴리오·근거 수준·혼동 방지
