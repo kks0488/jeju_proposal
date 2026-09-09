@@ -3,7 +3,7 @@
 현재 목적은 **기존 설계를 유지한 제주 주택 시공사 선정 준비**입니다. 과거 HTML의 도면·공간 구성은 현재 설계가 아닙니다.
 
 - `index.html`: 12개 업체·협업팀, 설계 조건, 검증 질문, 견적 준비
-- `review.html` / `DETAIL-REVIEW.md`: 업체의 가치·조직·결과물 사진·성능 기록을 연결한 2차 판단
+- `review.html` / `DETAIL-REVIEW.md`: 업체의 가치·조직·결과물 사진·성능 기록을 연결한 3차 판단 (호미·솔비나무집·인증번호·공정 사진 추가)
 - `detail-review.json` / `build_review.py`: 정밀 검토 데이터와 생성기
 - `research.json`: 출처와 연결된 실적·판단·미확인 항목
 - `RESEARCH.md`: 조사 기록 및 출처
