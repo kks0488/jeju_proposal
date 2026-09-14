@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-14",
   "title": "제주 주택 시공사 공개근거 기반 선정 적합도",
-  "notice": "실측 시공품질 점수나 업계 공인 순위가 아니다. 경수님의 제주·기존 RC 설계·확실한 포트폴리오 조건을 가중치로 해석하고, 확인한 근거를 공통 규칙에 대입한 잠정 평가다. 가중치와 단계 판정에는 평가자의 판단이 들어간다. 0점은 미확인을 뜻할 수 있으며 부실·무능을 뜻하지 않는다.",
+  "notice": "실측 시공품질 점수나 업계 공인 순위가 아니다. 경수님의 제주·기존 RC 설계·확실한 포트폴리오 조건을 가중치로 해석하고, 확인한 근거를 공통 규칙에 대입한 잠정 평가다. 가중치와 단계 판정에는 평가자의 판단이 들어간다. 0점은 미확인을 뜻할 수 있으며 부실·무능을 뜻하지 않는다. 기존 12개 업체는 2026-09-09 근거 평가를 유지하고, 2026-09-14 아틀리에건설을 추가했다. 하백의 공개 조직·담당자를 보완했으나 점수는 바꾸지 않았다. 전 업체의 현재 상태를 일괄 재실사한 날짜가 아니다.",
   "formula": "항목 점수 = 근거 단계(0~5) ÷ 5 × 배점. 합산 100점. 동점은 공동 순위. 5점 이내 차이는 결정적 우열로 해석하지 않는다.",
   "criteria": [
     {
@@ -136,6 +136,10 @@
         [
           "어흥, 어음 · 건축명장 도급범위·협력사",
           "https://www.masterbuilder.kr/portfolio/eoheung-eoeum"
+        ],
+        [
+          "2026-09-14 영평동 실명 담당자·면적 필드 검토",
+          "https://www.iacompany.co.kr/projects/Yeongpyeongdong-house"
         ]
       ],
       "rank": 1
@@ -202,6 +206,59 @@
       "rank": 1
     },
     {
+      "id": "atelier",
+      "name": "아틀리에건설",
+      "levels": [
+        4,
+        2,
+        4,
+        4,
+        0
+      ],
+      "points": [
+        20,
+        8,
+        20,
+        12,
+        0
+      ],
+      "total": 60,
+      "status": "조건부 비교 · 제주 현지팀 미확인",
+      "reason": "오시리가름·눈뫼가름·오늘공동체주택 3개 외부 주거 크레딧(P4). 제주 반복 수행이나 현지 거점 미확인(L2). 오시리가름과 서울 오늘공동체 RC(RC4). 여러 현장의 토목·건축·설비·전기·실내 범위(S4). 주택별 시험·입주 후 보수 성과 미확인(0).",
+      "limit": "서울 기반. 제주 실적은 2016·2018년으로 현재 상주 조직과 별개다. 눈뫼가름 주택은 스틸패널로 RC에 합산하지 않았다. 발주 조합의 재의뢰 글은 공사 중 기록이므로 성능 점수에 더하지 않았다. 3위는 계약 적격이나 제주 현지 조건 통과를 뜻하지 않는다.",
+      "sources": [
+        [
+          "건축명장 — 아틀리에건설 업체 페이지",
+          "https://www.masterbuilder.kr/contractor/ateulriegeonseol-ju"
+        ],
+        [
+          "건축명장 — 오시리가름 구조·도급범위",
+          "https://www.masterbuilder.kr/portfolio/osirigareum-hyeobdongjohabjutaeg"
+        ],
+        [
+          "EMA — 오시리가름, 설계자 시공 크레딧",
+          "https://www.emaa.co.kr/project/027"
+        ],
+        [
+          "건축명장 — 눈뫼가름, 주택과 커뮤니티 구조 구분",
+          "https://www.masterbuilder.kr/portfolio/nunmoegareum-hyeobdongjohabjutaeg"
+        ],
+        [
+          "EMA — 눈뫼가름",
+          "https://www.emaa.co.kr/project/050"
+        ],
+        [
+          "건축명장 — 오늘공동체주택, 2025 준공",
+          "https://www.masterbuilder.kr/portfolio/oneulgongdongcejutaeg"
+        ],
+        [
+          "함께주택협동조합 — 4호 시공사 소개, 2020.04.20",
+          "https://thecommon.tistory.com/15"
+        ]
+      ],
+      "rank": 3
+    },
+    {
       "id": "jejuph",
       "name": "제주패시브하우스 · JEJUPH",
       "levels": [
@@ -248,7 +305,7 @@
           "https://www.youtube.com/watch?v=l8GWBbHr2bw"
         ]
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "id": "sis",
@@ -297,7 +354,7 @@
           "https://www.masterbuilder.kr/portfolio/sanbangpunggyeong"
         ]
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "leum",
@@ -334,7 +391,7 @@
           "https://www.leumcc.co.kr/41/?bmode=view&idx=128577371"
         ]
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "poem",
@@ -379,7 +436,7 @@
           "https://www.sankun.com/company-info/Xbdo9sv-DvUULUNbXaXAgA"
         ]
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "brown",
@@ -436,7 +493,7 @@
           "https://www.mydaily.co.kr/page/view/2020021209122501409"
         ]
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "whami",
@@ -477,7 +534,7 @@
           "https://www.whami.kr/sub0201.php?code=sub0201&idx=5535&page=1&ptype=view"
         ]
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "dabom",
@@ -506,7 +563,7 @@
           "https://vmspace.com/project/project_view.html?base_seq=MjgzNw%3D%3D"
         ]
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "id": "tcm",
@@ -539,7 +596,7 @@
           "https://buildhada.com/design/426"
         ]
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "id": "oreum",
@@ -576,7 +633,7 @@
           "https://m.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=OX7428"
         ]
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "id": "lbtop",
@@ -613,7 +670,7 @@
           "https://www.instagram.com/p/Cv3yWsYrHL9/"
         ]
       ],
-      "rank": 11
+      "rank": 12
     }
   ],
   "sensitivity": [
@@ -629,6 +686,7 @@
       "scores": {
         "ia": 78.0,
         "gau": 78.0,
+        "atelier": 60.0,
         "jejuph": 54.0,
         "sis": 52.0,
         "leum": 50.0,
@@ -653,6 +711,7 @@
       "scores": {
         "ia": 79.0,
         "gau": 79.0,
+        "atelier": 62.0,
         "jejuph": 54.0,
         "sis": 61.0,
         "leum": 48.0,
@@ -677,6 +736,7 @@
       "scores": {
         "ia": 82.0,
         "gau": 82.0,
+        "atelier": 62.0,
         "jejuph": 54.0,
         "sis": 51.0,
         "leum": 54.0,

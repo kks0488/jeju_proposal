@@ -160,6 +160,19 @@ SPACE의 해안동 주택 시공자에 다봄(최규철) 표기. 다봄디자인
 질문: 제주에 상주하는 독립 시공·보수 조직이 있습니까? 확인되지 않으면 이번 제주 내 후보군에는 포함하지 않습니다.
 - [제주 애월 케이로스 / 회천동 주택](https://www.tcmglobal.co.kr/) · 공식 포트폴리오 2건 · 회천동은 중목구조 표기 · 면적·준공일 미확인 · 설계자 협업 실적 비교에만 사용. 제주에 건물을 지었다는 사실만으로 제주 소재 업체로 분류하지 않는다.
 
+## 아틀리에건설 — 추가 검증
+
+제주 오시리가름·눈뫼가름의 폭넓은 도급범위, 서울 2025 RC 주택, 발주자의 재의뢰 정황을 확인했다. 제주 상주팀이 확보될 경우 비교할 조건부 대안이다.
+
+2026-09-14 추가 조사. 오시리가름은 RC, 눈뫼가름 주택은 스틸패널라이징으로 구분한다. 같은 단지의 여러 동을 별개 검증 프로젝트로 세지 않는다. 공통 채점 60점.
+
+미확인: 현재 제주 소장·보수팀·수주 여력, 개인의 기존 설계에 따른 시공만 수주하는지, 장기간 사용 후 보수·시험 기록, 계약·등록·보증 미확인.
+
+질문: 오시리가름·눈뫼가름 담당자와 현재 제주 수행팀의 연결, 최근 제주 RC 단독주택 1건, 기존 설계에 따른 개인 단독주택 총괄 수주 가능 여부, 준공 후 보수 접수·완료 기록이 판단을 바꿀 자료다. 회사 대표 연락처는 협회 공개 02-516-1577이다.
+- [오시리가름 협동조합주택](https://www.masterbuilder.kr/portfolio/osirigareum-hyeobdongjohabjutaeg) · 제주 표선 · RC · 주택 16동 등 · 협회 준공 2016.05 · 대지조성·건축·기계·전기·조경·인테리어. 날짜·면적은 설계자 자료와 달라 추가 조사에 병기.
+- [눈뫼가름 협동조합주택](https://www.masterbuilder.kr/portfolio/nunmoegareum-hyeobdongjohabjutaeg) · 제주 조천 · 주택 28동 스틸패널라이징 + RC 커뮤니티 1동 · 협회 준공 2018.10.17 · 복수 제주 현장의 종합 공사범위 확인. RC 주택 실적으로 합산하지 않음.
+- [오늘공동체주택](https://www.masterbuilder.kr/portfolio/oneulgongdongcejutaeg) · 서울 도봉 · RC · B1/3F · 655.83㎡ · 2025.01.08 준공 · 최근 RC 주거 수행과 공종별 협력사 공개. 제주 상주팀 증거는 아님.
+
 ## 검증 한계
 
 DWG 내용 미검증. 공식 개별 등록·행정처분 조회, 재무·보증, 현장방문, 고객 확인, 견적·일정은 미완료. 무분쟁·무하자를 주장하지 않는다. 외부 문의 발송 없음.
@@ -193,6 +206,10 @@ DWG 내용 미검증. 공식 개별 등록·행정처분 조회, 재무·보증,
 - [화미건축 — 업체·연락 경로](https://www.whami.kr/)
 - [화미건축 — 봄이 좋은 집](https://magazine.brique.co/project/jeju-hyeopjae-passive-house-spring-house-architecture/)
 - [티씨엠종합건설 — 업체·연락 경로](https://www.tcmglobal.co.kr/)
+- [아틀리에건설 — 업체·연락 경로](https://www.masterbuilder.kr/contractor/ateulriegeonseol-ju)
+- [아틀리에건설 — 오시리가름 협동조합주택](https://www.masterbuilder.kr/portfolio/osirigareum-hyeobdongjohabjutaeg)
+- [아틀리에건설 — 눈뫼가름 협동조합주택](https://www.masterbuilder.kr/portfolio/nunmoegareum-hyeobdongjohabjutaeg)
+- [아틀리에건설 — 오늘공동체주택](https://www.masterbuilder.kr/portfolio/oneulgongdongcejutaeg)
 - [연안재 수치 차이](https://v.daum.net/v/B3BiRycn5r)
 - [이어서 수치 차이](https://www.oarchi.com/스테이이어서서)
 - [골조업체와 총괄 시공사 구분](https://www.kumwa.net/)
