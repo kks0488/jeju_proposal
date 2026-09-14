@@ -127,16 +127,18 @@ PHIKO 2015년 정회원 승인 공지와 2026년 안내책자에 이름이 있�
 질문: 제주에서 직접 총괄한 실거주 주택과 보수 사례를 제출해 주십시오. 구조 변경 없이 수주 가능한지, 불가능하다면 외피 전문공종만 가능한지 범위를 분명히 알려주십시오.
 - [한동리 두 번째 주택](https://www.youtube.com/watch?v=t43QaowKmgM) · 업체 명의 완공 영상 소개 · 규모·준공일 미확인 · 지역 시공 단서. 영상 미시청이며 독립 설계자·인증 대조 미확인.
 
-## 다봄 / 최규철 — 보류·참고
+## 다봄 / 다봄주택 — 보류·참고
 
-RC와 목구조를 결합한 제주 주택 시공 크레딧은 유효하다. 현재 사업체·등록·총괄 도급 역량이 확인되기 전에는 견적 초청을 보류한다.
+RC 주택 두 건과 에이루트 반복 협업을 추가 확인해 재검증 후보로 상향. 소원재 거주자의 공정 순서 불만과 현재 계약 주체 확인이 선행 조건이다.
 
-SPACE의 해안동 주택 시공자에 다봄(최규철) 표기. 다봄디자인이라는 사업체 검색 결과와 명칭이 달라 동일 사업체로 단정하지 않았다.
+저지 오름 아래 106.17㎡·심양재 197.56㎡ RC, 소원재·제주 작은 집 목조, 기존 해안동 복합 구조. 설계자 원문과 소원재 6년차 거주 기록 대조.
 
-미확인: 현재 사업체와 등록, 제주 상주 인력, 순수 RC 주택 실적, 총괄 계약 범위·보증 발급 모두 추가 확인 필요.
+미확인: 현재 법인과 각 프로젝트 계약 주체의 연결, 상주 소장·총괄 범위, 소원재 보수 요청·처리 경위 미확인.
 
-질문: 해안동 주택의 실제 시공 계약 주체와 현재 수주하는 사업체가 같습니까? 건축사 경유로 당시 협업과 하자 대응부터 확인합니다.
+질문: 두 RC 현장과 현재 사업체의 계약 주체가 같은지, 소원재 줄눈 공정과 보수 경위가 무엇인지 확인합니다.
 - [해안동 주택](https://vmspace.com/project/project_view.html?base_seq=MjgzNw%3D%3D) · 제주 해안동 · 1층 RC / 2층 목구조 · 연면적 254.39㎡ · 시공 2020.04–2021.05 · 복합 구조·기단·내외부 공간 시공 참고. 전면 RC·석재 외장 능력은 별도 확인.
+- [저지 오름 아래](https://www.arootarchitecture.com/저지오름아래) · 단층 RC 106.17㎡ · 프로젝트 2022~2024 · RC 주택 반복 근거. 조경 직영·현재 계약 주체는 별도 확인.
+- [용담 심양재](https://www.arootarchitecture.com/p2018용담심양재) · 2층 RC 197.56㎡ · 프로젝트 2019~2022 · RC 주택 반복 근거. 조경 직영·현재 계약 주체는 별도 확인.
 
 ## 화미건축 — 보류·참고
 
@@ -202,7 +204,9 @@ DWG 내용 미검증. 공식 개별 등록·행정처분 조회, 재무·보증,
 - [브라운트리종합건설 + JD홈플랜 — 위미리 단독주택 / 명도암(아실리)](https://www.browntree.kr/bbs/board.php?bo_table=sub02_3&wr_id=7)
 - [엘비탑 in JEJU — 업체·연락 경로](https://www.lbtophouse.com/Lbtop/Dongrami)
 - [엘비탑 in JEJU — 한동리 두 번째 주택](https://www.youtube.com/watch?v=t43QaowKmgM)
-- [다봄 / 최규철 — 업체·연락 경로](https://vmspace.com/project/project_view.html?base_seq=MjgzNw%3D%3D)
+- [다봄 / 다봄주택 — 업체·연락 경로](https://vmspace.com/project/project_view.html?base_seq=MjgzNw%3D%3D)
+- [다봄 / 다봄주택 — 저지 오름 아래](https://www.arootarchitecture.com/저지오름아래)
+- [다봄 / 다봄주택 — 용담 심양재](https://www.arootarchitecture.com/p2018용담심양재)
 - [화미건축 — 업체·연락 경로](https://www.whami.kr/)
 - [화미건축 — 봄이 좋은 집](https://magazine.brique.co/project/jeju-hyeopjae-passive-house-spring-house-architecture/)
 - [티씨엠종합건설 — 업체·연락 경로](https://www.tcmglobal.co.kr/)

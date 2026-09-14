@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "title": "제주 주택 시공사 공개근거 기반 선정 적합도",
-  "notice": "실측 시공품질 점수나 업계 공인 순위가 아니다. 경수님의 제주·기존 RC 설계·확실한 포트폴리오 조건을 가중치로 해석하고, 확인한 근거를 공통 규칙에 대입한 잠정 평가다. 가중치와 단계 판정에는 평가자의 판단이 들어간다. 0점은 미확인을 뜻할 수 있으며 부실·무능을 뜻하지 않는다. 기존 12개 업체는 2026-09-09 근거 평가를 유지하고, 2026-09-14 아틀리에건설을 추가했다. 하백의 공개 조직·담당자를 보완했으나 점수는 바꾸지 않았다. 전 업체의 현재 상태를 일괄 재실사한 날짜가 아니다.",
+  "notice": "실측 시공품질 점수나 업계 공인 순위가 아니다. 경수님의 제주·기존 RC 설계·확실한 포트폴리오 조건을 가중치로 해석하고, 확인한 근거를 공통 규칙에 대입한 잠정 평가다. 가중치와 단계 판정에는 평가자의 판단이 들어간다. 0점은 미확인을 뜻할 수 있으며 부실·무능을 뜻하지 않는다. 기존 12개 업체는 2026-09-09 근거 평가를 유지하고, 2026-09-14 아틀리에건설을 추가했다. 하백의 공개 조직·담당자를 보완했으나 점수는 바꾸지 않았다. 전 업체의 현재 상태를 일괄 재실사한 날짜가 아니다. 9월 15일 다봄은 RC 2건·반복 실적·거주 기록을 추가해 32→57점으로 수정했다. 입주 후 기록은 부정적 내용도 포함하므로 이 점수는 품질 만족도 점수가 아니다. 다봄·다봄주택의 현재 법인 연결은 미확인이며 조건부 크레딧 묶음 평가다.",
   "formula": "항목 점수 = 근거 단계(0~5) ÷ 5 × 배점. 합산 100점. 동점은 공동 순위. 5점 이내 차이는 결정적 우열로 해석하지 않는다.",
   "criteria": [
     {
@@ -201,6 +201,26 @@
         [
           "세거리집 · 건축명장 도급범위·협력사",
           "https://www.masterbuilder.kr/portfolio/segeorijib"
+        ],
+        [
+          "에이루트 — 남원 항심당, GAU·조경 분담",
+          "https://www.arootarchitecture.com/남원주택"
+        ],
+        [
+          "전원속의 내집 — 월정리 두:집, 2024년 9월호",
+          "https://v.daum.net/v/W0Da5xsdFN"
+        ],
+        [
+          "GAU — 실명 담당자, 업체 자체 설명",
+          "https://www.gauaf.com/Process"
+        ],
+        [
+          "GAU — A/S FAQ, 업체 자체 약속",
+          "https://www.gauaf.com/FAQ"
+        ],
+        [
+          "GAU — 유지관리 서비스 설명",
+          "https://www.gauaf.com/Service"
         ]
       ],
       "rank": 1
@@ -259,6 +279,59 @@
       "rank": 3
     },
     {
+      "id": "dabom",
+      "name": "다봄 / 다봄주택",
+      "levels": [
+        4,
+        2,
+        4,
+        1,
+        2
+      ],
+      "points": [
+        20,
+        8,
+        20,
+        3,
+        6
+      ],
+      "total": 57,
+      "status": "계약 주체·소원재 보수 경위 확인 전 조건부",
+      "reason": "저지·용담 RC 2건과 소원재·제주 작은 집을 추가 확인. 같은 설계자 반복이므로 P4, 제주 반복만 확인 L2, RC4, 크레딧 S1. 소원재 6년차 거주 기록은 외부 입주 후 자료 2단계다.",
+      "limit": "57점은 자료 확보 수준이다. 입주 후 6점에 공정 순서 불만·자가 보수 기록이 포함되며 품질 가점으로 해석하면 안 된다. 현재 법인 연결과 보수 요청·책임 경위는 미확인. 목조 2건은 RC에 넣지 않았다.",
+      "sources": [
+        [
+          "해안동 주택 원문",
+          "https://vmspace.com/project/project_view.html?base_seq=MjgzNw%3D%3D"
+        ],
+        [
+          "에이루트 — 저지 오름 아래, RC·다봄",
+          "https://www.arootarchitecture.com/저지오름아래"
+        ],
+        [
+          "에이루트 — 용담 심양재, RC·다봄",
+          "https://www.arootarchitecture.com/p2018용담심양재"
+        ],
+        [
+          "에이루트 — 과수원집 소원재, 다봄주택",
+          "https://www.arootarchitecture.com/과수원집소원재"
+        ],
+        [
+          "소원재 거주자 — 주택살이 6년차, 오늘의집 재게재",
+          "https://v.daum.net/v/PuoRli8t2q"
+        ],
+        [
+          "에이루트 — 제주 작은 집",
+          "https://www.arootarchitecture.com/제주작은집"
+        ],
+        [
+          "전원속의 내집 — 제주 나의 집, 2025년 11월호",
+          "https://v.daum.net/v/1y8MRraeIn"
+        ]
+      ],
+      "rank": 4
+    },
+    {
       "id": "jejuph",
       "name": "제주패시브하우스 · JEJUPH",
       "levels": [
@@ -305,7 +378,7 @@
           "https://www.youtube.com/watch?v=l8GWBbHr2bw"
         ]
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "sis",
@@ -354,7 +427,7 @@
           "https://www.masterbuilder.kr/portfolio/sanbangpunggyeong"
         ]
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "leum",
@@ -391,7 +464,7 @@
           "https://www.leumcc.co.kr/41/?bmode=view&idx=128577371"
         ]
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "poem",
@@ -436,7 +509,7 @@
           "https://www.sankun.com/company-info/Xbdo9sv-DvUULUNbXaXAgA"
         ]
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "brown",
@@ -493,7 +566,7 @@
           "https://www.mydaily.co.kr/page/view/2020021209122501409"
         ]
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "whami",
@@ -532,35 +605,6 @@
         [
           "회사 표기 · 시공컨설팅",
           "https://www.whami.kr/sub0201.php?code=sub0201&idx=5535&page=1&ptype=view"
-        ]
-      ],
-      "rank": 9
-    },
-    {
-      "id": "dabom",
-      "name": "다봄 / 최규철",
-      "levels": [
-        3,
-        1,
-        2,
-        1,
-        0
-      ],
-      "points": [
-        15,
-        4,
-        10,
-        3,
-        0
-      ],
-      "total": 32,
-      "status": "현재 사업체·반복 실적 확인 전 보류",
-      "reason": "해안동 주택의 외부 크레딧과 RC/목구조 복합 본체는 유효한 근거다.",
-      "limit": "실명 크레딧과 현재 계약 주체·제주 상주 조직은 다르다. 추가 주택과 현 사업체의 연결이 필요하다.",
-      "sources": [
-        [
-          "해안동 주택 원문",
-          "https://vmspace.com/project/project_view.html?base_seq=MjgzNw%3D%3D"
         ]
       ],
       "rank": 10
@@ -687,13 +731,13 @@
         "ia": 78.0,
         "gau": 78.0,
         "atelier": 60.0,
+        "dabom": 57.0,
         "jejuph": 54.0,
         "sis": 52.0,
         "leum": 50.0,
         "poem": 48.0,
         "brown": 35.0,
         "whami": 33.0,
-        "dabom": 32.0,
         "tcm": 22.0,
         "oreum": 13.0,
         "lbtop": 13.0
@@ -712,13 +756,13 @@
         "ia": 79.0,
         "gau": 79.0,
         "atelier": 62.0,
+        "dabom": 59.0,
         "jejuph": 54.0,
         "sis": 61.0,
         "leum": 48.0,
         "poem": 48.0,
         "brown": 39.0,
         "whami": 39.0,
-        "dabom": 36.0,
         "tcm": 30.0,
         "oreum": 14.0,
         "lbtop": 14.0
@@ -737,13 +781,13 @@
         "ia": 82.0,
         "gau": 82.0,
         "atelier": 62.0,
+        "dabom": 57.0,
         "jejuph": 54.0,
         "sis": 51.0,
         "leum": 54.0,
         "poem": 51.0,
         "brown": 36.0,
         "whami": 30.0,
-        "dabom": 32.0,
         "tcm": 20.0,
         "oreum": 14.0,
         "lbtop": 14.0

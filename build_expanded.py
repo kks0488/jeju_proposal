@@ -28,4 +28,4 @@ p = R / 'review.html'
 body = re.sub(r'<!-- EXPANDED-START -->.*?<!-- EXPANDED-END -->', '', p.read_text(), flags=re.S)
 assert '</main>' in body
 p.write_text(body.replace('</main>', h+'</main>', 1))
-print('Built expanded research: 4 new companies, 1 scored addition, existing review retained.')
+print('Built expanded research:', len(D['sections']), 'sections; dated evidence and limits retained.')
