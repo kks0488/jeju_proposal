@@ -1,1 +1,1 @@
-{"name":"jeju-proposal-public","private":true,"type":"module","version":"1.0.0"}
+{"name":"jeju-proposal-public","private":true,"type":"module","version":"2.0.1","scripts":{"build":"node scripts/prepare-deploy.mjs","test":"node scripts/prepare-deploy.mjs"},"dependencies":{"sharp":"0.34.5"}}
