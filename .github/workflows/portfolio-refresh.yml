@@ -1,0 +1,24 @@
+name: Portfolio media and browser checks
+on:
+  push:
+    branches: [master]
+    paths: ['site-v3/**', '.github/workflows/portfolio-refresh.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false cheerio@1.1.2
+      - run: node site-v3/probe.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-source-diagnostics
+          path: site-v3/diagnostics/
+          retention-days: 3
