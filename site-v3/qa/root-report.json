@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-09-15T10:42:23.727Z",
+  "base": "http://127.0.0.1:35761/",
+  "anonymous": true,
+  "results": [
+    {
+      "width": 1440,
+      "status": 200,
+      "url": "http://127.0.0.1:35761/",
+      "title": "제주집 시공사 선정",
+      "imagesDecoded": 178,
+      "broken": [],
+      "allImagesSameOrigin": true,
+      "jsErrors": [],
+      "filterAndGallery": true
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "url": "http://127.0.0.1:35761/",
+      "title": "제주집 시공사 선정",
+      "imagesDecoded": 178,
+      "broken": [],
+      "allImagesSameOrigin": true,
+      "jsErrors": [],
+      "filterAndGallery": true
+    }
+  ]
+}

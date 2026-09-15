@@ -48,17 +48,17 @@ for(const p of data.projects){
  for(const photo of p.photos)photo.credit=creditText(photo.credit);
 }
 const comparison=data.companies.map(c=>'<article class="comparison"><h3>'+esc(c.short)+'</h3><b>포트폴리오에서 볼 부분</b><p>'+esc(c.strength)+'</p><b>상담할 내용</b><p class="question">'+esc(c.question)+'</p></article>').join('');
-const notices='<div class="notice"><b>하백·이아 / GAU / 다봄 중에서 선정합니다.</b> 포트폴리오와 같은 도면 기준의 견적, 공사 일정, 현장소장을 함께 비교합니다.</div>';
+const notices='<div class="notice"><b>현재 평가 순위에 따라 시공사를 비교합니다.</b> 포트폴리오와 같은 도면 기준의 견적, 공사 일정, 현장소장을 함께 비교합니다.</div>';
 function editHTML(html,isTemplate=false){
  html=html.replace(/<title>[\s\S]*?<\/title>/,'<title>'+title+'</title>');
- html=html.replace(/<meta name="description" content="[^"]*">/,'<meta name="description" content="제주집 시공사 선정. 하백·이아, GAU, 다봄의 포트폴리오와 상담 내용을 한곳에서 비교합니다.">');
- html=html.replace(/<a class="brand"[\s\S]*?<\/a>/,'<a class="brand" href="./">⌂ <span>'+title+'<small>하백·이아 · GAU · 다봄</small></span></a>');
+ html=html.replace(/<meta name="description" content="[^"]*">/,'<meta name="description" content="제주집 시공사 선정. 평가 순위별 포트폴리오와 시공 사례를 비교합니다.">');
+ html=html.replace(/<a class="brand"[\s\S]*?<\/a>/,'<a class="brand" href="./">⌂ <span>'+title+'<small>평가 순위 · 포트폴리오</small></span></a>');
  html=html.replace(/<h1>[\s\S]*?<\/h1>/,'<h1>'+title+'</h1>');
- html=html.replace('<p class="eyebrow">단독주택 시공사 선정 준비</p>','<p class="eyebrow">우리 집을 지을 세 업체 비교</p>');
- html=html.replace(/<p class="lede">[\s\S]*?<\/p>/,'<p class="lede">하백·이아, GAU, 다봄의 실제 시공 사례를 보고<br>우리 집을 맡길 업체를 고릅니다.</p>');
+ html=html.replace('<p class="eyebrow">단독주택 시공사 선정 준비</p>','<p class="eyebrow">평가 순위별 업체 비교</p>');
+ html=html.replace(/<p class="lede">[\s\S]*?<\/p>/,'<p class="lede">평가 순위와 실제 시공 사례를 바탕으로<br>제주집에 맞는 시공사를 비교합니다.</p>');
  html=html.replace(/<div class="notice">[\s\S]*?<\/div>/,notices);
  html=html.replace(/PROJECT GALLERY/g,'업체별 포트폴리오').replace(/BEYOND THE PHOTOGRAPHS/g,'선정할 때 비교할 내용');
- html=html.replace('프로젝트 사진 둘러보기','포트폴리오 둘러보기').replace('사진 다음에 확인할 것','세 업체 비교와 상담');
+ html=html.replace('프로젝트 사진 둘러보기','포트폴리오 둘러보기').replace('사진 다음에 확인할 것','업체별 비교와 상담');
  html=html.replace('비교 기준</a>','업체 비교</a>').replace('RC 본체 확인 사례','철근콘크리트(RC)');
  html=html.replace(/<p class="muted">사진은 우리 페이지에 저장된 파일로 열립니다\.<\/p>/,'<p class="muted">사진을 누르면 크게 볼 수 있습니다.</p>');
  html=html.replace('링크 공유 ↗','주소 복사').replace('이 프로젝트 공유 ↗','프로젝트 주소 복사');
@@ -112,3 +112,6 @@ assert(!final.includes('project-caution'));
 assert(!/계약 적격 판정 아님|공개자료 기반 검토용|확인을 대신하지|방수.{0,60}검증|아틀리에/.test(final));
 assert.deepEqual(data.projects.flatMap(p=>p.photos.map(x=>x.url)),originalImages);
 console.log(JSON.stringify({title,companies:data.companies.length,projects:data.projects.length,images:originalImages.length,imagesUnchanged:true,disclaimersRemoved:true,sourceResearchPreserved:true}));
+
+// Preserve neutral ranking wording and the actual root page on future edits.
+require('./ranking-root.cjs').refresh();
