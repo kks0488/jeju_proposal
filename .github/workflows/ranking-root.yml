@@ -1,0 +1,52 @@
+name: Ranking view and static main page
+on:
+  push:
+    branches: [master]
+    paths: ['site-v3/ranking-root.cjs', 'site-v3/stage-root.cjs', 'site-v3/root-check.cjs', '.github/workflows/ranking-root.yml']
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'Optional public URL to verify instead of rebuilding'
+        required: false
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: portfolio-media
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare root page with ranking wording
+        if: inputs.base_url == ''
+        run: |
+          node site-v3/ranking-root.cjs
+          node site-v3/stage-root.cjs
+      - run: npm install --no-save --package-lock=false playwright@1.55.0
+      - run: npx playwright install --with-deps chromium
+      - name: Check real browser and all images
+        env:
+          BASE_URL: ${{ inputs.base_url }}
+        run: node site-v3/root-check.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ranking-root-check
+          path: site-v3/qa/root-*
+          retention-days: 14
+      - name: Save tested main page
+        if: inputs.base_url == ''
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html public-portfolio.html site-v3/template.html site-v3/selection-edit.cjs site-v3/published/index.html site-v3/qa/root-report.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'Publish ranking-based selection as the full root index [skip ci]'
+          git pull --rebase origin master
+          git push origin HEAD:master
