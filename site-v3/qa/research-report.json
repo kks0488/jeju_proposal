@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-09-15T18:05:47.425Z",
+  "base": "http://127.0.0.1:41567/",
+  "anonymous": true,
+  "results": [
+    {
+      "width": 1440,
+      "status": 200,
+      "counts": [
+        24,
+        21,
+        13,
+        11
+      ],
+      "search": true,
+      "details": true,
+      "documentNavigation": true,
+      "deepLink": true,
+      "overflow": false,
+      "jsErrors": []
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "counts": [
+        24,
+        21,
+        13,
+        11
+      ],
+      "search": true,
+      "details": true,
+      "documentNavigation": true,
+      "deepLink": true,
+      "overflow": false,
+      "jsErrors": []
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "counts": [
+        24,
+        21,
+        13,
+        11
+      ],
+      "search": true,
+      "details": true,
+      "documentNavigation": true,
+      "deepLink": true,
+      "overflow": false,
+      "jsErrors": []
+    }
+  ],
+  "images": {
+    "count": 178,
+    "broken": []
+  },
+  "documents": 8,
+  "stats": {
+    "total": 24,
+    "others": 21,
+    "scored": 13,
+    "additional": 11,
+    "documents": 8,
+    "sourcePeriod": "2026.09.09–09.15"
+  }
+}

@@ -1,0 +1,1061 @@
+{
+  "version": "research-library-20260916",
+  "updated": "2026.09.16",
+  "counting": "업체명·협업팀별 조사 항목. 하백·이아 및 브라운트리·JD 공동 실적은 각각 한 묶음. 동성·동성개발은 중복 집계를 피한 탐색 기록이며 동일 법인 확정이 아님.",
+  "stats": {
+    "total": 24,
+    "others": 21,
+    "scored": 13,
+    "additional": 11,
+    "documents": 8,
+    "sourcePeriod": "2026.09.09–09.15"
+  },
+  "entries": [
+    {
+      "id": "ia",
+      "category": "메인 소개",
+      "tag": "제주 · 건축가 주택",
+      "summary": "서로 다른 설계자의 제주 RC 주택과 스테이, 외장·실내 마감 사례를 비교했습니다.",
+      "records": [
+        "DETAIL-REVIEW.md",
+        "DUE-DILIGENCE.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "이아컴퍼니 / 하백종합건설",
+      "main": true,
+      "scored": true,
+      "score": 78,
+      "rank": 1,
+      "points": [
+        25,
+        16,
+        25,
+        12,
+        0
+      ],
+      "works": [
+        "연안재",
+        "화분",
+        "재재소소"
+      ],
+      "sources": [
+        [
+          "업체가 밝힌 방향",
+          "https://www.iacompany.co.kr/about/"
+        ],
+        [
+          "공개 팀 구성",
+          "https://iacompany.co.kr/team/"
+        ],
+        [
+          "화분 원문",
+          "https://iacompany.co.kr/projects/hwabun/"
+        ],
+        [
+          "솔비나무집 — 설계자 원문",
+          "https://www.arootarchitecture.com/보성리솔비나무집"
+        ],
+        [
+          "솔비나무집 — 시공사 기간·담당 표기",
+          "https://iacompany.co.kr/projects/solbinamujip/"
+        ],
+        [
+          "애월 공방주택 — 역할·거주 소개",
+          "https://v.daum.net/v/ZDbrOYUNDB"
+        ],
+        [
+          "도시 오아시스 — 최근 시공 크레딧",
+          "https://www.jibs.co.kr/news/articles/articlesDetail/64528?feed=da&kakao_from=mainnews"
+        ],
+        [
+          "솔비나무집 · 건축명장 도급범위·협력사",
+          "https://www.masterbuilder.kr/portfolio/solbinamujib"
+        ],
+        [
+          "재재소소 · 건축명장 도급범위·협력사",
+          "https://www.masterbuilder.kr/portfolio/jaejaesoso"
+        ],
+        [
+          "연안재 · 건축명장 도급범위·협력사",
+          "https://www.masterbuilder.kr/portfolio/yeonanjae"
+        ],
+        [
+          "어흥, 어음 · 건축명장 도급범위·협력사",
+          "https://www.masterbuilder.kr/portfolio/eoheung-eoeum"
+        ],
+        [
+          "2026-09-14 영평동 실명 담당자·면적 필드 검토",
+          "https://www.iacompany.co.kr/projects/Yeongpyeongdong-house"
+        ],
+        [
+          "SPACE 시공 크레딧",
+          "https://vmspace.com/project/project_view.html?base_seq=MzI5MA%3D%3D"
+        ],
+        [
+          "전원속의 내집",
+          "https://uujj.co.kr/house/836?page=3"
+        ]
+      ]
+    },
+    {
+      "id": "gau",
+      "category": "메인 소개",
+      "tag": "제주 · RC 주택",
+      "summary": "호미·하천리 H·항심당 등 RC 주택, 외부공간과 여러 공종의 수행 기록을 함께 검토했습니다.",
+      "records": [
+        "DETAIL-REVIEW.md",
+        "DUE-DILIGENCE.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "지에이유아키팩토리",
+      "main": true,
+      "scored": true,
+      "score": 78,
+      "rank": 1,
+      "points": [
+        25,
+        16,
+        25,
+        12,
+        0
+      ],
+      "works": [
+        "하천리 H",
+        "우리가 바라보는 ‘곶’"
+      ],
+      "sources": [
+        [
+          "업체의 원칙·실명 조직",
+          "https://www.gauaf.com/Process"
+        ],
+        [
+          "하천리 H — 설계자 제공 자료·시공 크레딧",
+          "https://vmspace.com/project/project_view.html?base_seq=MjgzNg%3D%3D"
+        ],
+        [
+          "별도 실적: 우리가 바라보는 곶",
+          "https://vmspace.com/project/project_view.html?base_seq=MzY1NA%3D%3D"
+        ],
+        [
+          "호미 — 설계자·건축주·시공사·규모",
+          "https://vmspace.com/project/project_view.html?base_seq=MzAzMg%3D%3D"
+        ],
+        [
+          "세거리집 — 상세 접근 제한, 색인 확인",
+          "https://www.masterbuilder.kr/portfolio/segeorijib?size=101-200m-2&type=dandogjutaeg%2Csangeobsiseol"
+        ],
+        [
+          "HOMI · 건축명장 도급범위·협력사",
+          "https://www.masterbuilder.kr/portfolio/homi"
+        ],
+        [
+          "Ara_Owall House · 건축명장 도급범위·협력사",
+          "https://www.masterbuilder.kr/portfolio/ara_owall-house"
+        ],
+        [
+          "오라동 현이네 · 건축명장 도급범위·협력사",
+          "https://www.masterbuilder.kr/portfolio/oradong-hyeonine"
+        ],
+        [
+          "세거리집 · 건축명장 도급범위·협력사",
+          "https://www.masterbuilder.kr/portfolio/segeorijib"
+        ],
+        [
+          "에이루트 — 남원 항심당, GAU·조경 분담",
+          "https://www.arootarchitecture.com/남원주택"
+        ],
+        [
+          "전원속의 내집 — 월정리 두:집, 2024년 9월호",
+          "https://v.daum.net/v/W0Da5xsdFN"
+        ],
+        [
+          "GAU — A/S FAQ, 업체 자체 약속",
+          "https://www.gauaf.com/FAQ"
+        ],
+        [
+          "GAU — 유지관리 서비스 설명",
+          "https://www.gauaf.com/Service"
+        ]
+      ]
+    },
+    {
+      "id": "dabom",
+      "category": "메인 소개",
+      "tag": "제주 · RC·목조",
+      "summary": "저지·용담의 RC 주택과 에이루트 반복 협업을 추가 조사하면서 기존 판단을 보완했습니다.",
+      "records": [
+        "EXPANDED-REVIEW.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "다봄 / 다봄주택",
+      "main": true,
+      "scored": true,
+      "score": 57,
+      "rank": 4,
+      "points": [
+        20,
+        8,
+        20,
+        3,
+        6
+      ],
+      "works": [
+        "해안동 주택",
+        "저지 오름 아래",
+        "용담 심양재",
+        "소원재",
+        "제주 작은 집 / 나의 집"
+      ],
+      "sources": [
+        [
+          "해안동 주택 원문",
+          "https://vmspace.com/project/project_view.html?base_seq=MjgzNw%3D%3D"
+        ],
+        [
+          "에이루트 — 저지 오름 아래, RC·다봄",
+          "https://www.arootarchitecture.com/저지오름아래"
+        ],
+        [
+          "에이루트 — 용담 심양재, RC·다봄",
+          "https://www.arootarchitecture.com/p2018용담심양재"
+        ],
+        [
+          "에이루트 — 과수원집 소원재, 다봄주택",
+          "https://www.arootarchitecture.com/과수원집소원재"
+        ],
+        [
+          "소원재 거주자 — 주택살이 6년차, 오늘의집 재게재",
+          "https://v.daum.net/v/PuoRli8t2q"
+        ],
+        [
+          "에이루트 — 제주 작은 집",
+          "https://www.arootarchitecture.com/제주작은집"
+        ],
+        [
+          "전원속의 내집 — 제주 나의 집, 2025년 11월호",
+          "https://v.daum.net/v/1y8MRraeIn"
+        ]
+      ]
+    },
+    {
+      "id": "jejuph",
+      "category": "공통 채점",
+      "tag": "제주 · 패시브",
+      "summary": "하원동 RC 주택과 장전리 사례, 설계자·협회에 기록된 외피 성능 자료를 중심으로 비교했습니다.",
+      "records": [
+        "DETAIL-REVIEW.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "제주패시브하우스 · JEJUPH",
+      "main": false,
+      "scored": true,
+      "score": 54,
+      "rank": 5,
+      "points": [
+        15,
+        12,
+        15,
+        3,
+        9
+      ],
+      "works": [
+        "하원동 패시브하우스",
+        "장전리 패시브하우스 최종 기밀시험"
+      ],
+      "sources": [
+        [
+          "하원동 — 설계자 직접 공개",
+          "https://www.oh-architects.biz/jeju-hawondong"
+        ],
+        [
+          "장전리 1호 — 협회 색인 확인",
+          "https://www.phiko.kr/bbs/board.php?bo_table=z3_02&wr_id=787"
+        ],
+        [
+          "협회 시공사 목록",
+          "https://www.phiko.kr/bbs/page.php?hid=member_list_Construntion"
+        ],
+        [
+          "하원동 협회 인증 — 검색 색인 교차 확인",
+          "https://www.phiko.kr/bbs/board.php?bo_table=z3_02&wr_id=1303"
+        ],
+        [
+          "별개 시공사: 표준주택 시즌2 제10호",
+          "https://www.phiko.kr/bbs/board.php?bo_table=z3_02&wr_id=1192"
+        ],
+        [
+          "SSK 인터뷰 — 영상 미시청",
+          "https://www.youtube.com/watch?v=l8GWBbHr2bw"
+        ],
+        [
+          "PHIKO 현장 기록 · 색인 확인",
+          "https://www.phiko.kr/bbs/board.php?bo_table=z10_01&wr_id=289"
+        ]
+      ]
+    },
+    {
+      "id": "sis",
+      "category": "공통 채점",
+      "tag": "제주 실적 · 중목",
+      "summary": "이어서·산방풍경과 제주 외 건축가 주택을 검토하고, 제주 법인 활동과 지역 수행팀을 구분했습니다.",
+      "records": [
+        "PORTFOLIO-REVIEW.md",
+        "DUE-DILIGENCE.md"
+      ],
+      "name": "시스홈종합건설",
+      "main": false,
+      "scored": true,
+      "score": 52,
+      "rank": 6,
+      "points": [
+        25,
+        8,
+        10,
+        9,
+        0
+      ],
+      "works": [
+        "화순리 이어서",
+        "담양 한백당",
+        "송파 토끼집",
+        "이천 노을단상",
+        "산방풍경"
+      ],
+      "sources": [
+        [
+          "이어서 · 협회 매체",
+          "https://kiramonthly.com/2592"
+        ],
+        [
+          "한백당 · 유타",
+          "https://utaa.co.kr/work/284"
+        ],
+        [
+          "토끼집 · 유타",
+          "https://utaa.co.kr/work/344"
+        ],
+        [
+          "노을단상 · 유타",
+          "https://utaa.co.kr/work/276"
+        ],
+        [
+          "현재 서울 법인 및 미확인 행정 항목 · 제3자 DB",
+          "https://jootek.com/folio/1028203"
+        ],
+        [
+          "산방풍경 · 건축명장",
+          "https://www.masterbuilder.kr/portfolio/sanbangpunggyeong"
+        ]
+      ]
+    },
+    {
+      "id": "leum",
+      "category": "공통 채점",
+      "tag": "제주 · RC",
+      "summary": "하례리·송당리·구억리 RC 사례, 외부 설계자와의 협업 및 신창리 공사일지를 검토했습니다.",
+      "records": [
+        "PORTFOLIO-REVIEW.md",
+        "DETAIL-REVIEW.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "이음건설",
+      "main": false,
+      "scored": true,
+      "score": 50,
+      "rank": 7,
+      "points": [
+        15,
+        12,
+        20,
+        3,
+        0
+      ],
+      "works": [
+        "구억리 단독주택",
+        "하례리 주택 & 스테이",
+        "송당리 주택",
+        "신창리 소형상가 형틀"
+      ],
+      "sources": [
+        [
+          "구억리 상세",
+          "https://www.leumcc.co.kr/33"
+        ],
+        [
+          "하례리 상세",
+          "https://www.leumcc.co.kr/34"
+        ],
+        [
+          "송당리 상세",
+          "https://www.leumcc.co.kr/47"
+        ],
+        [
+          "구억리 영상 · 미시청",
+          "https://m.youtube.com/watch?v=eA75m5_urr0"
+        ],
+        [
+          "공식 진행 원칙·하단 사업자",
+          "https://www.leumcc.co.kr/process"
+        ],
+        [
+          "신창리 소형상가 — 공식 공정 일지, 접근 간헐 제한",
+          "https://www.leumcc.co.kr/41/?bmode=view&idx=128577371"
+        ]
+      ]
+    },
+    {
+      "id": "poem",
+      "category": "공통 채점",
+      "tag": "제주 · RC·상업시설",
+      "summary": "필하우스 RC 주택과 JS빌딩의 반복 협력사를 추가 확인해 기존 보류 판단을 비교 후보로 수정했습니다.",
+      "records": [
+        "DUE-DILIGENCE.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "(주)포엠 · 김형직",
+      "main": false,
+      "scored": true,
+      "score": 48,
+      "rank": 8,
+      "points": [
+        15,
+        12,
+        15,
+        6,
+        0
+      ],
+      "works": [
+        "필하우스",
+        "JS빌딩",
+        "협회 회사 페이지 6개 프로젝트"
+      ],
+      "sources": [
+        [
+          "필하우스 · 건축명장 상세",
+          "https://www.masterbuilder.kr/portfolio/pilhauseu?type=gyoyugsiseol%2Cjonggyosiseol%2Cdandogjutaeg"
+        ],
+        [
+          "JS빌딩 · 건축명장 상세",
+          "https://www.masterbuilder.kr/portfolio/jsbilding-1"
+        ],
+        [
+          "포엠 회사 페이지 · 건축명장 2024·2025 표기",
+          "https://www.masterbuilder.kr/contractor/ju-poem"
+        ],
+        [
+          "포엠 제3자 DB",
+          "https://jootek.com/folio/1058077"
+        ],
+        [
+          "산군 면허 표기 · 공적 조회 아님",
+          "https://www.sankun.com/company-info/Xbdo9sv-DvUULUNbXaXAgA"
+        ]
+      ]
+    },
+    {
+      "id": "brown",
+      "category": "공통 채점",
+      "tag": "제주 · 공동 시공",
+      "summary": "청수리·스튜디오 제라 공동 시공, 위미리·명도암·분더바움 목록을 검토했습니다. 공동 현장은 한 묶음으로 집계합니다.",
+      "records": [
+        "PORTFOLIO-REVIEW.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "브라운트리종합건설 + JD홈플랜",
+      "main": false,
+      "scored": true,
+      "score": 35,
+      "rank": 9,
+      "points": [
+        15,
+        12,
+        5,
+        3,
+        0
+      ],
+      "works": [
+        "제주에서 행복한 집 · 청수리",
+        "스튜디오 제라 · 수망리",
+        "위미리 단독주택",
+        "명도암(아실리)",
+        "분더바움 · 구억리"
+      ],
+      "sources": [
+        [
+          "청수리 · 설계자 기고",
+          "https://v.daum.net/v/u46lL141XO"
+        ],
+        [
+          "제라 · 투닷 원문",
+          "https://todot.kr/144"
+        ],
+        [
+          "JD 공식 프로젝트 목록·064-747-2178",
+          "https://jdhomeplan.com/"
+        ],
+        [
+          "오권만 대표 인터뷰",
+          "https://www.imwood.co.kr/news/articleView.html?idxno=35166"
+        ],
+        [
+          "브라운트리 단독주택 목록 · 색인",
+          "https://www.browntree.kr/bbs/board.php?bo_table=sub02_3"
+        ],
+        [
+          "명도암·위미리 면적 색인",
+          "https://www.browntree.kr/bbs/board.php?bo_table=sub02_3&wr_id=7"
+        ],
+        [
+          "분더바움 준공 공지 · 색인",
+          "https://www.browntree.kr/bbs/board.php?bo_table=sub05_2&wr_id=13"
+        ],
+        [
+          "분더바움 분양 보도 · 홍보성 자료",
+          "https://www.mydaily.co.kr/page/view/2020021209122501409"
+        ]
+      ]
+    },
+    {
+      "id": "whami",
+      "category": "공통 채점",
+      "tag": "제주 실적 · 목조",
+      "summary": "봄이 좋은 집과 제주 표준주택을 조사했습니다. 제주 시공 이력과 양평 기반의 운영 조건을 함께 비교했습니다.",
+      "records": [
+        "PORTFOLIO-REVIEW.md",
+        "DETAIL-REVIEW.md"
+      ],
+      "name": "화미건축",
+      "main": false,
+      "scored": true,
+      "score": 33,
+      "rank": 10,
+      "points": [
+        15,
+        4,
+        5,
+        3,
+        6
+      ],
+      "works": [
+        "협재 봄이 좋은 집",
+        "제주 표준주택 20호"
+      ],
+      "sources": [
+        [
+          "조한준 원문 · 시공 과정과 거주 후 설명",
+          "https://johanjun.com/project/jeju-passive-house/"
+        ],
+        [
+          "브리크 준공 개요",
+          "https://magazine.brique.co/project/jeju-hyeopjae-passive-house-spring-house-architecture/"
+        ],
+        [
+          "표준주택20호 공정 글",
+          "https://www.phiko.kr/bbs/board.php?bo_table=z11_03&wr_id=1154"
+        ],
+        [
+          "회사 표기 · 시공컨설팅",
+          "https://www.whami.kr/sub0201.php?code=sub0201&idx=5535&page=1&ptype=view"
+        ]
+      ]
+    },
+    {
+      "id": "tcm",
+      "category": "공통 채점",
+      "tag": "서울 기반 · 제주 실적",
+      "summary": "제주 애월 케이로스·회천동 사례와 설계자 협업을 조사하고, 제주 실적과 서울 사업장을 구분했습니다.",
+      "records": [
+        "PORTFOLIO-REVIEW.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "티씨엠종합건설",
+      "main": false,
+      "scored": true,
+      "score": 22,
+      "rank": 11,
+      "points": [
+        15,
+        4,
+        0,
+        3,
+        0
+      ],
+      "works": [
+        "회천동 중목구조 주택",
+        "애월 케이로스",
+        "청운동 주택·이의동 린니움 등"
+      ],
+      "sources": [
+        [
+          "공식 프로젝트·서울 주소",
+          "https://www.tcmglobal.co.kr/"
+        ],
+        [
+          "케이로스 · 플랫폼 시공사 표기",
+          "https://buildhada.com/design/426"
+        ]
+      ]
+    },
+    {
+      "id": "oreum",
+      "category": "공통 채점",
+      "tag": "제주 · 협회 자료",
+      "summary": "협회 회원 자료·서귀포 사업장과 회수동 주택의 공사 기록 경로를 조사했습니다.",
+      "records": [
+        "PORTFOLIO-REVIEW.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "오름건설(주) · 박준석",
+      "main": false,
+      "scored": true,
+      "score": 13,
+      "rank": 12,
+      "points": [
+        5,
+        8,
+        0,
+        0,
+        0
+      ],
+      "works": [
+        "서귀포 회수동 주택",
+        "기업정보 프로젝트 5건"
+      ],
+      "sources": [
+        [
+          "회수동 영상 · 미시청",
+          "https://www.youtube.com/watch?v=6mVBx5Tmc2o"
+        ],
+        [
+          "서귀포 오름 기업정보",
+          "https://jootek.com/folio/1074879"
+        ],
+        [
+          "NICE 박준석 법인 소개",
+          "https://m.nicebizinfo.com/ep/EP0100M002GE.nice?kiscode=OX7428"
+        ]
+      ]
+    },
+    {
+      "id": "lbtop",
+      "category": "공통 채점",
+      "tag": "제주 · 목조",
+      "summary": "엘비탑 in JEJU와 슬기로운 내집짓기의 제주 활동 및 한동리 사례를 조사했습니다. 경남 동명 법인과는 구분했습니다.",
+      "records": [
+        "PORTFOLIO-REVIEW.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "name": "엘비탑 in JEJU",
+      "main": false,
+      "scored": true,
+      "score": 13,
+      "rank": 12,
+      "points": [
+        5,
+        8,
+        0,
+        0,
+        0
+      ],
+      "works": [
+        "한동리 두 번째 주택",
+        "한동리 외장 전 레인스크린"
+      ],
+      "sources": [
+        [
+          "제주 시공 방식",
+          "https://www.lbtophouse.com/Lbtop/Dongrami"
+        ],
+        [
+          "한동리 완공 영상 · 미시청",
+          "https://www.youtube.com/watch?v=t43QaowKmgM"
+        ],
+        [
+          "한동리 공정 소개 · 색인",
+          "https://www.instagram.com/p/Cv3yWsYrHL9/"
+        ]
+      ]
+    },
+    {
+      "id": "atelier",
+      "category": "메인 제외",
+      "tag": "공동체·협동조합 주택",
+      "summary": "오시리가름·눈뫼가름·오늘공동체주택을 조사했습니다. 현재 모인 사례가 공동체 주택 중심이어서 개별 단독주택 메인 비교에서는 제외했습니다.",
+      "records": [
+        "EXPANDED-REVIEW.md",
+        "RANKING.md"
+      ],
+      "name": "아틀리에건설",
+      "main": false,
+      "scored": true,
+      "score": 60,
+      "rank": 3,
+      "points": [
+        20,
+        8,
+        20,
+        12,
+        0
+      ],
+      "works": [
+        "오시리가름 협동조합주택",
+        "눈뫼가름 협동조합주택",
+        "오늘공동체주택"
+      ],
+      "sources": [
+        [
+          "건축명장 — 아틀리에건설 업체 페이지",
+          "https://www.masterbuilder.kr/contractor/ateulriegeonseol-ju"
+        ],
+        [
+          "건축명장 — 오시리가름 구조·도급범위",
+          "https://www.masterbuilder.kr/portfolio/osirigareum-hyeobdongjohabjutaeg"
+        ],
+        [
+          "EMA — 오시리가름, 설계자 시공 크레딧",
+          "https://www.emaa.co.kr/project/027"
+        ],
+        [
+          "건축명장 — 눈뫼가름, 주택과 커뮤니티 구조 구분",
+          "https://www.masterbuilder.kr/portfolio/nunmoegareum-hyeobdongjohabjutaeg"
+        ],
+        [
+          "EMA — 눈뫼가름",
+          "https://www.emaa.co.kr/project/050"
+        ],
+        [
+          "건축명장 — 오늘공동체주택, 2025 준공",
+          "https://www.masterbuilder.kr/portfolio/oneulgongdongcejutaeg"
+        ],
+        [
+          "함께주택협동조합 — 4호 시공사 소개, 2020.04.20",
+          "https://thecommon.tistory.com/15"
+        ]
+      ]
+    },
+    {
+      "id": "daeo",
+      "name": "대오종합건설",
+      "category": "추가 검토",
+      "tag": "제주 · 폴리오",
+      "summary": "협재리 RC 신축과 광령리 증축을 대조했습니다. 다가구 용도와 증축 범위를 나눠 기록했습니다.",
+      "works": [
+        "협재리 — RC 신축 · 다가구 2가구",
+        "광령리 — 증축 · 구조·면적 항목 대조"
+      ],
+      "sources": [
+        [
+          "대오 폴리오",
+          "https://jootek.com/folio/1026879"
+        ]
+      ],
+      "records": [
+        "FOLIO-AUDIT.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "thelook",
+      "name": "더룩종합건설",
+      "category": "추가 검토",
+      "tag": "제주 · 복합용도·주택",
+      "summary": "색달동 에이루트 협업과 영락리 위드에이 설계 사례를 조사했습니다. RC 복합용도 건물과 경량철골 주택을 구분했습니다.",
+      "works": [
+        "색달동 — RC · 음식점·사무소·주택 복합",
+        "영락리 — 경량철골 주택"
+      ],
+      "sources": [
+        [
+          "더룩 폴리오",
+          "https://jootek.com/folio/1068421"
+        ]
+      ],
+      "records": [
+        "FOLIO-AUDIT.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "seowon",
+      "name": "서원종합건설 · 제주",
+      "category": "추가 검토",
+      "tag": "제주 · 복합용도",
+      "summary": "제주 법인 프로필과 조천리 사례를 조사했습니다. 음식점·다가구 복합 건물로 분류하고 타 지역 동명 업체와 구분했습니다.",
+      "works": [
+        "조천리 — 휴게음식점·다가구 복합 RC"
+      ],
+      "sources": [
+        [
+          "제주 서원 폴리오",
+          "https://jootek.com/folio/1058066"
+        ]
+      ],
+      "records": [
+        "FOLIO-AUDIT.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "doldam",
+      "name": "돌담하우스",
+      "category": "추가 검토",
+      "tag": "제주 · 석재·경량철골",
+      "summary": "의귀리·곽지리·용수리의 단층 외관과 제주석 사용을 살펴보고, 의귀리·곽지리의 경량철골 구조를 구분했습니다.",
+      "works": [
+        "의귀리 단독주택 — 경량철골·단층",
+        "곽지리 숙소 — 경량철골",
+        "용수리 — 단층·제주석"
+      ],
+      "sources": [
+        [
+          "돌담하우스 — 소재지·공정 공유·방문 약속",
+          "https://www.doldamhouse.kr/"
+        ],
+        [
+          "돌담하우스 — 서비스와 경량철골 제안",
+          "https://www.doldamhouse.kr/about.asp?CALLMENU=ABOUT"
+        ],
+        [
+          "의귀리 — 경량철골·기간·마감",
+          "https://www.doldamhouse.kr/portfolio/portfolio_details6.asp?CALLMENU=PORTFOLIO"
+        ],
+        [
+          "곽지리 — 경량철골·외부 레벨 설명",
+          "https://www.doldamhouse.kr/portfolio/portfolio_details2.asp"
+        ],
+        [
+          "용수리 — 단층·층고·제주석",
+          "https://www.doldamhouse.kr/portfolio/portfolio_details3.asp"
+        ]
+      ],
+      "records": [
+        "EXPANDED-REVIEW.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "leah",
+      "name": "레아하우징",
+      "category": "추가 검토",
+      "tag": "제주 · 목조",
+      "summary": "서귀포 기반 목조주택 업체로, 조수리 현장 공정과 회사 소개·포트폴리오를 살펴봤습니다.",
+      "works": [
+        "조수리 현장 — 목골조·기초·공정 게시물"
+      ],
+      "sources": [
+        [
+          "레아하우징 공식 홈페이지 — 현장 게시물 설명",
+          "https://www.leah-housing.com/"
+        ],
+        [
+          "레아하우징 회사 소개 — 공정·사후관리·창 주변 공정 설명",
+          "https://www.leah-housing.com/about-3"
+        ],
+        [
+          "레아하우징 포트폴리오 진입점 — 개별 완공 건수 확정 근거로 미사용",
+          "https://www.leah-housing.com/portfolio"
+        ]
+      ],
+      "records": [
+        "EXPANDED-REVIEW.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "postjeju",
+      "name": "포스트제주",
+      "category": "추가 검토",
+      "tag": "제주 · 폴리오",
+      "summary": "폴리오에서 서홍동·동홍동 주택 관련 시공 이력을 조사하고 신축·증축을 구분해 관찰 후보로 기록했습니다.",
+      "works": [
+        "서홍동 — 2층 주택 기록",
+        "동홍동 — 신축·증축 기록"
+      ],
+      "sources": [
+        [
+          "주택폴리오 — 포스트제주 상세, 제3자 DB",
+          "https://jootek.com/folio/1058185"
+        ]
+      ],
+      "records": [
+        "EXPANDED-REVIEW.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "haeim",
+      "name": "해임건설",
+      "category": "탐색·참고",
+      "tag": "상호·자료 탐색",
+      "summary": "대표자·법인과 설계자 주택 사례를 연결하는 자료를 찾는 단계까지 진행한 탐색 기록입니다.",
+      "works": [],
+      "sources": [],
+      "records": [
+        "SEARCH-LOG.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "ilwoong",
+      "name": "일웅종합건설",
+      "category": "탐색·참고",
+      "tag": "상호·업종 탐색",
+      "summary": "업체 소개와 업종을 검색한 기록이 있습니다. 개별 맞춤주택 사례를 갖춘 비교 목록과는 구분해 보존했습니다.",
+      "works": [],
+      "sources": [],
+      "records": [
+        "FOLIO-AUDIT.md",
+        "EXPANDED-REVIEW.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "dongseong",
+      "name": "동성개발 · 동성 검색 기록",
+      "category": "탐색·참고",
+      "tag": "분양형 주택 단서",
+      "summary": "달 가든하우스 안성의 시유재 설계·동성개발 시공 검색 단서를 기록했습니다. 두 명칭의 동일 법인 여부는 합산 판단하지 않았습니다.",
+      "works": [
+        "달 가든하우스 안성 — 영상 검색 설명"
+      ],
+      "sources": [
+        [
+          "전원주택라이프 영상 검색 경로",
+          "https://www.youtube.com/watch?v=A42Fr8Zcgzs"
+        ]
+      ],
+      "records": [
+        "DUE-DILIGENCE.md",
+        "SEARCH-LOG.md",
+        "FOLIO-AUDIT.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "kumwa",
+      "name": "금와건설",
+      "category": "탐색·참고",
+      "tag": "RC 골조 전문",
+      "summary": "RC 골조 전문 업체로 조사했습니다. 주택 전체를 맡기는 총괄 시공사와 골조 공종의 역할을 구분하는 참고 항목입니다.",
+      "works": [],
+      "sources": [
+        [
+          "공식 회사 소개",
+          "https://www.kumwa.net/"
+        ]
+      ],
+      "records": [
+        "RESEARCH.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    },
+    {
+      "id": "jejubonga",
+      "name": "제주본가",
+      "category": "탐색·참고",
+      "tag": "추가 검색 기록",
+      "summary": "추가 업체 검색에서 살펴본 이름으로, 세부 주택 사례를 갖춘 공통 채점 후보와 구분해 조사 경로를 남겼습니다.",
+      "works": [],
+      "sources": [],
+      "records": [
+        "EXPANDED-REVIEW.md"
+      ],
+      "main": false,
+      "scored": false,
+      "score": null,
+      "rank": null,
+      "points": []
+    }
+  ],
+  "documents": [
+    {
+      "file": "RESEARCH.md",
+      "title": "기초 업체 조사",
+      "description": "업체별 주택 사례·지역 기반·조사 출처",
+      "url": "./records/research.html"
+    },
+    {
+      "file": "PORTFOLIO-REVIEW.md",
+      "title": "다른 후보 포트폴리오",
+      "description": "9개 후보·협업팀의 준공 사례 비교",
+      "url": "./records/portfolio-review.html"
+    },
+    {
+      "file": "DETAIL-REVIEW.md",
+      "title": "결과물 정밀 검토",
+      "description": "설계 의도·조직·사진·공정 기록 대조",
+      "url": "./records/detail-review.html"
+    },
+    {
+      "file": "DUE-DILIGENCE.md",
+      "title": "도급범위·반복 팀",
+      "description": "11개 프로젝트의 공종 범위와 협력사",
+      "url": "./records/due-diligence.html"
+    },
+    {
+      "file": "EXPANDED-REVIEW.md",
+      "title": "추가 후보·판단 보완",
+      "description": "새 후보와 다봄·GAU 반복 협업 보완",
+      "url": "./records/expanded-review.html"
+    },
+    {
+      "file": "FOLIO-AUDIT.md",
+      "title": "폴리오·사업장 조사",
+      "description": "14개 기본 비교 후보와 추가 업체 검토",
+      "url": "./records/folio-audit.html"
+    },
+    {
+      "file": "RANKING.md",
+      "title": "공통 채점과 순위",
+      "description": "13개 후보의 배점·항목별 근거",
+      "url": "./records/ranking.html"
+    },
+    {
+      "file": "SEARCH-LOG.md",
+      "title": "조사 경로와 진행 기록",
+      "description": "매체·협회·설계자·업체·기업정보 조사 경로",
+      "url": "./records/search-log.html"
+    }
+  ]
+}
