@@ -1,5 +1,20 @@
 # Jeju Proposal — 제주 주택 시공사 검토
 
+## 공개 페이지
+
+**[제주 시공사 포트폴리오 열기](https://jeju-proposal.vercel.app/)** — 로그인 없이 볼 수 있는 프로덕션 페이지입니다.
+
+하백·이아 6개 / GAU 6개 / 아틀리에 3개, 총 15개 프로젝트를 비교합니다. 대표 사진 12장 확대, 업체·RC 필터, 검색, 상세 근거, 프로젝트별 공유 링크, 비교표·인쇄를 제공합니다. 기존 공동 1위 78점·공동 1위 78점·3위 60점은 임의 변경하지 않았습니다.
+
+- `public-portfolio.html` / `portfolio-data.json`: 새 공개 포털과 구조화된 포트폴리오.
+- `overview.html`: 개편 직전 메인 페이지 동일 원본 보존본.
+- `api/public-site.mjs` / `vercel.json`: GitHub master 공개 원본을 읽는 Vercel 전달 구성.
+- [DEPLOYMENT.md](DEPLOYMENT.md): 연결 방식·캐시·공개 범위·네이티브 Git 연동과의 차이.
+- [PUBLIC-VERIFICATION.md](PUBLIC-VERIFICATION.md): 로그인 없는 11개 경로 HTTP 200, 대표 사진 12장, 화면·기능 검사와 한계.
+- [PORTFOLIO-UPDATE-20260915.md](PORTFOLIO-UPDATE-20260915.md): 이번 변경 범위·근거·혼동 방지.
+
+현재 연결은 **GitHub 원본 전달 방식**이며 Vercel의 커밋별 자동 빌드(Git Integration)와 다릅니다. HTML·포트폴리오 데이터는 master 커밋 후 캐시 갱신에 따라 반영되며, 함수 코드·배포 설정은 재배포가 필요합니다.
+
 현재 목적은 **기존 설계를 유지한 제주 주택 시공사 선정 준비**입니다. 과거 HTML의 도면·공간 구성은 현재 설계가 아닙니다.
 
 - `ranking.html` / `RANKING.md`: 13개 후보의 공통 채점·항목별 근거·가중치 민감도
@@ -8,7 +23,8 @@
 - `responsibility-review.json` / `build_responsibility.py`: 상세 원문 검증 데이터·기존 검토 페이지 통합 생성기
 - `portfolio.html` / `PORTFOLIO-REVIEW.md`: 다른 9개 후보의 실제 시공 포트폴리오·근거 수준·혼동 방지
 - `portfolio-review.json` / `build_portfolio.py`: 포트폴리오 검증 데이터·생성기
-- `index.html`: 13개 업체·협업팀, 설계 조건, 검증 질문, 견적 준비
+- `overview.html`: 기존 13개 업체·협업팀, 설계 조건, 검증 질문, 견적 준비
+- `index.html`: 최신 공개 포털로 연결
 - `review.html` / `DETAIL-REVIEW.md`: 업체의 가치·조직·결과물 사진·성능 기록을 연결한 3차 판단 (호미·솔비나무집·인증번호·공정 사진 추가)
 - `detail-review.json` / `build_review.py`: 정밀 검토 데이터와 생성기
 - `research.json`: 출처와 연결된 실적·판단·미확인 항목
@@ -33,16 +49,18 @@
 
 ## 수정·열기
 
-`research.json`과 `build.py`를 수정한 뒤 `python build.py`를 실행합니다. 정적 HTML이라 `index.html`을 열면 됩니다. 설치는 필요 없습니다. 외부 이미지는 인터넷 연결이 필요합니다.
+새 공개 포털은 `public-portfolio.html`과 `portfolio-data.json`을 수정합니다. `node tests/check.mjs`로 기본 검사를 실행할 수 있습니다. 브라우저 모의 검사는 `tests/browser-check.py`이며 Playwright와 Chromium이 필요합니다. 공개 주소는 위 Vercel 링크를 사용합니다.
+
+기존 `research.json`과 `build.py` 및 다른 조사 생성기는 보존했습니다. `python build.py`는 기존 조사용 index를 다시 생성합니다. Vercel의 루트는 별도로 `public-portfolio.html`을 읽으므로 이 작업이 새 포털을 덮어쓰지는 않습니다. 기존 조사 메인 보존본은 `overview.html`입니다.
 
 기존 원본은 Git 커밋 `0f29504a5fcdbecdaae698844af4e05e9438fe2d`에 그대로 남아 있습니다. 보존본에는 현재 미사용 안내와 이미지 경로용 base 요소만 추가했습니다. 루트 `2nd.html`, `stone.html`은 기존 링크 호환을 위해 보존본으로 연결합니다.
 
-메일 원문·첨부·사적 연락처·가족 배경은 공개 저장소에 복사하지 않았습니다. 상세 근거는 페이지의 출처·한계에서 확인하십시오.
+이번 공개 포털에는 메일 원문·첨부·가족 배경·사적 연락처를 추가하지 않았습니다. 과거 도면 경로는 Vercel 전달 허용 목록에서 제외했습니다. 기존 사진집에 있던 사용자 제공 휴대전화는 공개 전달본에서 가리되 GitHub 원본은 보존합니다. 공개 저장소 자체의 접근 범위와 Vercel 전달 범위는 서로 다릅니다.
 
 ## 2026-09-15 추가 검증
 
 [심층 조사](EXPANDED-REVIEW.md): 다봄 RC 2건·반복 협업과 소원재 6년차 거주자의 공정 불만을 함께 반영했습니다. GAU 항심당·월정리 RC 실적과 A/S 약속의 구체성도 대조했습니다. [채점표](RANKING.md)의 다봄은 32→57점으로 수정하되 현재 법인 연결과 보수 경위 확인 전 조건부입니다.
 
-## 세 업체 준공 사진집
+## 이전 세 업체 준공 사진집
 
-[contractor-gallery.html](contractor-gallery.html) — 하백·이아컴퍼니 2개, GAU 3개, 다봄 5개 대표 프로젝트 / 사진 26장. 원문 출처와 설계자·사진가를 표시하고 구조를 구분했습니다. 사진은 파일에 포함되어 별도 다운로드 없이 열리며, 원문 링크에는 인터넷 연결이 필요합니다. 다봄 전화번호는 사용자가 제공한 연락처입니다.
+[contractor-gallery.html](https://jeju-proposal.vercel.app/contractor-gallery.html) — 하백·이아컴퍼니 2개, GAU 3개, 다봄 5개 대표 프로젝트 / 사진 26장. 원문 출처와 설계자·사진가를 표시하고 구조를 구분했습니다. GitHub 원본은 사진을 내장한 단일 HTML이며, Vercel 공개 전달본에서는 이미지를 별도 응답으로 분리합니다. 현재 상위 세 업체는 새 포털에서 확인하십시오.
