@@ -1,0 +1,46 @@
+name: Production research page verification
+on:
+  push:
+    branches: [master]
+    paths: ['.github/workflows/research-live-check.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false playwright@1.55.0
+      - run: npx playwright install --with-deps chromium
+      - name: Check production content is present
+        run: |
+          node - <<'JS'
+          (async()=>{
+            for(let attempt=0;attempt<20;attempt++){
+              try{
+                const r=await fetch('https://jeju-proposal.vercel.app/research/catalog.json?verify='+Date.now());
+                const data=await r.json();
+                if(r.ok&&data.stats.total===24&&data.stats.documents===8){console.log('Production research catalog ready');return;}
+              }catch{}
+              await new Promise(r=>setTimeout(r,3000));
+            }
+            throw Error('Production research catalog not ready');
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - name: Verify live site in unauthenticated Chromium
+        env:
+          BASE_URL: https://jeju-proposal.vercel.app/
+        run: node site-v3/research-check.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: research-production-check
+          path: site-v3/qa/research-*
+          retention-days: 14
