@@ -1,0 +1,66 @@
+name: Complete contractor research page
+on:
+  push:
+    branches: [master]
+    paths: ['site-v3/research-update.part*', '.github/workflows/research-page.yml', 'site-v3/research-roster.json', 'site-v3/research-build.cjs', 'site-v3/research-check.cjs', 'research/research.css', 'research/research.js']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: portfolio-media
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Restore reviewed text sources
+        shell: bash
+        run: |
+          python - <<'PY'
+          import pathlib,base64,lzma,json,hashlib
+          root=pathlib.Path('.')
+          parts=[root/'site-v3/research-update.part1',root/'site-v3/research-update.part2']
+          allowed={'site-v3/research-roster.json','site-v3/research-build.cjs','site-v3/research-check.cjs','site-v3/stage-root.cjs','research/research.css','research/research.js'}
+          if any(p.exists() for p in parts):
+              assert all(p.exists() for p in parts),'Incomplete text source transfer'
+              packed=''.join(p.read_text().strip() for p in parts)
+              raw=lzma.decompress(base64.b64decode(packed,validate=True))
+              assert hashlib.sha256(raw).hexdigest()=='485de335c758dbebba79ec15b69bf15306bb998e70e96f105140ac0bf939f190'
+              files=json.loads(raw)
+              assert set(files)==allowed
+              for name,text in files.items():
+                  assert isinstance(text,str)
+                  p=root/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text,encoding='utf-8')
+              for p in parts:p.unlink()
+          assert all((root/name).is_file() for name in allowed)
+          print('Restored six reviewed UTF-8 text sources; historical research and images unchanged.')
+          PY
+      - name: Build main page and complete research library
+        run: node site-v3/stage-root.cjs
+      - run: npm install --no-save --package-lock=false playwright@1.55.0
+      - run: npx playwright install --with-deps chromium
+      - name: Test actual browser navigation and all 178 images
+        run: node site-v3/research-check.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: complete-research-page-check
+          path: |
+            site-v3/qa/research-*
+            research/
+          retention-days: 14
+      - name: Commit tested source files and pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site-v3/research-roster.json site-v3/research-build.cjs site-v3/research-check.cjs site-v3/stage-root.cjs research index.html public-portfolio.html site-v3/published/index.html site-v3/qa/research-report.json
+          git add -u site-v3/research-update.part1 site-v3/research-update.part2 || true
+          git diff --cached --quiet && exit 0
+          git commit -m 'Publish 24-entry contractor research library and main-page research overview after browser checks [skip ci]'
+          git pull --rebase origin master
+          git push origin HEAD:master
