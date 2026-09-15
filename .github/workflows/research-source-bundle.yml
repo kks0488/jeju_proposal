@@ -1,0 +1,32 @@
+name: Existing research source bundle
+on:
+  push:
+    branches: [master]
+    paths: ['.github/workflows/research-source-bundle.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/upload-artifact@v4
+        with:
+          name: existing-research-source
+          path: |
+            *.md
+            *.json
+            index.html
+            *.py
+            site-v3/*.cjs
+            site-v3/*.mjs
+            site-v3/*.html
+            site-v3/*.js
+            site-v3/*.css
+            site-v3/published/catalog.json
+            site-v3/published/index.html
+          retention-days: 3
