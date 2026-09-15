@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "delivery": "real browser against locally served static build, no request mocking",
+  "reports": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "jsErrors": [],
+      "failedRequests": [],
+      "filters": true,
+      "modal": true,
+      "horizontalOverflow": false,
+      "visibleImagesDecoded": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "jsErrors": [],
+      "failedRequests": [],
+      "filters": true,
+      "modal": true,
+      "horizontalOverflow": false,
+      "visibleImagesDecoded": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "jsErrors": [],
+      "failedRequests": [],
+      "filters": true,
+      "modal": true,
+      "horizontalOverflow": false,
+      "visibleImagesDecoded": true
+    },
+    {
+      "viewport": [
+        320,
+        700
+      ],
+      "jsErrors": [],
+      "failedRequests": [],
+      "filters": true,
+      "modal": true,
+      "horizontalOverflow": false,
+      "visibleImagesDecoded": true
+    },
+    {
+      "allStoredImages": 178,
+      "decoded": 178,
+      "broken": [],
+      "projectDeepLink": true
+    }
+  ]
+}
