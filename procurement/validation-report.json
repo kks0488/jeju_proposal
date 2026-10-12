@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": {
+    "drawing_id_candidates": 89,
+    "rfi": 25,
+    "rfi_p0": 5,
+    "scope_rows": 61,
+    "equipment_rows": 19,
+    "evidence_records": 343,
+    "html_pages": 15,
+    "local_links_checked": 900
+  },
+  "errors": [],
+  "cad_visual_check": false,
+  "verified_quantity_takeoff": false,
+  "scope": "public JSON cross-references, draft guardrails, empty bid semantics and static HTML links"
+}

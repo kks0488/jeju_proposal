@@ -17,3 +17,7 @@ The hook does not auto-stage, auto-commit, or upload mere file saves. A failed p
 
 Hooks are local to this clone, not carried by a Git clone. In other environments, perform the same reviewed workflow and a normal explicit push. Do not assume background bidirectional synchronization. Repository visibility stays unchanged. Temporarily opt out on this clone with `git config project.autopushEnabled false`; re-enable with `true` only when publishing is intended.
 <!-- END_REVIEWED_GITHUB_SYNC_20260916 -->
+
+## Procurement review workspace
+
+For CAD evidence, drawing/RFI registers, and contractor RFQ materials, first read `procurement/AGENTS.md`. The public procurement package contains reviewed excerpts and empty templates only; original CAD, internal comments, and filled contractor bids stay private. After gallery regeneration, rerun `procurement/scripts/build.py` to preserve the procurement entry links.

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kks0488.github.io/jeju_proposal/procurement/data/bid-schema.json",
+  "title": "제주 공통 견적 회신 초안 — 비공개 작성본",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "package_id",
+    "status",
+    "bidder",
+    "basis",
+    "items",
+    "summary",
+    "comparison"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "package_id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "template_not_submitted",
+        "draft",
+        "submitted",
+        "reviewed"
+      ]
+    },
+    "bidder": {
+      "type": "object"
+    },
+    "basis": {
+      "type": "object",
+      "required": [
+        "currency",
+        "quantity_mode",
+        "accepted_addenda"
+      ],
+      "properties": {
+        "currency": {
+          "const": "KRW"
+        },
+        "quantity_mode": {
+          "enum": [
+            null,
+            "owner_common_quantities",
+            "bidder_takeoff"
+          ]
+        },
+        "accepted_addenda": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "item_id",
+          "name",
+          "unit",
+          "cost_bucket",
+          "quote_status",
+          "quantity",
+          "amount_ex_vat"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "pattern": "^[A-Z]+-[0-9]{2}(?:-[0-9]{2})?$"
+          },
+          "quote_status": {
+            "enum": [
+              "not_priced",
+              "fixed_measured",
+              "fixed_lump_sum",
+              "included_elsewhere",
+              "excluded",
+              "optional",
+              "provisional_sum",
+              "not_applicable"
+            ]
+          },
+          "quantity": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "amount_ex_vat": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "combined_unit_price": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "included_in_item_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object"
+    },
+    "comparison": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "not_comparable",
+            "needs_clarification",
+            "comparable_after_normalization"
+          ]
+        },
+        "normalized_base_ex_vat": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

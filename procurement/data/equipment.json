@@ -1,0 +1,338 @@
+{
+  "status": "schedule_transcription_not_verified_takeoff",
+  "items": [
+    {
+      "id": "P-1",
+      "name": "난탕순환펌프",
+      "reported_quantity": 2,
+      "unit": "EA",
+      "spec_observed": "95 LPM / 양정 5m / 0.2kW",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAB24",
+        "M:EAB26",
+        "M:EAB27",
+        "M:EAB2C",
+        "M:EAB29",
+        "M:EAB2D",
+        "M:EAB2B"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "T-1",
+      "name": "기름탱크",
+      "reported_quantity": 1,
+      "unit": "EA",
+      "spec_observed": "600 LIT / SS41 / 600×800×1,220mm",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAABD",
+        "M:EAABF",
+        "M:EAAC4",
+        "M:EAACB",
+        "M:EAAC8",
+        "M:EAAD7"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "B-1",
+      "name": "기름 보일러(난방/온수)",
+      "reported_quantity": 1,
+      "unit": "EA",
+      "spec_observed": "50,000 kcal/h; 업체 협의 후 용량 선정 주기",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAADF",
+        "M:EAAF9",
+        "M:EAB02",
+        "M:EAAFB",
+        "M:EAAFD"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "F-1",
+      "name": "화장실 환기휀",
+      "reported_quantity": 4,
+      "unit": "EA",
+      "spec_observed": "220 CMH / 33 W / 댐퍼 부착형",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAA98",
+        "M:EAA95",
+        "M:EAAB4",
+        "M:EAA9C",
+        "M:EAAA3",
+        "M:EAAAB"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "W-1",
+      "name": "양변기",
+      "reported_quantity": 3,
+      "unit": "EA",
+      "spec_observed": "절수형 / 모델 최종 승인 필요",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAA64",
+        "M:EAA68",
+        "M:EAA8B",
+        "M:EAA6E",
+        "M:EAA75"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "L-1",
+      "name": "각형 세면기",
+      "reported_quantity": 3,
+      "unit": "EA",
+      "spec_observed": "언더카운터; 카운터·화장경 건축공사",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAA70",
+        "M:EAA71",
+        "M:EAA8C",
+        "M:EAA6F",
+        "M:EAA76"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "SH-1",
+      "name": "샤워기",
+      "reported_quantity": 2,
+      "unit": "EA",
+      "spec_observed": "선반형 레인샤워",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAA86",
+        "M:EAA87",
+        "M:EAA8F",
+        "M:EAA88"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "BU-1",
+      "name": "욕조",
+      "reported_quantity": 2,
+      "unit": "EA",
+      "spec_observed": "마블 욕조 / 절수형 수전",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAB35",
+        "M:EAB36",
+        "M:EAB3A",
+        "M:EAB37"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "SINK-1",
+      "name": "싱크수전",
+      "reported_quantity": 3,
+      "unit": "EA",
+      "spec_observed": "Ø15 싱글레버 절수형",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAA79",
+        "M:EAA7A",
+        "M:EAA8D",
+        "M:EAA7B"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "FAUCET-UNNUMBERED",
+      "name": "Ø15 수전",
+      "reported_quantity": 7,
+      "unit": "EA",
+      "spec_observed": "비고 부동수전 5EA — 합계7과의 구성 확인",
+      "source_sheet": "M-02",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:EAA7F",
+        "M:EAA8E",
+        "M:EAA80"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "IAC-20",
+      "name": "IAC-20",
+      "reported_quantity": 2,
+      "unit": "EA",
+      "spec_observed": "1WAY 카세트",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E684E",
+        "M:E6845"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "IAC-23",
+      "name": "IAC-23",
+      "reported_quantity": 1,
+      "unit": "EA",
+      "spec_observed": "형식·성능표 대조 필요",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E6848",
+        "M:E684F"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "IAC-32",
+      "name": "IAC-32",
+      "reported_quantity": 2,
+      "unit": "EA",
+      "spec_observed": "형식·성능표 대조 필요",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E6849",
+        "M:E6850"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "IAC-40",
+      "name": "IAC-40",
+      "reported_quantity": 2,
+      "unit": "EA",
+      "spec_observed": "형식·성능표 대조 필요",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E684A",
+        "M:E6851"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "IAC-52",
+      "name": "IAC-52",
+      "reported_quantity": 1,
+      "unit": "EA",
+      "spec_observed": "형식·성능표 대조 필요",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E684B",
+        "M:E6852"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "IAC-60A",
+      "name": "IAC-60A",
+      "reported_quantity": 1,
+      "unit": "EA",
+      "spec_observed": "4WAY 표기 위치 대조 필요",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E684C",
+        "M:E6853"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "IAC-145A",
+      "name": "IAC-145A",
+      "reported_quantity": 2,
+      "unit": "EA",
+      "spec_observed": "4WAY 표기 위치 대조 필요",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E684D",
+        "M:E6854"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "OAC-10",
+      "name": "OAC-10",
+      "reported_quantity": 1,
+      "unit": "EA",
+      "spec_observed": "실외기 / 용량 확정 필요",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E6837",
+        "M:E6839"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    },
+    {
+      "id": "OAC-12",
+      "name": "OAC-12",
+      "reported_quantity": 1,
+      "unit": "EA",
+      "spec_observed": "실외기 / 용량 확정 필요",
+      "source_sheet": "MA-01",
+      "source_id": "M",
+      "evidence_refs": [
+        "M:E683D",
+        "M:E6838"
+      ],
+      "verified_quantity": null,
+      "location_count_verified": false,
+      "approved_for_order": false
+    }
+  ]
+}

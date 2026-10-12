@@ -1,0 +1,1511 @@
+{
+  "schema_version": "1.0",
+  "meaning": "도면 목록표 또는 본문 번호에서 식별한 도면번호 후보. 발행된 PDF 시트 수 또는 설계 완성도 아님.",
+  "drawings": [
+    {
+      "id": "A-001",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "도면목록표",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA79",
+        "A:AA7A"
+      ],
+      "scale_text": [
+        "1 / NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-002",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "실내재료마감표",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA80",
+        "A:AA81"
+      ],
+      "scale_text": [
+        "1 / NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-003",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "실내재료마감 상세도-1",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AABA",
+        "A:3D26C"
+      ],
+      "scale_text": [
+        "1 / NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-004",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "실내재료마감 상세도-2",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:3D26B",
+        "A:3D26D"
+      ],
+      "scale_text": [
+        "1 / NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-101",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "건물배치도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA83",
+        "A:AA3F"
+      ],
+      "scale_text": [
+        "1 / 600"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-102",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "조경,주차,오우수처리계획도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA84",
+        "A:AA40"
+      ],
+      "scale_text": [
+        "1 / 600"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-103",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "우수처리계획도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA85",
+        "A:AA41"
+      ],
+      "scale_text": [
+        "1 / 150"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-104",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "대지종횡단면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA86",
+        "A:AB46"
+      ],
+      "scale_text": [
+        "1 / 200"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-105",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "신청대지면적구적도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA87",
+        "A:AA8B"
+      ],
+      "scale_text": [
+        "1 / 600"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-106",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "바닥면적산출도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA88",
+        "A:AA89"
+      ],
+      "scale_text": [
+        "1 / 200"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-107",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "다락가중평균높이산정표",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AB4E",
+        "A:AB4A"
+      ],
+      "scale_text": [
+        "1 / 200"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-201",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "지상1층 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA8C",
+        "A:AA47"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-202",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "다락 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA8D",
+        "A:AA8E"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-203",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "지붕 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AB4F",
+        "A:AB50"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-301",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "남측면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA92",
+        "A:AA90"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-302",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "서측면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA93",
+        "A:AA94"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-303",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "동측면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AB53",
+        "A:AB54"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-304",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "북측면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AB56",
+        "A:AB57"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-401",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면도-1",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA99",
+        "A:AA7D"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-402",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면도-2",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA9A",
+        "A:AA9E"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-403",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면도-3",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA9B",
+        "A:AA9F"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-404",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면도-4",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA9C",
+        "A:AAA0"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-405",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면도-5",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AA9D",
+        "A:AAA1"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-406",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면도-6",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AB2E",
+        "A:AB2F"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-407",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "부분단면도-1",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:3D270",
+        "A:3D271"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-501",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "지상1층창호평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AAA6",
+        "A:AAA4"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-502",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "다락 창호평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AAA7",
+        "A:AB5C"
+      ],
+      "scale_text": [
+        "1 / 100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-503",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "창호도-1",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AAA8",
+        "A:AAA9"
+      ],
+      "scale_text": [
+        "1 / 60"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-504",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "창호도-2",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AB58",
+        "A:AB59"
+      ],
+      "scale_text": [
+        "1 / 60"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-601",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면상세도-1",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AAB4",
+        "A:AAB3"
+      ],
+      "scale_text": [
+        "1 / 20"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-602",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면상세도-2",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:AABC",
+        "A:3D273"
+      ],
+      "scale_text": [
+        "1 / 20"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-603",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "단면상세도-3",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:3D275",
+        "A:3D274"
+      ],
+      "scale_text": [
+        "1 / 20"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-604",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "재료분리대 상세도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:3D276",
+        "A:3D278"
+      ],
+      "scale_text": [
+        "1 / 10"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-605",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "경량칸막이 상세도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:3D277",
+        "A:3D279"
+      ],
+      "scale_text": [
+        "1 / 10"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "A-606",
+      "source_id": "A",
+      "discipline": "A",
+      "title": "잡상세도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "A:3D27B",
+        "A:3D27A"
+      ],
+      "scale_text": [
+        "1 / 10"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-000",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "도면 목록표 (전기)",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:2C89C",
+        "E:2C89B"
+      ],
+      "scale_text": [
+        "1/NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-001",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "범례 및 주기사항 (전기)",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:2C89D",
+        "E:2C8A2"
+      ],
+      "scale_text": [
+        "1/NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-002",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "분전반 결선도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:2C8A1",
+        "E:45A18"
+      ],
+      "scale_text": [
+        "1/NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-003",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "전력설비 간선 계통도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:2C8A0",
+        "E:2C8AA"
+      ],
+      "scale_text": [
+        "1/NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-004",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "전력설비 인입 배치도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:2C89F",
+        "E:2C8B3"
+      ],
+      "scale_text": [
+        "1/600"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-005",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "지상1층 전열설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:2C8A9",
+        "E:2C890"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-006",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "다락층 전열설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:31073",
+        "E:2C8B5"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-007",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "지상1층 전등설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:31074",
+        "E:31072"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-008",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "다락층 전등설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:3107D",
+        "E:31075"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-009",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "지상1층 냉방설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:459A7",
+        "E:3107C"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-010",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "다락층 냉방설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:3107F",
+        "E:459A8"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-011",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "지상1층 난방설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:459AE",
+        "E:3107E"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-012",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "다락층 난방설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:459B0",
+        "E:459AD"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "E-013",
+      "source_id": "E",
+      "discipline": "E",
+      "title": "지상1층 소방설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:45A17",
+        "E:459AF"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-01",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "도 면 목 록 표 및 범 례",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6A2",
+        "M:EC6C1"
+      ],
+      "scale_text": [
+        "A1 : NONE",
+        "A3 : NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-02",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "장 비 및 위 생 기 구 일 람 표",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6A3",
+        "M:EC785"
+      ],
+      "scale_text": [
+        "A1 : NONE",
+        "A3 : NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-03",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "위 생 배 관 계 통 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6A4",
+        "M:EC786"
+      ],
+      "scale_text": [
+        "A1 : NONE",
+        "A3 : NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-04",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "옥 외 위 생 배 관 평 면 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6A5",
+        "M:EC78B"
+      ],
+      "scale_text": [
+        "A1 : 1/300",
+        "A3 : 1/600"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-05",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "1 층 급 수, 급 탕 배 관 평 면 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6A6",
+        "M:EC78C"
+      ],
+      "scale_text": [
+        "A1 : 1/50",
+        "A3 : 1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-06",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "보 일 러 실 급 수, 급 탕 배 관 평 면 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6A7",
+        "M:EC78F"
+      ],
+      "scale_text": [
+        "A1 : 1/50",
+        "A3 : 1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-07",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "1 층 오, 배 수 배 관 평 면 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6A8",
+        "M:EC7A6"
+      ],
+      "scale_text": [
+        "A1 : 1/50",
+        "A3 : 1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-08",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "1 층 난 방 배 관 평 면 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6A9",
+        "M:EC792"
+      ],
+      "scale_text": [
+        "A1 : 1/50",
+        "A3 : 1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-09",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "보 일 러 실 난 방 배 관 평 면 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6B8",
+        "M:EC7B5"
+      ],
+      "scale_text": [
+        "A1 : 1/50",
+        "A3 : 1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "M-10",
+      "source_id": "M",
+      "discipline": "M",
+      "title": "배 관 일 반 상 세 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC6B9",
+        "M:EC77A"
+      ],
+      "scale_text": [
+        "A1 : NONE",
+        "A3 : NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "MA-01",
+      "source_id": "M",
+      "discipline": "MA",
+      "title": "냉 방 장 비 일 람 표",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC79C",
+        "M:EC799"
+      ],
+      "scale_text": [
+        "A1 : NONE",
+        "A3 : NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "MA-02",
+      "source_id": "M",
+      "discipline": "MA",
+      "title": "1 층 냉 방 배 관 평 면 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC79D",
+        "M:EC79F"
+      ],
+      "scale_text": [
+        "A1 : 1/50",
+        "A3 : 1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "MA-03",
+      "source_id": "M",
+      "discipline": "MA",
+      "title": "보 일 러 실 냉 방 배 관 평 면 도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "M:EC79E",
+        "M:EC798"
+      ],
+      "scale_text": [
+        "A1 : 1/50",
+        "A3 : 1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-001",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-1",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:124FC",
+        "A:124FD"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-002",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-2",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:124FF",
+        "A:12500"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-003",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-3",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:12502",
+        "A:12503"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-004",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-4",
+      "status": "duplicate_number_locations",
+      "evidence_refs": [
+        "A:12505",
+        "A:12520",
+        "A:12506"
+      ],
+      "number_location_count": 2,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-005",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-5",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:12508",
+        "A:12509"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-006",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-6",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:1250B",
+        "A:1250C"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-007",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-7",
+      "status": "duplicate_number_locations",
+      "evidence_refs": [
+        "A:1250E",
+        "A:12523",
+        "A:1250F"
+      ],
+      "number_location_count": 2,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-008",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-8",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:12511",
+        "A:12512"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-009",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-9",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:12514",
+        "A:12515"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-010",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-10",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:12517",
+        "A:12518"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-011",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-11",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:1251A",
+        "A:1251B"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-012",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "철근콘크리트구조일반사항-12",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:1251D",
+        "A:1251E"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-201",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "지상1층 구조평면도",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:9A95",
+        "A:BC0A"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-202",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "다락 구조평면도",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:9BC7",
+        "A:BC0C"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-203",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "지붕 구조평면도",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:9BC2",
+        "A:BC0E"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-301",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "슬라브 철근배근 일람표",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:9BEA",
+        "A:BC10"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-302",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "보 철근배근 일람표-1",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:9BEC",
+        "A:BC11"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-303",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "보 철근배근 일람표-2",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:9BEE",
+        "A:BC13"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-304",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "벽체 철근배근 일람표-1",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:9BF0",
+        "A:BC15"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-305",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "제목 미확인 — 번호만 검출",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:9BF2"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "S-306",
+      "source_id": "A",
+      "discipline": "S",
+      "title": "제목 미확인 — 번호만 검출",
+      "status": "body_number_detected",
+      "evidence_refs": [
+        "A:B62F"
+      ],
+      "number_location_count": 1,
+      "scale_text": [],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "T-000",
+      "source_id": "E",
+      "discipline": "T",
+      "title": "도면 목록표 (통신)",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:1E147",
+        "E:1E146"
+      ],
+      "scale_text": [
+        "1/NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "T-001",
+      "source_id": "E",
+      "discipline": "T",
+      "title": "범례 및 주기사항 (통신)",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:1E148",
+        "E:1E14D"
+      ],
+      "scale_text": [
+        "1/NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "T-002",
+      "source_id": "E",
+      "discipline": "T",
+      "title": "통신설비 간선 계통도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:1E14C",
+        "E:1E155"
+      ],
+      "scale_text": [
+        "1/NONE"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "T-003",
+      "source_id": "E",
+      "discipline": "T",
+      "title": "통신설비 인입 배치도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:1E14B",
+        "E:1E15E"
+      ],
+      "scale_text": [
+        "1/600"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "T-004",
+      "source_id": "E",
+      "discipline": "T",
+      "title": "지상1층 통신설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:1E14A",
+        "E:1E13B"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    },
+    {
+      "id": "T-005",
+      "source_id": "E",
+      "discipline": "T",
+      "title": "다락층 통신설비 평면도",
+      "status": "index_row_detected",
+      "evidence_refs": [
+        "E:1E154",
+        "E:1E160"
+      ],
+      "scale_text": [
+        "1/100"
+      ],
+      "issue_date": null,
+      "revision": null,
+      "issued_sheet_verified": false
+    }
+  ]
+}

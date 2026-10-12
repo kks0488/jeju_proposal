@@ -1,0 +1,377 @@
+{
+  "passed": true,
+  "scope": "Chrome offline DOM/layout/navigation smoke; not CAD/PDF visual validation or cross-browser certification",
+  "pageConfigurations": 60,
+  "viewports": [
+    390,
+    1440
+  ],
+  "schemes": [
+    "light",
+    "dark"
+  ],
+  "cad_visual_check": false,
+  "errors": [],
+  "results": [
+    {
+      "file": "ADDENDUM.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "AGENTS.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "BID-RETURN.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "DRAWING-REGISTER.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "DRAWING-REVIEW.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "EQUIPMENT.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "EVIDENCE.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "PREPARATION.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "QUANTITY-PROTOCOL.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "REQUIREMENTS.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "RESPONSIBILITY.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "RFI.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "RFQ.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "SCOPE.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "ADDENDUM.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "AGENTS.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "BID-RETURN.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "DRAWING-REGISTER.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "DRAWING-REVIEW.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "EQUIPMENT.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "EVIDENCE.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "PREPARATION.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "QUANTITY-PROTOCOL.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "REQUIREMENTS.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "RESPONSIBILITY.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "RFI.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "RFQ.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "SCOPE.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "ADDENDUM.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "AGENTS.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "BID-RETURN.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "DRAWING-REGISTER.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "DRAWING-REVIEW.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "EQUIPMENT.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "EVIDENCE.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "PREPARATION.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "QUANTITY-PROTOCOL.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "REQUIREMENTS.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "RESPONSIBILITY.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "RFI.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "RFQ.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "SCOPE.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "ADDENDUM.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "AGENTS.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "BID-RETURN.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "DRAWING-REGISTER.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "DRAWING-REVIEW.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "EQUIPMENT.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "EVIDENCE.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "PREPARATION.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "QUANTITY-PROTOCOL.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "REQUIREMENTS.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "RESPONSIBILITY.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "RFI.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "RFQ.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "SCOPE.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    }
+  ]
+}

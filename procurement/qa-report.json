@@ -1,0 +1,19 @@
+{
+  "baseline_commit": "21a56eee814e781f0dcb41a1325fc7104244712b",
+  "public_package_validation": "passed",
+  "bid_validator_synthetic_tests": 14,
+  "extractor_smoke": "synthetic text / mtext / block attribute passed",
+  "gallery_preservation": "after removing two new entry blocks, both HTML files equal original HEAD byte-for-byte",
+  "build_idempotence": "passed",
+  "browser_smoke": "60 page/viewport/appearance configurations passed; browser-report.json",
+  "legacy_npm_test": {
+    "status": "pre_existing_failure_reproduced_on_pristine_HEAD",
+    "error": "Base template changed; review transformation",
+    "changed_in_this_update": false
+  },
+  "limits": [
+    "No original CAD/PDF visual validation",
+    "No verified quantity takeoff",
+    "No Vercel deployment claimed"
+  ]
+}

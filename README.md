@@ -1,5 +1,14 @@
 # 제주 주택 시공사 비교 — 하백 · GAU · 다봄
 
+<!--procurement-readme-start-->
+## 2026-10-12 도면 검토·견적 준비 추가
+
+**[도면·견적 준비 자료](procurement/README.md)** · **[브라우저로 보기](https://kks0488.github.io/jeju_proposal/procurement/)**
+
+업로드된 DWG 3개의 1차 검토, 설계 질의 25건, 공통 견적항목 61개, 업체 견적요청·회신 양식을 추가했습니다. 기존 주택 계획과 도면상 사무소 용도는 확인이 필요하며, 아직 확정 물량/발행본이 아닙니다. 기존 갤러리·업체 조사·순위는 보존했습니다. 에이전트는 [procurement/AGENTS.md](procurement/AGENTS.md)를 먼저 읽으세요.
+<!--procurement-readme-end-->
+
+
 ## 최신 공개 갤러리
 
 **[새 정적 갤러리](https://kks0488.github.io/jeju_proposal/site-v3/published/)**
