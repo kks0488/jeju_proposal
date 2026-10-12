@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-13",
+  "sources": [
+    {
+      "id": "REV-01",
+      "title": "DOE HVAC proper sizing",
+      "url": "https://bsesc.energy.gov/energy-basics/hvac-proper-sizing-hvac-systems",
+      "scope": "부하계산과 장비선정의 구분; 임의경험법 과대선정 위험. 미국법을 한국 의무규정으로 옮기지 않음."
+    },
+    {
+      "id": "REV-02",
+      "title": "GitHub Pages static hosting",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "scope": "현재 정적HTML 자체에는 서버 인증/비공개 DB 저장이 없음."
+    },
+    {
+      "id": "REV-03",
+      "title": "Supabase email OTP",
+      "url": "https://supabase.com/docs/guides/auth/auth-email-passwordless",
+      "scope": "비밀번호 없는 이메일OTP/일회용링크 지원. 초대/소속검증은 별도."
+    },
+    {
+      "id": "REV-04",
+      "title": "Supabase Row Level Security",
+      "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+      "scope": "DB행마다 업체/프로젝트 권한 강제. UI의 회사명/URL만 신뢰하지 않음."
+    },
+    {
+      "id": "REV-05",
+      "title": "OWASP Authorization",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html",
+      "scope": "기본차단·모든요청 권한검사·개체 접근통제."
+    },
+    {
+      "id": "REV-06",
+      "title": "Supabase custom SMTP",
+      "url": "https://supabase.com/docs/guides/auth/auth-smtp",
+      "scope": "외부업체 OTP를 운영하려면 실제 메일발송 설정/도달성 검증 필요."
+    }
+  ]
+}

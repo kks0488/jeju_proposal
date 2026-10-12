@@ -1,11 +1,11 @@
 # 제주 주택 시공사 비교 — 하백 · GAU · 다봄
 
 <!--procurement-readme-start-->
-## 주택 건축주 지정사양 R1 — 시공사 견적 요청
+## 주택 비교견적 제안 R2 — A참조와 B업체추천
 
-**[시공사 전달용 통합 사양서](https://kks0488.github.io/jeju_proposal/procurement/contractor/)** · **[전달용 ZIP](procurement/jeju-house-contractor-R1.zip)** · **[건축주 검토자료](procurement/README.md)**
+**[시공사 제안서](https://kks0488.github.io/jeju_proposal/procurement/contractor/)** · **[가격·대안·코멘트 로컬작성](https://kks0488.github.io/jeju_proposal/procurement/contractor/reply.html)** · **[건축주 검토자료](procurement/README.md)**
 
-상시 거주 주택 기준으로37개 사양·13개 공통 자재 허용액·10개 옵션을61개 견적항목에 연결했습니다. 난방/급탕·환기·창호·마감의 기준 제품과 포함범위가 들어 있으며, 도면3개를 별도 첨부해 동일 견적을 받습니다. 원본 분석·시공사 조사·순위는 보존했고, R1 사양과 미검증 시공/제작 승인을 구분합니다. 에이전트는 [procurement/AGENTS.md](procurement/AGENTS.md)를 먼저 읽으세요.
+37개 사양의 가정/근거를 재검토했습니다. 냉방11대는 도면참조수량이지 필요대수나 발주확정이 아닙니다. A동일기준 견적과 B추천안의 근거·증감을 함께 받습니다. 현장부하/전도면검증은 미완료이며, 현재 웹입력은 파일저장 초안도구입니다. 실제 업체계정/인증·비공개서버저장·제출접수는 아직 개통하지 않았습니다. [작업지침](procurement/AGENTS.md)
 <!--procurement-readme-end-->
 
 

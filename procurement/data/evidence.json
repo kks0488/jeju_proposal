@@ -6139,6 +6139,193 @@
       "evidence_level": "converted_dxf_text",
       "visual_verified": false,
       "approved": false
+    },
+    {
+      "handle": "E6873",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        707911.01,
+        -359772.02
+      ],
+      "height": 150.0,
+      "text": "IAC-20",
+      "id": "M:E6873",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E688B",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        701895.07,
+        -352093.34
+      ],
+      "height": 150.0,
+      "text": "IAC-23",
+      "id": "M:E688B",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6893",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        724214.81,
+        -354462.13
+      ],
+      "height": 150.0,
+      "text": "IAC-32",
+      "id": "M:E6893",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E689B",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        704914.81,
+        -352089.27
+      ],
+      "height": 150.0,
+      "text": "IAC-40",
+      "id": "M:E689B",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68A3",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        719888.96,
+        -354469.39
+      ],
+      "height": 150.0,
+      "text": "IAC-52",
+      "id": "M:E68A3",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68AB",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        701679.65,
+        -362398.06
+      ],
+      "height": 150.0,
+      "text": "IAC-60A",
+      "id": "M:E68AB",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68B3",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        715542.72,
+        -365717.04
+      ],
+      "height": 150.0,
+      "text": "IAC-145A",
+      "id": "M:E68B3",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68BB",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        721542.72,
+        -365717.04
+      ],
+      "height": 150.0,
+      "text": "IAC-145A",
+      "id": "M:E68BB",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68C3",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        699194.75,
+        -367118.26
+      ],
+      "height": 150.0,
+      "text": "IAC-20",
+      "id": "M:E68C3",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68CB",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        705917.48,
+        -369243.92
+      ],
+      "height": 150.0,
+      "text": "IAC-32",
+      "id": "M:E68CB",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68D5",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        708964.81,
+        -352089.27
+      ],
+      "height": 150.0,
+      "text": "IAC-40",
+      "id": "M:E68D5",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
     }
   ]
 }

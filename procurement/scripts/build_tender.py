@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate R1 owner/pricing documents and a contractor-only share pack.
+"""Generate R2 owner/pricing documents and a contractor-only share pack.
 Canonical input: owner-specifications.json and research-sources.json.
 Never includes raw CAD, previous RFI analysis, contractor rankings or filled bids.
 """
@@ -20,7 +20,10 @@ def anchor(i):return '<a id="'+i.lower()+'"></a>'
 def main():
  j=get('owner-specifications.json');sr=get('research-sources.json');scope=get('scope-items.json')['items'];byid={s['id']:s for s in j['specifications']}
  source_map={r['id']:r for r in sr['sources']}
- lines=['# '+j['document_title'], '', '**시공사 전달용 견적 기준 R1 · '+j['package_id']+' · 2026-10-12**', '',
+ lines=['# '+j['document_title'], '', '**시공사 전달용 비교 제안 R2 · '+j['package_id']+' · 2026-10-13**', '',
+ '**최종 확정안이 아닙니다.** 우선 첨부 제안 기준의 A안으로 견적을 보고, 실제 주거에 더 적합하거나 비용·성능·유지관리 면에서 합리적인 B안을 함께 받고자 합니다. 브랜드·대수·용량·공법 변경을 적극 제안해 주십시오. 최종은 설계 검토와 견적 비교 후 건축주가 승인합니다.','',
+ '아래 기본/유지/대체금지 표현은 A안의 가격비교 범위를 설명할 뿐, 적합한 B제안을 금지하지 않습니다. 기준안이 안전/법정조건이나 실제치수에 부적합하면 A견적불가 사유와 적합한 B안을 제시하고0원으로 감추지 마십시오.','',
+ '냉방·환기·난방/급탕은 대수/용량 적정성 검토를 필수회신합니다. 변경불필요도 가능한 결론이나 부하/선정근거가 필요합니다. B에는 관련항목ID·A해당범위금액·B완성금액·증감·성능근거·연관공종/공기·병용/택일 조건을 씁니다. 수신B가 바로발주확정이나공통개정이되지는 않습니다.','',
  '**본 공사는 상시 거주하는 주택입니다.** 난방·급탕·환기·냉방·전기 및 마감은 이 문서의 주거용 사양으로 견적해 주십시오. 도면과 아래 사양을 함께 제공하며, 지정이 없는 부분을 업체별 최저등급 자재나 별도공사로 임의 처리하지 않습니다.', '',
  '이 문서는 **가격 산정을 위한 건축주 사양서**입니다. 도면의 수량·형상은 시공사가 산출하고, 명시된 기기/신규 준비 개소와 자재 기준단가는 공통으로 사용합니다. 제작도·부하계산·구조/법정 검토는 수행 책임자가 확인하되, 이를 이유로 사양을 모두 미정으로 되돌리지 않습니다.', '',
  '## 1. 회신 조건', '',
@@ -48,7 +51,7 @@ def main():
  tab(['구분','이번 공통 선택','처리 원칙'],[
  ('유지','RC골조/기초,외관,창호분할,공용부CH3200,사비석/AL지붕,LG기기표 수량','도면의 더 엄격한 안전/부위별 사양은 유지.'),
  ('명시 변경','도면T10강마루 → LX선정제품7mm','원문을 덮어쓰지 않음. 단차 없이 완성FL을 맞추는 바탕조정비 포함.'),
- ('신규 포함','전열교환기250급3대, AP배선3곳, 제습전원/배수2곳, 주거실 차음벽·급탕/조명조건','도면에서 이미 확인한 수량처럼 기록하지 말고 R1추가로 분리.'),
+ ('신규 포함','전열교환기250급3대, AP배선3곳, 제습전원/배수2곳, 주거실 차음벽·급탕/조명조건','도면에서 이미 확인한 수량처럼 기록하지 말고 R2추가로 분리.'),
  ('수량 해석','Ø15수전 합계7개를 부동5+일반2로 통일, 주방싱크볼3개 가격 가정','현장/도면 이견은 해당항목을 지정해 공통회신.'),
  ('선택 견적','히트펌프,200L급탕탱크,창호/마감 변경,중앙제습,기기최적화','기준안 총액에 섞지 말고 증감액과 변경범위 제출.')]), '',
  '## 4. 공종별 상세 사양','']
@@ -59,6 +62,7 @@ def main():
    '**견적 기준:** '+s['pricing_basis'],'',
    '**기본 포함:** '+s['included_work'],'',
    '**제작·시공 확인:** '+s['shop_drawing_and_acceptance'],'',
+   '**R2 적정성 재검토:** '+s['proposal_review']['r2_action'],'','**B안 근거:** '+s['proposal_review']['bid_evidence_required'],'',
    '**견적항목:** '+', '.join(s['scope_ids'])]
   if s['research_refs']:lines+=['','**제품 근거:** '+' · '.join('[{}](#{}): {}'.format(k,k.lower(),source_map[k]['title']) for k in s['research_refs'])]
   lines+=['']
@@ -72,15 +76,15 @@ def main():
  tab(['기기ID','도면 모델','공통 비교수량','도면 냉방능력(kW/대)'],[(x['id'],x['model_reported'],x['common_pricing_quantity'],x['cooling_kw_reported']) for x in j['cooling_schedule']]), '',
  '실내기 합계11대, 실외기 합계2대. 위 수량/출력은 도면 기기표·모델문자에서 가져와 **가격비교 기준으로 채택**한 값이며, 실제 설치 위치/용량 적정성을 검증한 결과가 아닙니다. 제조사 선정서와 주거부하 계산으로 대조하고 최적화 가격은 ALT-07에 제출하십시오.', '',
  tab(['기기/준비','공통 비교수량','근거 구분'],[
- ('기름50S보일러/600L유류탱크/순환펌프','1대/1대/2대','도면수량 유지, 보일러모델 R1선정'),
+ ('기름50S보일러/600L유류탱크/순환펌프','1대/1대/2대','도면수량 유지, 보일러모델 R2선정'),
  ('화장실 환기팬','4대','도면표기 수량 유지'),
  ('양변기/세면기/레인샤워/욕조','3/3/2/2','도면표기 수량 유지'),
- ('싱크수전/일반·부동수전','3/합계7','도면표기,7개 구성은부동5+일반2 R1해석')]+[(x['name'],str(x['quantity'])+' '+x['unit'],'R1 신규 건축주 비교수량') for x in j['new_owner_pricing_quantities']]), '',
+ ('싱크수전/일반·부동수전','3/합계7','도면표기,7개 구성은부동5+일반2 R2해석')]+[(x['name'],str(x['quantity'])+' '+x['unit'],'R2 신규 건축주 비교수량') for x in j['new_owner_pricing_quantities']]), '',
  '## 7. 기본공사·지급품·공종 경계','',
  tab(['구분','공통 처리'],[
  ('시공사 구매/설치 기본','일반조명,창호/문,도면 고정가구,일반 위생기구,보일러/유류탱크/펌프,냉방기,환기기 및 배관배선/시운전'),
  ('건축주 지급 본체','냉장고·인덕션·오븐·식기세척기·세탁/건조기,주방후드 본체·장식펜던트,AP/공유기·제습기·이동가구/커튼'),
- ('지급품이어도 시공사 포함','도면/R1 기준 타공·전용회로·급배수/덕트·반입협의·최종 연결·보양. 제조사전문설치 필수 본체는 경계표시.'),
+ ('지급품이어도 시공사 포함','도면/R2 기준 타공·전용회로·급배수/덕트·반입협의·최종 연결·보양. 제조사전문설치 필수 본체는 경계표시.'),
  ('옥외 굴착·되메우기·장비기초','건축/토목 가격행. 설비에서 다시 계상하지 않음.'),
  ('오수 배관','오수받이까지설비,이후관/기존관접속/복구는건축. 관저고와 연결점확인.'),
  ('온도조절기/실내기 점검구','조절기 배관·전원/통신선은전기,점검구/천장복구는건축. 제어기본체는설비범위와대조.'),
@@ -89,21 +93,21 @@ def main():
  '## 8. 별도 증감 견적','']
  for o in j['options']:
   lines += [anchor(o['id']),'### '+o['id']+' · '+o['title'],'',o['scope'],'','**회신:** '+o['return_requirement'],'']
- lines+=['## 9. 회신 내역과 비교 방법','',
+ lines+=['## 9. 회신 내역과 비교 방법','', '같은항목ID를 유지하는 Excel 또는 웹작성 중 편한 방식으로 회신하십시오. 웹 reply.html은 로컬초안 작성·파일저장만 지원하고 로그인/서버저장/실제제출은 하지 않습니다. JSON저장은제출이아니며 읽기용HTML/CSV도저장할수있습니다. 작성파일과 상세내역은 발주자 지정 비공개회신처로 보내야 합니다. 별첨 파일목록은 실제업로드가 아닙니다.','',
  '각 행에 **항목ID·위치·규격/모델·단위·수량·도면/산출근거·자재비·노무비·장비비·금액·포함/제외/이견**을 적어 주십시오. 아래61개 원항목을 유지하고, 창호ID/관경/실별로 하위행을 추가하십시오. 원항목을 조용히 삭제하지 말고 해당없음/타행포함도 표시합니다.', '',
  tab(['항목ID','공종/작업','기본단위','적용 사양'],[(s['id'],s['name'],s['unit'],', '.join('[{}](#{})'.format(k,k.lower()) for k in j['scope_spec_mapping'][s['id']])) for s in scope]), '',
  '기본총액에는 공통 허용액을 포함하고 옵션은 제외합니다. 비교할 때는 먼저 도면 버전·범위·제품·수량·허용액을 맞춥니다. 미확인 암반/추가 지반개량·미상 관로는 발생조건/단가를 별도 기재하고, 도면 밖 물량을 업체마다 다르게 넣은 총액으로 순위를 매기지 않습니다. 이 조건부 비용이 남으면 발주자가 부담할 최종 총사업비도 아직 고정된 것이 아닙니다.', '',
  '## 10. 제출·변경 규칙','',
  '업체별 질의는 발주자에게 모아 회신받고, 가격·독자제안을 제외한 설계/범위 관련 공통 답변은 모든 업체에 동일하게 전달합니다. 회신에는 반영한 추가통보ID를 기재하십시오. 구두협의로 기준안 사양을 바꾸지 않습니다.', '',
- '사양 우선순위는 **공통 추가회신 → R1의 명시적 선택/추가/변경 → 첨부도면 → 제조사 시방**입니다. 다만 구조·법정 성능·안전과 충돌하면 이 순위로 강행하지 않고 담당 설계자에게 적합해법을 확인합니다. 계약/제작 승인 전에 도면·실측·제품별 제약을 대조합니다.', '',
+ '사양 우선순위는 **공통 추가회신 → R2의 명시적 선택/추가/변경 → 첨부도면 → 제조사 시방**입니다. 다만 구조·법정 성능·안전과 충돌하면 이 순위로 강행하지 않고 담당 설계자에게 적합해법을 확인합니다. 계약/제작 승인 전에 도면·실측·제품별 제약을 대조합니다.', '',
  '행정 용도와 허가사항은 원본도서로 별도 관리하며, 본 문서의 주택 명칭은 실제 이용과 견적 성능 기준입니다. 이 문서가 행정서류를 변경하거나 주택 허가 취득을 의미하지는 않습니다.', '',
  '## 11. 제품 근거','',
- '제조사 공개 자료 확인일:2026-10-12. 모델/특성 확인과 현장 공급견적·재고·실제 시험성능은 구분합니다. 상세 성능목표와 비교 허용액은 발주 제안값입니다.']
+ '제조사 자료는 R1에서 수집한2026-10-12 기준입니다. R2는 현장 적정성 미검증 부분을 재검토한 것으로 전체상품 재고/가격을 새로 검증한 자료가 아닙니다. 모델/특성 확인과 현장 공급견적·재고·실제 시험성능은 구분합니다. 상세 성능목표와 비교 허용액은 발주 제안값입니다.']
  for r in sr['sources']:
   lines += ['',anchor(r['id']),'**'+r['id']+' · ['+r['title']+']('+r['url']+')**',r['verified_facts']+' '+r['limits']]
  tender='\n'.join(lines);write('TENDER.md',tender)
  owner=['# 건축주 사양 선정 이유와 비용 선택','',
- '**R0의 ‘사양을 결정해 달라’는 목록을 R1의 실제 비교견적 사양으로 바꿨습니다.** 구조/외관은 도면을 지키고, 교체가 어려운 방수·창접합·온돌·환기는 기본에 넣고, 장식·고가 수입품·열원 변경은 옵션으로 분리했습니다. 정답인 최저가 조합이나 현장 설계검증 완료를 뜻하지 않습니다.', '',
+ '**R0의 ‘사양을 결정해 달라’는 목록을 R2의 실제 비교견적 사양으로 바꿨습니다.** 구조/외관은 도면을 지키고, 교체가 어려운 방수·창접합·온돌·환기는 기본에 넣고, 장식·고가 수입품·열원 변경은 옵션으로 분리했습니다. 정답인 최저가 조합이나 현장 설계검증 완료를 뜻하지 않습니다.', '',
  '시공사에는 [통합 사양서](TENDER.md) 또는 `contractor/` 패키지를 도면3개와 함께 전달합니다. 이 페이지는 건축주와 분석 에이전트의 선택 이유 기록입니다.', '',
  tab(['유지/선정','이번 판단'],[
  ('주택 사용','건축주 직접 지시에 따라 명칭·부하·생활설비 기준은 주택. 행정 표기를 견적 보류 사유로 앞세우지 않음.'),
@@ -129,7 +133,7 @@ def main():
  ('발주자 제안','22/26℃ 실내조건,2샤워,환기250급3대,실풍량/소음 목표,타일허용액 등 공통 비교 기준'),
  ('현장 확정','부하/풍압/유리/도막/부속/개소와 실제 도면 적합성 확인 후 제작 승인')]),'']
  for r in sr['sources']:
-  research += [anchor(r['id']),'## '+r['id']+' · '+r['title'],'','[공식 원문]('+r['url']+') · 확인2026-10-12 · '+r['kind'],'',
+  research += [anchor(r['id']),'## '+r['id']+' · '+r['title'],'','[공식 원문]('+r['url']+') · 기존자료확인2026-10-12 · '+r['kind'],'',
    '**확인한 사실:** '+r['verified_facts'],'','**이번 적용/한계:** '+r['limits'],'']
  research+=['## 자재 허용액의 성격','',
  '타일/일부위생기구/일반등기구의 공통 자재 허용액은 디자인 미선정 때문에 업체별 자재등급이 달라지는 일을 막는 비교예산입니다. 시장 평균·제조사정가·최저가를 입증한 조사값이 아닙니다. 지정 제품군/크기/규격 안에서 제품을 제시하게 한 뒤, 실제 견적에 따라 구매와 계약금액을 조정합니다.']
@@ -137,13 +141,13 @@ def main():
  # Contractor-only static page has no link to our contractor scores, old RFIs, or internal reasoning.
  body=markdown.markdown(tender,extensions=['tables','fenced_code','toc'],extension_configs={'toc':{'toc_depth':'2-2','slugify':lambda value,sep:'section-'+slugify(value,sep)}})
  body=body.replace('<table>','<div class="table-wrap" tabindex="0" aria-label="견적표 가로 스크롤"><table>').replace('</table>','</table></div>')
- package_html='''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>제주 주택 신축공사 — 시공사 견적사양 R1</title><link rel="stylesheet" href="style.css"></head><body><main style="max-width:1120px;margin:24px auto"><div class="meta"><b>시공사 전달용 / R1</b><span><a href="SPECIFICATIONS.md">문서 원본</a> · <a href="specifications.json">사양 JSON</a> · <a href="quote-return.json">견적 회신 양식</a> · <a href="DRAWING-MANIFEST.json">도면 목록</a></span></div><article>'''+body+'''</article></main></body></html>'''
+ package_html='''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>제주 주택 신축공사 — 시공사 견적사양 R2</title><link rel="stylesheet" href="style.css"></head><body><main style="max-width:1120px;margin:24px auto"><div class="meta"><b>비교견적 제안 / R2 · 미발주</b><span><a href="reply.html">가격·대안·코멘트 작성</a> · <a href="SPECIFICATIONS.md">문서 원본</a> · <a href="specifications.json">사양 JSON</a> · <a href="quote-return.json">견적 회신 양식</a> · <a href="DRAWING-MANIFEST.json">도면 목록</a></span></div><article>'''+body+'''</article></main></body></html>'''
  write('contractor/index.html',package_html);write('contractor/SPECIFICATIONS.md',tender)
  write('contractor/specifications.json',json.dumps(j,ensure_ascii=False,indent=2))
  write('contractor/quote-return.json',json.dumps(get('tender-response-template.json'),ensure_ascii=False,indent=2))
  manifest=get('source-manifest.json')
  write('contractor/DRAWING-MANIFEST.json',json.dumps({'package_id':j['package_id'],'note':'발주자가 별도 전달할 DWG3개. 이 패키지에는 원본 CAD가 들어 있지 않다. 수신일은 도면의 정식 발행일이 아님.','files':[{k:s[k] for k in ['source_id','filename','bytes','sha256','received_date']} for s in manifest['sources']]},ensure_ascii=False,indent=2))
- write('contractor/README.md','''# 제주 주택 견적 요청 자료 R1
+ write('contractor/README.md','''# 제주 주택 견적 요청 자료 R2
 
 `index.html`을 브라우저에서 열거나 `SPECIFICATIONS.md`를 읽고 견적을 작성해 주십시오. `quote-return.json`은 기계판독 회신 양식이며 동일 항목ID/내용을 유지하는 다른 표 형식도 가능합니다.
 
@@ -152,11 +156,14 @@ def main():
 사양서의 기준안으로 먼저 가격을 제출하고, 대체/옵션·조건부 작업은 별도 증감과 근거를 기재하십시오. 실제 시공/제작은 도면·부하/안전 검토와 승인 후 진행합니다. 작성된 업체 견적과 담당자 정보는 공개 저장소에 올리지 말고 발주자에게 비공개로 회신해 주십시오.
 ''')
  (P/'contractor/style.css').write_bytes((P/'style.css').read_bytes())
- archive=P/'jeju-house-contractor-R1.zip'
- allowed=['README.md','SPECIFICATIONS.md','index.html','style.css','specifications.json','quote-return.json','DRAWING-MANIFEST.json']
+ archive=P/'jeju-house-contractor-R2.zip'
+ from build_reply import build_reply
+ from build_review import main as build_review
+ build_reply(); build_review()
+ allowed=['reply.html','reply.js','reply.css','README.md','SPECIFICATIONS.md','index.html','style.css','specifications.json','quote-return.json','DRAWING-MANIFEST.json']
  with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
   for name in allowed:
-   zi=zipfile.ZipInfo('jeju-house-R1/'+name,date_time=(2026,10,12,0,0,0));zi.compress_type=zipfile.ZIP_DEFLATED
+   zi=zipfile.ZipInfo('jeju-house-R2/'+name,date_time=(2026,10,12,0,0,0));zi.compress_type=zipfile.ZIP_DEFLATED
    z.writestr(zi,(P/'contractor'/name).read_bytes())
  print(json.dumps({'owner_specifications':len(j['specifications']),'sources':len(sr['sources']),'contractor_files':len(allowed),'zip':archive.name},ensure_ascii=False))
 if __name__=='__main__':main()

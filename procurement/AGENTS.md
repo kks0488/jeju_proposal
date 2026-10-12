@@ -1,41 +1,29 @@
-# 제주 주택 견적 — 에이전트 작업 지침 R1
+# 제주 주택 R2 — 에이전트 작업 지침
 
-## 사용자 지시와 현재 기준
+현재 기준은 `JEJU-HOUSE-RFQ-20261013-R2`입니다. 건축주는 우선 제안기준으로 견적을 보고, 더 합리적인 업체안을 함께 받으려 합니다. R1의 사양·모델·대수는 발주확정이 아니며 적정성 검증 완료라고 설명하지 않습니다.
 
-사용자는 건축주/발주자다. 2026-10-12 직접 지시로 **실제 사용은 주택**이며, 사양은 리서치해 우리가 선택하고 시공업체가 동일기준으로 견적하도록 한다. 대외 제목과 난방/급탕/환기·생활설비는 주택 기준으로 쓴다. 원본 행정 기재를 고치거나 허가상 주택으로 승인됐다고 주장하지 않는다. 이 차이를 다시 미확정 질문으로 돌려 견적 준비를 멈추지 않는다.
+## 읽을 순서
 
-현재 가격기준은 `data/owner-specifications.json`의 **JEJU-HOUSE-RFQ-20261012-R1**이다. 이전 R0의 사양 미정·용도 확인 전 견적보류를 현행조건으로 되살리지 않는다.
+`README.md` → `SPEC-AUDIT.md` → `HVAC-REVIEW.md` → `TENDER.md` → `BID-PORTAL.md` → `data/owner-specifications.json` / `data/tender-response-template.json`.
 
-## 읽는 순서
+R0/R1 원본과 기존 검토는 Git이력 및 history에 보존됩니다. 업체별 기존 순위·사진/실적은 변경하지 않습니다. 원문도면의 행정기재를 바꾸지 않고 실제사용은 주택으로 설명합니다.
 
-`README.md` → `TENDER.md` → `data/owner-specifications.json` → `data/research-sources.json` → 필요한 도면근거 `data/evidence.json`/`data/source-manifest.json` → `data/tender-response-template.json`.
+## A와 B
 
-`OWNER-DECISIONS.md`는 건축주 선택 이유, `contractor/`는 업체에게 공유할 부분이다. 기존 업체조사·순위·내부 전략·과거질의를 업체용 패키지에 섞지 않는다.
+A는 같은 도면·참조사양·참조수량·허용액에 따른 가격비교입니다. B는 대수/용량/모델/공법 변경제안이며 관련공종까지 완성금액·증감·성능/부하근거·공기/유지비·택일/병용조건을 요구합니다. 냉난방·급탕·환기 구성은 유지결론이라도 적정성 검토근거를 필수로 받습니다. 안전/법정성능이나 구조검토를 가격협상으로 삭제하지 않습니다.
 
-## 데이터 규칙
+11대는 일람표와 평면문자수가 일치한다는 것만 확인했습니다. 실내기60.9kW합/실외기61.6kW합은 정격냉방능력이고 소비전력/실별산정부하가 아닙니다. 필요한대수·전도면시각검증·열부하계산·시공승인은 미완료입니다. 상시4인 계획은 기존 사용자자료에서 확인했으나 최신실명/운전시나리오는 대조해야 합니다.
 
-- 기준사양 `SP-ID`, 공통비용항목 기존61개ID, 자재허용액 `ALW-ID`, 옵션 `ALT-ID`, 제조사출처 `RS-ID`를 유지한다.
-- 제조사 제품사실·도면전사·발주자 제안/허용액을 구별한다. 13개 허용액은 실제 공급가/시장평균이 아니며 허위 구매가로 설명하지 않는다.
-- 기기표 전사값을 R1 고정 가격비교수량으로 채택했지만 실측/적산 승인값으로 승격하지 않는다. 250급환기3대/AP3개소/제습2개소는 명시적 신규 제안이다.
-- 7mm LX마루 선택과 도면T10 차이를 명시하고 마감FL 조정비를 포함한다. 50S겸용을50R전용으로 바꾸지 않는다. 큰 창의 안전유리/프레임 크기를 표준 제품에 억지로 맞추지 않는다.
-- 구조·부하·풍압·안전·법정 적합성은 건축주 사양 선택과 다르다. 견적은 진행하되 검증 안 된 시공/허가 승인을 주장하지 않는다.
-- 원문 근거 hash/handle을 보존한다. 신규 소스 버전은 별도 기록한다. 기존 후보 업체의 평가순위/실적을 이번 사양 선정으로 수정하지 않는다.
+## 코드·회신
 
-## 생성과 검사
+`build.py`가 `build_tender.py`를 호출하고, 후자가 `build_reply.py`·`build_review.py`를 호출해 현재HTML/Markdown/JSON/ZIP을 만듭니다. 데이터정본을 먼저 고치고 생성물을 새로 만듭니다. SP/공종ID·도면hash/handle·ALW예산·A/B대안을 보존합니다.
 
-`build_tender.py`가 R1 JSON에서 `TENDER.md`, `OWNER-DECISIONS.md`, `SPEC-RESEARCH.md`, 업체용 `contractor/`, ZIP을 생성한다. `build.py`는 기존6개등록부와 전체HTML/진입링크를 생성한다. 두 스크립트는 루트 빌드 명령으로 순서대로 실행되도록 연결돼 있다.
+`contractor/reply.html`은 로컬창의 초안과 JSON/HTML/CSV내보내기만 지원합니다. 로그인·회사인증·서버DB·첨부업로드·실제제출/접수증이 없습니다. 업체명 자가기입·회사별경로를 인증/권한이라고 표현하지 않습니다. 향후 운영형은 초대이메일OTP와 서버강제회사/프로젝트권한·비공개파일·버전제출/접수증이 필요합니다.
 
-```sh
-python procurement/scripts/build.py
-python procurement/scripts/validate.py
-python procurement/scripts/validate_tender.py
-python procurement/scripts/test_validate.py
-```
+실제 운영형을 만들기 전 원본 접근/업체 분리·재제출불변·메일도달·비밀키/URL유출·파일검사를 검증합니다. 현재로서 업체별권한 테스트가 통과됐다고 주장하지 않습니다. 서버나 유료서비스를 임의개통하지 않습니다.
 
-Python Markdown/ezdxf 요구사항은 `procurement/requirements.txt`. 브라우저 점검은 이미 설치된 Chrome/Playwright를 사용하고 로컬 서버를 띄우지 않는다. R1회신 양식은 별도 구조이며 R0의 `validate.py --bid`에 그대로 입력하지 않는다.
+## 공개 범위와 검사
 
-## 공개 범위
+원본CAD·전체추출·개인메일본문/연락처·작성된 업체가격·초대토큰은 공개하지 않습니다. 공개파일은 검토된 발췌·공통사양/예산·빈회신양식·초안도구만입니다. 실제전송/구매/계약은 별도지시 없이는 하지 않습니다.
 
-원본 CAD/전체 추출/작업메모/연락처와 작성된 업체별가격은 `.local/` 등 비공개 경로. 공개할 것은 검토된 원문발췌·사양·발주자의 공통 허용액·빈 회신양식이다. 업체전송/구매/계약체결은 별도 사용자 지시 없이는 하지 않는다.
-
-R0 원본은 `history/R0/`와 Git이력에 남아 있다. 루트/갤러리의 다른 조사·사진을 보존하고 견적사양 진입영역만 변경한다. 루트 AGENTS의 명시적 stage/검토/commit/normal push/원격검증 원칙을 유지한다.
+`python procurement/scripts/validate.py`, `validate_tender.py`, `test_tender.py`, `test_validate.py`와 설치된Chrome을 이용한 file:// 브라우저검사를 실행합니다. no local server 원칙을 유지합니다. 루트AGENTS의 검토후명시stage/commit/일반push/원격검증을 따릅니다.

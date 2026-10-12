@@ -1,0 +1,1680 @@
+{
+  "schema_version": "1.0",
+  "package_id": "JEJU-HOUSE-RFQ-20261012-R1",
+  "status": "blank_contractor_return",
+  "confidentiality": "FILLED_VENDOR_QUOTES_ARE_PRIVATE",
+  "bidder": {
+    "legal_entity": null,
+    "site_manager": null,
+    "offer_date": null,
+    "valid_until": null
+  },
+  "basis": {
+    "use": "상시 거주 주택",
+    "quantity_mode": "bidder_takeoff_from_attached_drawings_plus_fixed_R1_pricing_quantities",
+    "attached_drawing_revisions": [],
+    "received_addenda": [],
+    "currency": "KRW",
+    "prices": "VAT excluded; VAT and grand total separate"
+  },
+  "items": [
+    {
+      "item_id": "GEN-01",
+      "title": "현장관리·공정관리",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-01",
+        "SP-37"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "GEN-02",
+      "title": "가설시설·가설전기수도·안전·보양",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-37"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "GEN-03",
+      "title": "반입·양중·운반·임시진입",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-37"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "GEN-04",
+      "title": "법정경비·보험·보증",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-37"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-01",
+      "title": "현황측량·기준점·가설측량",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-02"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-02",
+      "title": "기존석축·구조물 철거와 폐기물",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-03"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-03",
+      "title": "터파기·토사/암반 반출",
+      "unit": "m3",
+      "owner_spec_refs": [
+        "SP-03"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-04",
+      "title": "성토·되메우기·다짐",
+      "unit": "m3",
+      "owner_spec_refs": [
+        "SP-02"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-05",
+      "title": "지반치환·기초지반 개선",
+      "unit": "m3",
+      "owner_spec_refs": [
+        "SP-02"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-06",
+      "title": "옹벽·석축·경계·배수층",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-03"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-07",
+      "title": "옥외오수·맨홀·기존관 접속",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-03"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-08",
+      "title": "우수트렌치·집수정·침투조",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-03"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-09",
+      "title": "주차·진입로·외부포장",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-35"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-10",
+      "title": "담장·대문·외부난간",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-35"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "CIV-11",
+      "title": "조경·식재·관수·잔토정리",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-35"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "STR-01",
+      "title": "기초·벽·보·슬래브 콘크리트",
+      "unit": "m3",
+      "owner_spec_refs": [
+        "SP-02"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "STR-02",
+      "title": "철근 가공·조립",
+      "unit": "kg",
+      "owner_spec_refs": [
+        "SP-02"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "STR-03",
+      "title": "거푸집·동바리",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-02"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "STR-04",
+      "title": "매립철물·앵커·슬리브·개구부",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-02"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ENV-01",
+      "title": "박공지붕 마감과 하부틀",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-04"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ENV-02",
+      "title": "용마루·처마·후레싱·지붕관통부",
+      "unit": "m",
+      "owner_spec_refs": [
+        "SP-04"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ENV-03",
+      "title": "외단열·열교부 보완",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-05"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ENV-04",
+      "title": "외벽 석재·부착/건식철물",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-05"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ENV-05",
+      "title": "보일러실 외장·미장·도장",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-05"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ENV-06",
+      "title": "테라스·외벽접합부 방수",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-06"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "WIN-01",
+      "title": "외부 AL시스템창·도어",
+      "unit": "EA",
+      "owner_spec_refs": [
+        "SP-07"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "WIN-02",
+      "title": "현관·실내문·포켓도어·유리문",
+      "unit": "EA",
+      "owner_spec_refs": [
+        "SP-08"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "WIN-03",
+      "title": "창하부 방수·실링·앵커·마감복구",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-06"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "INT-01",
+      "title": "경량칸막이·단열/차음·보강",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-09"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "INT-02",
+      "title": "천장틀·천장마감·점검구",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-10",
+        "SP-24"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "INT-03",
+      "title": "바닥타일·강마루·바탕몰탈",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-11",
+        "SP-12",
+        "SP-13",
+        "SP-14"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "INT-04",
+      "title": "벽타일·벽마감·도장",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-13",
+        "SP-14",
+        "SP-16"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "INT-05",
+      "title": "욕실방수·바닥구배·문턱",
+      "unit": "m2",
+      "owner_spec_refs": [
+        "SP-14",
+        "SP-15"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "INT-06",
+      "title": "걸레받이·히든몰딩·재료분리대",
+      "unit": "m",
+      "owner_spec_refs": [
+        "SP-17"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "INT-07",
+      "title": "주방·수납·붙박이·욕실카운터/거울",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-18",
+        "SP-19"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "INT-08",
+      "title": "계단·다락접근·난간",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-08"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "PLB-01",
+      "title": "급수·급탕·환탕 배관/보온",
+      "unit": "m",
+      "owner_spec_refs": [
+        "SP-22",
+        "SP-23"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "PLB-02",
+      "title": "오수·배수·통기·바닥드레인",
+      "unit": "m",
+      "owner_spec_refs": [
+        "SP-23"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "PLB-03",
+      "title": "위생기구·수전·액세서리",
+      "unit": "EA",
+      "owner_spec_refs": [
+        "SP-19",
+        "SP-28",
+        "SP-29",
+        "SP-30",
+        "SP-31"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "PLB-04",
+      "title": "기름보일러·탱크·펌프·연도",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-20",
+        "SP-22"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "PLB-05",
+      "title": "바닥난방·분배기·제어기기",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-21"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "PLB-06",
+      "title": "환기휀·배기/급기·덕트",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-24",
+        "SP-25"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "PLB-07",
+      "title": "급수인입·계량기·기관협의",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-03"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "HVAC-01",
+      "title": "실내기·실외기 공급/설치",
+      "unit": "EA",
+      "owner_spec_refs": [
+        "SP-26"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "HVAC-02",
+      "title": "냉매관·분기관·보온·드레인",
+      "unit": "m",
+      "owner_spec_refs": [
+        "SP-27"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "HVAC-03",
+      "title": "장비기초·방진·점검구·양중",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-27"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "HVAC-04",
+      "title": "냉방전원·통신/제어·시운전",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-27"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ELE-01",
+      "title": "전기인입·접지·간선·분전반",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-33"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ELE-02",
+      "title": "전등배관·배선·스위치·제어",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-32"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ELE-03",
+      "title": "등기구·전원장치·옥외등",
+      "unit": "EA",
+      "owner_spec_refs": [
+        "SP-32"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ELE-04",
+      "title": "콘센트·전용회로·가전접속",
+      "unit": "EA",
+      "owner_spec_refs": [
+        "SP-24",
+        "SP-27",
+        "SP-33"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ELE-05",
+      "title": "난방조절기 배관·전원/통신배선",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-21",
+        "SP-33"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ELE-06",
+      "title": "통신인입·통신함·LAN/TV·구내배선",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-34"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ELE-07",
+      "title": "보안·인터폰·Wi-Fi/CCTV 옵션",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-34"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "ELE-08",
+      "title": "소방기구·감지기·관련 검사",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-36"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "QA-01",
+      "title": "지반/구조/방수/창호 검측·시험",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-36"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "QA-02",
+      "title": "설비/전기 시험·시운전·성능확인",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-36"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "QA-03",
+      "title": "준공청소·준공도·기록·인수교육",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-36"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "QA-04",
+      "title": "하자접수·보증·유지관리 인계",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-36"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "COMM-01",
+      "title": "본사 일반관리비",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-37"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    },
+    {
+      "item_id": "COMM-02",
+      "title": "이윤",
+      "unit": "식",
+      "owner_spec_refs": [
+        "SP-37"
+      ],
+      "quantity": null,
+      "quantity_derivation": null,
+      "quoted_model": null,
+      "material_cost_ex_vat": null,
+      "labor_cost_ex_vat": null,
+      "equipment_cost_ex_vat": null,
+      "total_ex_vat": null,
+      "included_work": null,
+      "excluded_work": null,
+      "included_in_item_id": null,
+      "deviation_id": null,
+      "quote_status": "not_priced",
+      "subitems": []
+    }
+  ],
+  "allowance_return": [
+    {
+      "allowance_id": "ALW-01",
+      "fixed_material_allowance_ex_vat": 40000,
+      "quantity": null,
+      "unit": "m2",
+      "quantity_basis": "순시공면적×1.10",
+      "base_item_id": "INT-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-02",
+      "fixed_material_allowance_ex_vat": 45000,
+      "quantity": null,
+      "unit": "m2",
+      "quantity_basis": "순시공면적×1.10",
+      "base_item_id": "INT-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-03",
+      "fixed_material_allowance_ex_vat": 30000,
+      "quantity": null,
+      "unit": "m2",
+      "quantity_basis": "순시공면적×1.10",
+      "base_item_id": "INT-04",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-04",
+      "fixed_material_allowance_ex_vat": 200000,
+      "quantity": 3,
+      "unit": "EA",
+      "quantity_basis": "기기표3개",
+      "base_item_id": "PLB-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-05",
+      "fixed_material_allowance_ex_vat": 180000,
+      "quantity": 3,
+      "unit": "EA",
+      "quantity_basis": "세면기3개와1:1",
+      "base_item_id": "PLB-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-06",
+      "fixed_material_allowance_ex_vat": 350000,
+      "quantity": 2,
+      "unit": "SET",
+      "quantity_basis": "기기표2세트",
+      "base_item_id": "PLB-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-07",
+      "fixed_material_allowance_ex_vat": 650000,
+      "quantity": 2,
+      "unit": "EA",
+      "quantity_basis": "기기표2개",
+      "base_item_id": "PLB-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-08",
+      "fixed_material_allowance_ex_vat": 220000,
+      "quantity": 2,
+      "unit": "SET",
+      "quantity_basis": "욕조2개 부속, 레인샤워와 별도 비교 가정",
+      "base_item_id": "PLB-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-09",
+      "fixed_material_allowance_ex_vat": 220000,
+      "quantity": 3,
+      "unit": "EA",
+      "quantity_basis": "기기표3개",
+      "base_item_id": "PLB-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-10",
+      "fixed_material_allowance_ex_vat": 100000,
+      "quantity": 5,
+      "unit": "EA",
+      "quantity_basis": "합계7개 중5개로 R1 해석",
+      "base_item_id": "PLB-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-11",
+      "fixed_material_allowance_ex_vat": 50000,
+      "quantity": 2,
+      "unit": "EA",
+      "quantity_basis": "합계7개 중 나머지2개",
+      "base_item_id": "PLB-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-12",
+      "fixed_material_allowance_ex_vat": 45000,
+      "quantity": null,
+      "unit": "EA",
+      "quantity_basis": "도면 산출, 다른 종류 등기구는 별도 실견적",
+      "base_item_id": "ELE-03",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    },
+    {
+      "allowance_id": "ALW-13",
+      "fixed_material_allowance_ex_vat": 300000,
+      "quantity": 3,
+      "unit": "EA",
+      "quantity_basis": "싱크수전3개에 맞춘 신규 공통 가정3개",
+      "base_item_id": "INT-07",
+      "material_amount_ex_vat": null,
+      "already_included_in_base": true
+    }
+  ],
+  "cooling_and_new_quantities": [
+    {
+      "id": "IAC-20",
+      "model_reported": "RNW0200C2S",
+      "common_pricing_quantity": 2,
+      "cooling_kw_reported": 2.0,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-23",
+      "model_reported": "RNW0230C2S",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 2.3,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-32",
+      "model_reported": "RNW0320C2S",
+      "common_pricing_quantity": 2,
+      "cooling_kw_reported": 3.2,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-40",
+      "model_reported": "RNW0400C2S",
+      "common_pricing_quantity": 2,
+      "cooling_kw_reported": 4.0,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-52",
+      "model_reported": "RNW0520C2S",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 5.2,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-60A",
+      "model_reported": "RNW0601A2U",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 6.0,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-145A",
+      "model_reported": "RNW1451A2U",
+      "common_pricing_quantity": 2,
+      "cooling_kw_reported": 14.5,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "OAC-10",
+      "model_reported": "RPUW101S9S",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 28.0,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "OAC-12",
+      "model_reported": "RPUW121S9S",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 33.6,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "NEW-ERV",
+      "name": "250CMH급 전열교환 환기장치",
+      "quantity": 3,
+      "unit": "EA",
+      "spec_id": "SP-24",
+      "source": "R1 owner pricing addition; not observed in drawing"
+    },
+    {
+      "id": "NEW-DH-POINT",
+      "name": "제습기 전원·배수 준비",
+      "quantity": 2,
+      "unit": "POINT",
+      "spec_id": "SP-27",
+      "source": "R1 owner pricing addition; not observed in drawing"
+    },
+    {
+      "id": "NEW-AP-POINT",
+      "name": "천장AP PoE/LAN 인프라",
+      "quantity": 3,
+      "unit": "POINT",
+      "spec_id": "SP-34",
+      "source": "R1 owner pricing addition; not observed in drawing"
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "ALT-01",
+      "title": "공기열 히트펌프 난방·급탕 전환",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-02",
+      "title": "200L 간접가열 급탕 저장조",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-03",
+      "title": "환기장치 구성 최적화",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-04",
+      "title": "다른 창호브랜드·진공유리",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-05",
+      "title": "디자인 마감 업그레이드",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-06",
+      "title": "외단열 변경/강화",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-07",
+      "title": "냉방 주거부하 최적화",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-08",
+      "title": "능동 제습장치",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-09",
+      "title": "전자비데 본체3대",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    },
+    {
+      "id": "ALT-10",
+      "title": "보안·스마트홈 장비",
+      "base_omission_ex_vat": null,
+      "new_work_ex_vat": null,
+      "net_delta_ex_vat": null,
+      "compliance_evidence": null,
+      "time_impact": null
+    }
+  ],
+  "ground_risk_unit_rates": [
+    {
+      "id": "GR-01",
+      "description": "예측 외 암반굴착/반출",
+      "unit": "m3",
+      "unit_price_ex_vat": null,
+      "base_quantity_assumed": null,
+      "conditions": null
+    },
+    {
+      "id": "GR-02",
+      "description": "설계 확정 외 지반치환",
+      "unit": "m3",
+      "unit_price_ex_vat": null,
+      "base_quantity_assumed": null,
+      "conditions": null
+    },
+    {
+      "id": "GR-03",
+      "description": "확정 구간 외 관로연장/복구",
+      "unit": "m",
+      "unit_price_ex_vat": null,
+      "base_quantity_assumed": null,
+      "conditions": null
+    }
+  ],
+  "summary": {
+    "base_construction_ex_vat": null,
+    "owner_allowances_already_in_base": true,
+    "options_excluded_from_base": true,
+    "authority_fees_ex_vat": null,
+    "vat_amount": null,
+    "total_inc_vat": null,
+    "duration_days": null
+  },
+  "new_fields_note": "본 양식은 R1 구조/추적 검사의 대상. 상세 계산과 실측 적합성은 별도 검증하며 기존 R0 --bid 검증기에 그대로 넣지 않음."
+}

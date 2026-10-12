@@ -25,3 +25,7 @@ For CAD evidence, drawing/RFI registers, and contractor RFQ materials, first rea
 ### Current owner RFQ revision R1
 
 The owner has explicitly confirmed residential use. Use the title and performance basis "제주 주택" for R1 contractor specifications; preserve administrative/source evidence separately without claiming permit conversion. `procurement/data/owner-specifications.json` is the current pricing basis, with researched product choices, explicit allowances and separate alternatives. Do not reinstate R0 quotation holds or ask the owner to choose everything again. `procurement/contractor/` is the curated contractor-facing share pack; raw CAD is supplied separately and filled bids remain private.
+
+## Current revision R2 — comparison proposals, not fixed purchasing
+
+The current owner request explicitly welcomes contractor recommendations. Use R2 A-reference pricing and B-recommended alternatives; never claim 11 indoor AC units or any other equipment configuration is verified as necessary. Read procurement/AGENTS.md. Static reply.html is a local draft/export helper, not a deployed authentication or bid-submission service. Earlier R1 instructions are historical when inconsistent with R2.

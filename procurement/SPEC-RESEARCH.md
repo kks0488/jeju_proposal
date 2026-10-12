@@ -12,7 +12,7 @@
 <a id="rs-01"></a>
 ## RS-01 · 이건 EWS 75 TT PLUS
 
-[공식 원문](https://www.eagonwd.com/raum/product/13) · 확인2026-10-12 · 제조사 제품사양
+[공식 원문](https://www.eagonwd.com/raum/product/13) · 기존자료확인2026-10-12 · 제조사 제품사양
 
 **확인한 사실:** AL Turn & Tilt, 적용 유리 16~43mm, Vent 최대 1480×1930mm, 기밀1등급 표기.
 
@@ -21,7 +21,7 @@
 <a id="rs-02"></a>
 ## RS-02 · 이건 ESS 210 LS
 
-[공식 원문](https://www.eagonwd.com/floor/product/77) · 확인2026-10-12 · 제조사 제품사양
+[공식 원문](https://www.eagonwd.com/floor/product/77) · 기존자료확인2026-10-12 · 제조사 제품사양
 
 **확인한 사실:** AL Lift & Sliding, 유리24~43mm, Vent 최대2400×3000mm. 무거운 창의 Lift Unit은 옵션으로 설명.
 
@@ -30,7 +30,7 @@
 <a id="rs-03"></a>
 ## RS-03 · LX 강그린 프로맥스 루트 오크
 
-[공식 원문](https://www.lxzin.com/zin/product/100133) · 확인2026-10-12 · 제조사 제품사양
+[공식 원문](https://www.lxzin.com/zin/product/100133) · 기존자료확인2026-10-12 · 제조사 제품사양
 
 **확인한 사실:** FMKPM001-W01650000, 7.0×165×1200mm.
 
@@ -39,7 +39,7 @@
 <a id="rs-04"></a>
 ## RS-04 · MAPEI Mapelastic Smart
 
-[공식 원문](https://www.mapei.com/sg/en/products-and-solutions/products/detail/mapelastic-smart) · 확인2026-10-12 · 제조사 기술자료
+[공식 원문](https://www.mapei.com/sg/en/products-and-solutions/products/detail/mapelastic-smart) · 기존자료확인2026-10-12 · 제조사 기술자료
 
 **확인한 사실:** 욕실·테라스 등에 적용하는 2성분 탄성 시멘트계 방수재. 최소2mm/2회 도포 표기.
 
@@ -48,7 +48,7 @@
 <a id="rs-05"></a>
 ## RS-05 · MAPEI Keraflex Maxi S1
 
-[공식 원문](https://www.mapei.com/co/es-co/productos/lista-de-productos/detalles-del-producto/keraflex-maxi-s1) · 확인2026-10-12 · 제조사 기술자료
+[공식 원문](https://www.mapei.com/co/es-co/productos/lista-de-productos/detalles-del-producto/keraflex-maxi-s1) · 기존자료확인2026-10-12 · 제조사 기술자료
 
 **확인한 사실:** 대형 포세린 등에 사용하는 C2TES1 접착제 분류.
 
@@ -57,7 +57,7 @@
 <a id="rs-06"></a>
 ## RS-06 · 힘펠 HUEVEN EBN
 
-[공식 원문](https://www.himpel.co.kr/2019/eng/m/prod/prod_view.html?goods_code=HIM20190624-127355&s_menu1_no=7&s_menu2_no=) · 확인2026-10-12 · 제조사 제품사양
+[공식 원문](https://www.himpel.co.kr/2019/eng/m/prod/prod_view.html?goods_code=HIM20190624-127355&s_menu1_no=7&s_menu2_no=) · 기존자료확인2026-10-12 · 제조사 제품사양
 
 **확인한 사실:** 주거용 전열교환 환기장치 EBN 제품군 및 EP250IBN, BLDC·H13 필터. 바이패스는 옵션 표기.
 
@@ -66,7 +66,7 @@
 <a id="rs-07"></a>
 ## RS-07 · LG RNW0200C2S 고객지원
 
-[공식 원문](https://www.lge.co.kr/support/product-RNW0200C2S) · 확인2026-10-12 · 제조사 모델·설치자료
+[공식 원문](https://www.lge.co.kr/support/product-RNW0200C2S) · 기존자료확인2026-10-12 · 제조사 모델·설치자료
 
 **확인한 사실:** 도면에 적힌 RNW0200C2S 모델의 제조사 지원 페이지 존재.
 
@@ -75,7 +75,7 @@
 <a id="rs-08"></a>
 ## RS-08 · LG RPUW121S9S 고객지원
 
-[공식 원문](https://www.lge.co.kr/support/product-RPUW121S9S) · 확인2026-10-12 · 제조사 모델·설치자료
+[공식 원문](https://www.lge.co.kr/support/product-RPUW121S9S) · 기존자료확인2026-10-12 · 제조사 모델·설치자료
 
 **확인한 사실:** 도면 실외기 RPUW121S9S의 제조사 지원 페이지 존재.
 
@@ -84,7 +84,7 @@
 <a id="rs-09"></a>
 ## RS-09 · 대림바스 CC-280
 
-[공식 원문](https://www.daelimbath.com/product/product_view?idx=47) · 확인2026-10-12 · 제조사 제품사양
+[공식 원문](https://www.daelimbath.com/product/product_view?idx=47) · 기존자료확인2026-10-12 · 제조사 제품사양
 
 **확인한 사실:** 원피스·사이펀·절수형 양변기, 720×400×690mm, 평균 사용수량5L 표기.
 
@@ -93,7 +93,7 @@
 <a id="rs-10"></a>
 ## RS-10 · KCC 숲으로 제품군
 
-[공식 원문](https://webzine.kccworld.co.kr/news/kcc-%ED%8E%98%EC%9D%B8%ED%8A%B8-%ED%95%9C%EA%B5%AD-%EC%82%B0%EC%97%85-%EB%B8%8C%EB%9E%9C%EB%93%9C%ED%8C%8C%EC%9B%8C-1%EC%9C%84-%EC%84%A0%EC%A0%95/) · 확인2026-10-12 · 제조사 제품 소개
+[공식 원문](https://webzine.kccworld.co.kr/news/kcc-%ED%8E%98%EC%9D%B8%ED%8A%B8-%ED%95%9C%EA%B5%AD-%EC%82%B0%EC%97%85-%EB%B8%8C%EB%9E%9C%EB%93%9C%ED%8C%8C%EC%9B%8C-1%EC%9C%84-%EC%84%A0%EC%A0%95/) · 기존자료확인2026-10-12 · 제조사 제품 소개
 
 **확인한 사실:** 숲으로 올인원·웰빙 수성도료와 환경 관련 인증 이력을 소개.
 
@@ -102,7 +102,7 @@
 <a id="rs-11"></a>
 ## RS-11 · Blum CLIP top BLUMOTION
 
-[공식 원문](https://www.blum.com/kr/ko/products/hingesystems/clip-top-blumotion/overview/) · 확인2026-10-12 · 제조사 제품사양
+[공식 원문](https://www.blum.com/kr/ko/products/hingesystems/clip-top-blumotion/overview/) · 기존자료확인2026-10-12 · 제조사 제품사양
 
 **확인한 사실:** 경첩 내장형 댐핑, 문 중량/형식에 맞는 제품 구성과 조정 가능.
 
@@ -111,7 +111,7 @@
 <a id="rs-12"></a>
 ## RS-12 · PREFA PREFALZ 시공 시스템
 
-[공식 원문](https://uk.prefa.com/product-catalogue/roof-systems/prefalz-standing-seam/) · 확인2026-10-12 · 제조사 시스템 자료
+[공식 원문](https://uk.prefa.com/product-catalogue/roof-systems/prefalz-standing-seam/) · 기존자료확인2026-10-12 · 제조사 시스템 자료
 
 **확인한 사실:** 0.7mm 코일도장 알루미늄 돌출잇기, 전면 지지 바탕과 구조조건에 따른 고정·슬라이딩 클립.
 
@@ -120,7 +120,7 @@
 <a id="rs-13"></a>
 ## RS-13 · 귀뚜라미 스텐레스 하이핀 중형보일러
 
-[공식 원문](https://krb.co.kr/product6/1001) · 확인2026-10-12 · 제조사 제품사양
+[공식 원문](https://krb.co.kr/product6/1001) · 기존자료확인2026-10-12 · 제조사 제품사양
 
 **확인한 사실:** 기름 50S는 난방/온수 정격50,000kcal/h, ΔT30℃ 온수27.8LPM 표기. R은 난방전용, G는 급탕전용.
 

@@ -1,21 +1,26 @@
 {
-  "baseline_commit": "8ca15a9e37d6e4e5d114cca54e70079aac7c76f8",
-  "package_id": "JEJU-HOUSE-RFQ-20261012-R1",
-  "r1_data_mutation_tests": 10,
-  "legacy_bid_synthetic_tests": 14,
-  "browser_page_viewport_theme_configurations": 76,
-  "static_local_links": 1393,
-  "generated_build_idempotent": true,
-  "gallery_preservation": "Only procurement entry blocks changed; other content matches baseline byte-for-byte",
-  "curated_contractor_pack_files": 7,
-  "raw_drawings_in_contractor_pack": false,
+  "package_id": "JEJU-HOUSE-RFQ-20261013-R2",
+  "source_revision": "72ad41c05a5ce1751a99cd041085e6988141e2b0",
+  "spec_audit_rows": 37,
+  "reference_cooling_math_verified": {
+    "indoor_kw": 60.9,
+    "outdoor_kw": 61.6,
+    "large_two_share_percent": 47.619047619
+  },
+  "room_thermal_loads_calculated": false,
+  "needed_indoor_units_verified": null,
+  "full_CAD_visual_validation": false,
+  "proposal_integrity_tests": 8,
+  "legacy_bid_tests": 14,
+  "static_browser_configurations": 88,
+  "local_reply_configurations": 4,
+  "authenticated_company_submission_live": false,
+  "gallery_preserved_outside_entry_blocks": true,
+  "build_idempotent": true,
   "limitations": [
-    "Not a verified CAD geometry takeoff",
-    "Not field-load/window-safety/permit certification",
-    "Material allowances are owner comparison budgets, not observed supplier prices"
+    "Manufacturer source facts are not house-specific optimization",
+    "Excel response workbook delivered separately in conversation; not included in this ZIP",
+    "Local draft exports are not server submissions, identity proof, or access-control tests"
   ],
-  "legacy_npm_test": {
-    "status": "pre-existing failure recorded in R0 and not changed in R1",
-    "message": "Base template changed; review transformation"
-  }
+  "legacy_npm_test": "pre-existing legacy v2 template failure recorded in prior revisions; unrelated code not modified"
 }

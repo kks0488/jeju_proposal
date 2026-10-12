@@ -1,7 +1,7 @@
 {
   "passed": true,
   "scope": "Chrome offline DOM/layout/navigation smoke; not CAD/PDF visual validation or cross-browser certification",
-  "pageConfigurations": 76,
+  "pageConfigurations": 88,
   "viewports": [
     390,
     1440
@@ -26,6 +26,12 @@
       "passed": true
     },
     {
+      "file": "BID-PORTAL.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
       "file": "BID-RETURN.html",
       "width": 390,
       "colorScheme": "light",
@@ -51,6 +57,12 @@
     },
     {
       "file": "EVIDENCE.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "HVAC-REVIEW.html",
       "width": 390,
       "colorScheme": "light",
       "passed": true
@@ -99,6 +111,12 @@
     },
     {
       "file": "SCOPE.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "SPEC-AUDIT.html",
       "width": 390,
       "colorScheme": "light",
       "passed": true
@@ -140,6 +158,12 @@
       "passed": true
     },
     {
+      "file": "BID-PORTAL.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
       "file": "BID-RETURN.html",
       "width": 1440,
       "colorScheme": "light",
@@ -165,6 +189,12 @@
     },
     {
       "file": "EVIDENCE.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "HVAC-REVIEW.html",
       "width": 1440,
       "colorScheme": "light",
       "passed": true
@@ -213,6 +243,12 @@
     },
     {
       "file": "SCOPE.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "SPEC-AUDIT.html",
       "width": 1440,
       "colorScheme": "light",
       "passed": true
@@ -254,6 +290,12 @@
       "passed": true
     },
     {
+      "file": "BID-PORTAL.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
       "file": "BID-RETURN.html",
       "width": 390,
       "colorScheme": "dark",
@@ -279,6 +321,12 @@
     },
     {
       "file": "EVIDENCE.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "HVAC-REVIEW.html",
       "width": 390,
       "colorScheme": "dark",
       "passed": true
@@ -327,6 +375,12 @@
     },
     {
       "file": "SCOPE.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "SPEC-AUDIT.html",
       "width": 390,
       "colorScheme": "dark",
       "passed": true
@@ -368,6 +422,12 @@
       "passed": true
     },
     {
+      "file": "BID-PORTAL.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
       "file": "BID-RETURN.html",
       "width": 1440,
       "colorScheme": "dark",
@@ -393,6 +453,12 @@
     },
     {
       "file": "EVIDENCE.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "HVAC-REVIEW.html",
       "width": 1440,
       "colorScheme": "dark",
       "passed": true
@@ -441,6 +507,12 @@
     },
     {
       "file": "SCOPE.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "SPEC-AUDIT.html",
       "width": 1440,
       "colorScheme": "dark",
       "passed": true

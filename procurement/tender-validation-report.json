@@ -1,15 +1,14 @@
 {
   "passed": true,
-  "package_id": "JEJU-HOUSE-RFQ-20261012-R1",
+  "package_id": "JEJU-HOUSE-RFQ-20261013-R2",
   "checks": {
-    "specifications": 37,
-    "manufacturer_sources": 13,
-    "common_material_allowances": 13,
-    "separate_alternates": 10,
-    "scope_ids": 61,
-    "contractor_files": 7,
-    "raw_CAD_in_bundle": false
+    "spec_audit_rows": 37,
+    "A_reference_indoor_count": 11,
+    "verified_needed_indoor_count": null,
+    "response_rows": 61,
+    "contractor_files": 10,
+    "authenticated_submission_service": false
   },
   "errors": [],
-  "scope": "R1 data/reference/allowance consistency and curated ZIP equality only; not engineering, market-price or permit certification"
+  "scope": "reference/proposal integrity and local draft packaging; not field engineering or live access-control validation"
 }

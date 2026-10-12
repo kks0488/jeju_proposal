@@ -1,0 +1,130 @@
+{
+  "package_id": "JEJU-HOUSE-RFQ-20261013-R2",
+  "summary": "11대는 필요성 미검증. 일람표11과 1층 평면문자11은 일치하나 설치구역/리더/실사용 매핑과 열부하는 미확정.",
+  "indoor_count_reference": 11,
+  "indoor_nominal_cooling_kw_sum": 60.9,
+  "outdoor_count_reference": 2,
+  "outdoor_nominal_cooling_kw_sum": 61.6,
+  "large_indoor_nominal_kw_each": 14.5,
+  "large_indoor_count": 2,
+  "large_units_nominal_share_percent": 47.61904761904762,
+  "nominal_indoor_per_gross_m2_w": 176.21527777777777,
+  "not_electrical_input_power": true,
+  "reported_gross_floor_m2": 345.6,
+  "thermal_load_calculated": false,
+  "recommended_indoor_count": null,
+  "label_records": [
+    {
+      "id": "M:E6873",
+      "text": "IAC-20",
+      "xy": [
+        707911.01,
+        -359772.02
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E688B",
+      "text": "IAC-23",
+      "xy": [
+        701895.07,
+        -352093.34
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E6893",
+      "text": "IAC-32",
+      "xy": [
+        724214.81,
+        -354462.13
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E689B",
+      "text": "IAC-40",
+      "xy": [
+        704914.81,
+        -352089.27
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E68A3",
+      "text": "IAC-52",
+      "xy": [
+        719888.96,
+        -354469.39
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E68AB",
+      "text": "IAC-60A",
+      "xy": [
+        701679.65,
+        -362398.06
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E68B3",
+      "text": "IAC-145A",
+      "xy": [
+        715542.72,
+        -365717.04
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E68BB",
+      "text": "IAC-145A",
+      "xy": [
+        721542.72,
+        -365717.04
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E68C3",
+      "text": "IAC-20",
+      "xy": [
+        699194.75,
+        -367118.26
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E68CB",
+      "text": "IAC-32",
+      "xy": [
+        705917.48,
+        -369243.92
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    },
+    {
+      "id": "M:E68D5",
+      "text": "IAC-40",
+      "xy": [
+        708964.81,
+        -352089.27
+      ],
+      "mapping_to_actual_residential_room": "unverified"
+    }
+  ],
+  "private_preview": {
+    "scope": "M converted first-floor geometry overview; selected text re-rendered, low-resolution overview only",
+    "A_render_failed": "LibreDWG-converted HATCH spline knot-count error; not all architectural geometry validated",
+    "independent_professional_verification": false
+  },
+  "review_priorities": [
+    "14.5kW 두 대의 서비스구역/개방공간 분배·일사부하",
+    "닫힌 침실의 개별제어/문닫힘 운전",
+    "거의 쓰지 않는 다락·창고·복도·보조공간 전용기 필요성",
+    "주택 재실·가전·방향/유리SHGC·외피·환기/습도 현열/잠열",
+    "실외기 계통 연결비·배관보정·최소운전능력·야간소음·전력",
+    "동일쾌적성을 유지하는 대수/용량/배관/천장/전력 총비용 B안"
+  ]
+}

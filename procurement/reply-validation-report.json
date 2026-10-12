@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "configurations": 4,
+  "results": [
+    {
+      "width": 390,
+      "colorScheme": "light",
+      "checks": "61 rows, blank/quantity math, B negative delta, literal comments, revision/type rejection, CSV/HTML escaping, JSON save/import",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "light",
+      "checks": "61 rows, blank/quantity math, B negative delta, literal comments, revision/type rejection, CSV/HTML escaping, JSON save/import",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "colorScheme": "dark",
+      "checks": "61 rows, blank/quantity math, B negative delta, literal comments, revision/type rejection, CSV/HTML escaping, JSON save/import",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "colorScheme": "dark",
+      "checks": "61 rows, blank/quantity math, B negative delta, literal comments, revision/type rejection, CSV/HTML escaping, JSON save/import",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "external_requests": [],
+  "authentication_or_private_server_tested": false,
+  "scope": "Local file input/export smoke; not deployed bid service security certification"
+}
