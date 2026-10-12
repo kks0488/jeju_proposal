@@ -1,0 +1,1531 @@
+{
+  "schema_version": "1.0",
+  "package_id": "JEJU-HOUSE-RFQ-20261012-R1",
+  "document_title": "제주 주택 신축공사 — 건축주 지정사양·견적요청서",
+  "purpose": "시공사에 도면과 함께 전달할 동일기준 견적용 사양",
+  "status": "owner_delegated_pricing_specification",
+  "actually_sent": false,
+  "date": "2026-10-12",
+  "owner_role": "발주자/건축주",
+  "use_basis": "상시 거주 주택",
+  "use_basis_authority": "2026-10-12 건축주 메시지: 근생이지만 실제 주택 사용, 견적자료는 주택으로 표기",
+  "administrative_note": "주택은 실제 이용/성능 기준의 명칭. 행정 용도와 허가사항은 원본도서에 따르며 변경이 필요한 행정·설계 절차는 별도로 처리. 원본 기재를 고치거나 주택 허가 취득으로 간주하지 않음.",
+  "measurement_mode": "bidder_takeoff_from_attached_drawings_plus_fixed_R1_pricing_quantities",
+  "supplier_equivalence_rule": "지정 기준을 먼저 가격화. 단종/형식 불가 시 해당 창/기기ID별 후속형·적합성·증감 명시. 일반 대체안은 별도 옵션. 가격만 낮춘 무명 동등품 금지.",
+  "order_of_precedence_for_pricing": [
+    "공통 추가회신/변경통보(발행된 것만)",
+    "R1의 명시적 사양선정/추가·변경 목록",
+    "첨부 건축/구조/전기통신/설비 도면(수량·형상·안전·법정성능)",
+    "제조사 설치시방"
+  ],
+  "safety_conflict_rule": "구조·방화·배수·전기 등 안전/법정 조건과 충돌하면 높은 문서순위로 덮어쓰지 않고 설계자 확인 및 적합한 해법을 별도 표시. 사양 선택은 시공/제작 승인과 다름.",
+  "quote_timing": {
+    "clarification_days_after_receipt": 5,
+    "return_days_after_receipt": 14,
+    "validity_days_after_quote": 60,
+    "calendar_dates_fixed": false
+  },
+  "as_built_or_permit_certification": false,
+  "market_price_research_performed": false,
+  "specifications": [
+    {
+      "id": "SP-01",
+      "category": "공통",
+      "title": "주택 사용·실내 환경",
+      "scope_ids": [
+        "GEN-01"
+      ],
+      "pricing_basis": "상시 거주 주택. 난방 겨울 실내22℃, 냉방 여름26℃를 부하선정 목표로 사용. 가격 비교 운영가정은 상시4인/방문 시6인. 공용부 완성 CH3200, 나머지는 도면 높이 유지.",
+      "included_work": "주거공간 난방·급탕·환기·결로/소음·필터교체 접근성 포함. 도면 사무실 등 실명은 위치 식별자로만 사용.",
+      "shop_drawing_and_acceptance": "지역 설계 외기조건·실제 체적·일사/유리·재실별 부하를 설비업체가 계산. 사무실 시간제 사용으로 난방/환기를 누락하지 않음.",
+      "selection_reason": "건축주가 실제 주거 사용을 명시했으므로 부하와 편의 기준을 주거로 통일. 인원과 설정온도는 비교용 제안값.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:2981",
+        "A:2302A"
+      ],
+      "decision_type": "owner_explicit_use_plus_pricing_assumptions",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-02",
+      "category": "구조·토목",
+      "title": "골조·기초·매립 사전 조정",
+      "scope_ids": [
+        "STR-01",
+        "STR-02",
+        "STR-03",
+        "STR-04",
+        "CIV-01",
+        "CIV-04",
+        "CIV-05"
+      ],
+      "pricing_basis": "RC 구조·콘크리트 강도·철근·기초는 첨부 구조도 기준. 구조 변경과 저강도 대체 없음. 성토는 구조부/포장부/조경부 별도 내역.",
+      "included_work": "도면 수량 적산·구조도 검토·기준점·시험·검측·슬리브/매립철물 사전 도면·관통부 보강·거푸집/동바리 및 복구 포함.",
+      "shop_drawing_and_acceptance": "지반조사 및 책임기술자 검토 후 층다짐 두께·지내력·시험 합격기준 확정. 도면의 500mm 다짐 주기를 현장 검증 없이 승인한 것으로 보지 않음.",
+      "selection_reason": "기초·골조를 임의 최적화하는 대신 설계 유지와 검측비 누락 방지를 기본값으로 삼음.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:9BA0",
+        "A:BC10",
+        "A:BC11",
+        "A:B535",
+        "A:B5E9"
+      ],
+      "decision_type": "drawing_retained",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-03",
+      "category": "구조·토목",
+      "title": "철거·굴착·오우수 연결",
+      "scope_ids": [
+        "CIV-02",
+        "CIV-03",
+        "CIV-06",
+        "CIV-07",
+        "CIV-08",
+        "PLB-07"
+      ],
+      "pricing_basis": "도면의 신설·철거 경계, 석축/옹벽·오수받이·우수트렌치·침투조 포함. 기존 시설 전체를 신설로 계상하지 않음.",
+      "included_work": "반출/합법처리·되메우기·맨홀·기존관 접속·굴착 복구·관저고/구배 검측·청소구와 유지관리 접근 포함. 도면 밖 암반/지반개량은 공통 별도단가표 제출.",
+      "shop_drawing_and_acceptance": "관로 현장조사·침투/배수조건·옹벽 구조·월류경로 검토. 상세 미정/상충은 임의로 배수 용량 축소하지 않고 이견표 제출.",
+      "selection_reason": "미확인 토질 물량을 업체마다 가정해 총액에 섞기보다 동일 제외조건과 단가를 명시.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:3A65",
+        "A:287A8",
+        "M:EC6D3",
+        "M:EC6DE",
+        "A:1A8"
+      ],
+      "decision_type": "drawing_retained",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-04",
+      "category": "외피",
+      "title": "박공지붕·알루미늄 돌출잇기",
+      "scope_ids": [
+        "ENV-01",
+        "ENV-02"
+      ],
+      "pricing_basis": "도면 T0.7 코일도장 알루미늄 지붕재, 무광 차콜 계열 표준색. 이중 돌출잇기. T12 내수합판·방수시트·이격환기재·도면 각관 하부틀 유지.",
+      "included_work": "용마루·처마·후레싱·관통부·단부 고정·지지/슬라이딩클립·이종금속 절연·하부 방수 및 도막 손상보수 포함. 같은 제조사 도장체계 사용.",
+      "shop_drawing_and_acceptance": "제주 현장 풍압·염해 조건에 맞는 판폭/클립·바탕 지지 간격·도장체계/보증 제출. 도면 경사에 맞는 이음 상세 확인.",
+      "selection_reason": "도면의 알루미늄을 값싼 다른 금속으로 바꾸지 않고, 수입 브랜드 추가비는 선택 사항으로 분리.",
+      "research_refs": [
+        "RS-12"
+      ],
+      "drawing_evidence_refs": [
+        "A:242A",
+        "A:242B",
+        "A:242C"
+      ],
+      "decision_type": "drawing_retained_plus_quality_requirement",
+      "alternative_refs": [
+        "ALT-05"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-05",
+      "category": "외피",
+      "title": "외벽 석재와 단열 연속성",
+      "scope_ids": [
+        "ENV-03",
+        "ENV-04",
+        "ENV-05"
+      ],
+      "pricing_basis": "도면의 THK100 비드법2종1호 외단열 및 T30 사비석 잔다듬 유지. 부위별 다른 단열 사양은 해당 상세를 따름. 보일러실은 도면 외장체계 유지.",
+      "included_work": "석재 색/두께·가공 견본, 구조체까지 지지하는 설계 고정철물·방청/이종금속 절연·창주위/기단/테라스 열교·배면 배수·실링 포함.",
+      "shop_drawing_and_acceptance": "단열재 적합성·법정 성능·내화/고정 방식은 설계자 확인. EPS에 석재 하중을 맡기지 않음. 다른 단열재 변경안은 별도 증감과 접합 상세.",
+      "selection_reason": "현재 외관과 상세를 유지하면서 교체하기 어려운 단열·고정부 품질에 비용 우선 배분.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:A9BE",
+        "A:A9BD",
+        "A:24C06"
+      ],
+      "decision_type": "drawing_retained",
+      "alternative_refs": [
+        "ALT-06"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-06",
+      "category": "외피",
+      "title": "창호 주위·테라스·기단 방수",
+      "scope_ids": [
+        "ENV-06",
+        "WIN-03"
+      ],
+      "pricing_basis": "창 하부 배수·실내측 기밀·외측 방수/투습 역할을 구분한 제조사 적합 접합체계. 테라스는 승인된 도면의 구조/구배/방수 체계 유지.",
+      "included_work": "전용 프라이머·테이프/막·창하부 받이·턱·배수구·보호층·석재 철물 관통부 수밀처리·1:1 접합 견본 포함.",
+      "shop_drawing_and_acceptance": "창호 설치 후 마감 전 대표 부위 물뿌림 시험방법을 감리와 합의. 실란트만으로 하부 배수체계를 대체하지 않음.",
+      "selection_reason": "유리 등급보다 현장 접합부 누락을 먼저 통제.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:258F4",
+        "A:258FC",
+        "A:2B380",
+        "A:2A561"
+      ],
+      "decision_type": "drawing_retained_plus_quality_requirement",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-07",
+      "category": "창호·문",
+      "title": "외부 AL 시스템창·도어",
+      "scope_ids": [
+        "WIN-01"
+      ],
+      "pricing_basis": "기준 제품군: 이건 AL. 소형 개폐창 EWS75 TT PLUS, 대형 미서기는 ESS210 LS, FIX는 같은 공급사의 적합 시스템. 도면 개폐방식/분할/크기 유지. 도면 43T Low-E 아르곤 삼중유리를 견적 출발점으로 사용. 조합별 창 전체 Uw≤1.2W/㎡K 및 기밀1등급을 구매 목표로 요구.",
+      "included_work": "실측·유리·단열바·핸들/잠금·방충망(개폐부)·안전유리·양중·설치·접합방수·실링·완성 마감 포함. 대형 LS의 제조사 권장 중량 이상은 리프트 보조장치 포함.",
+      "shop_drawing_and_acceptance": "EWS75 TT의 공개 Vent 최대1480×1930, ESS210LS 최대2400×3000에 실제 창을 대조. 큰 FIX에 5mm 유리를 일괄 확정하지 않음. 적용 시험체·유리 중량/풍압·안전 및 공급 가능 여부 제출. 불가 창은 해당 ID와 안전한 동급 시스템 가격 명시.",
+      "selection_reason": "국내 기준 제품으로 서비스·부속 관리 경로를 확보하고 비싼 진공유리/수입 프레임은 선택 견적으로 분리. 성능 수치는 발주 목표이며 모든 제품 조합이 달성한다고 주장하지 않음.",
+      "research_refs": [
+        "RS-01",
+        "RS-02"
+      ],
+      "drawing_evidence_refs": [
+        "A:9FF7",
+        "A:9FF6",
+        "A:2869F",
+        "A:A6AF",
+        "A:A43B",
+        "A:9E9C"
+      ],
+      "decision_type": "research_product_selection",
+      "alternative_refs": [
+        "ALT-04"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-08",
+      "category": "창호·문",
+      "title": "현관문·실내문·다락 접근",
+      "scope_ids": [
+        "WIN-02",
+        "INT-08"
+      ],
+      "pricing_basis": "현관은 도면 단열 철재 도어, 표준색·디지털도어록·도어클로저·기밀패킹 포함. 일반 실내문은 도면 ABS/목문틀, 포켓도어는 도면 위치만 적용. 주거용 실내 레버·욕실 비상개방 기능.",
+      "included_work": "문틀/문짝·경첩·손잡이·스토퍼·문선·하부마감, 포켓도어 소프트클로징과 상부레일 유지보수 접근, 도면 다락 사다리/난간의 고정/마감 포함.",
+      "shop_drawing_and_acceptance": "문열림·유효폭·바닥레벨·포켓벽 내부배관·난간/접근 안전은 시공상세로 확인. 출입·방화 성능이 필요한 문은 적합 제품으로 적용.",
+      "selection_reason": "도면에 없는 전실 히든도어·자동문 등 과도한 옵션은 기본 제외.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:9E9C"
+      ],
+      "decision_type": "drawing_retained_plus_owner_standard",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-09",
+      "category": "내부마감",
+      "title": "비내력벽·차음·보강",
+      "scope_ids": [
+        "INT-01"
+      ],
+      "pricing_basis": "구조 RC는 유지. 경량벽은 도면 유형을 기본으로 하되 침실 등 주거실 사이 벽은 75mm 스터드+50mm 흡음재+양면 각12.5mm 석고2겹(총125mm)을 비교 기준으로 사용.",
+      "included_work": "상하부/둘레 기밀·콘센트 관통부 처리·문틀/가구/TV 고정부 보강·습식부 적합 바탕·판재 이음 엇갈림 포함.",
+      "shop_drawing_and_acceptance": "도면 벽두께/방치수와 충돌하는 구간은 ID별 대안과 증감 명시, 승인 전 방치수 변경 금지. 차음수치가 필요한 경우 완성벽 시험구성 제출.",
+      "selection_reason": "얇은 벽 최저가보다 주거 소음과 벽걸이 고정 성능을 우선하는 신규 견적 기준.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:259C9",
+        "A:BC15"
+      ],
+      "decision_type": "owner_pricing_upgrade",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-10",
+      "category": "내부마감",
+      "title": "천장과 점검구",
+      "scope_ids": [
+        "INT-02"
+      ],
+      "pricing_basis": "공용부 CH3200 유지. 나머지 실은 도면 CH. 석고 평천장·매끈한 수성도장, 히든몰딩. 거대한 단차천장/곡면/장식몰딩은 도면 명시부 외 추가하지 않음.",
+      "included_work": "천장틀/행거·보강·기기 타공·점검구·단열/기밀 복구·균열방지 이음처리 포함. 기기 교체가 가능한 치수로 점검구 확장비 반영.",
+      "shop_drawing_and_acceptance": "실내기·덕트·배관으로 CH를 임의 낮추지 않음. M의450×450 점검구는 최소 도면 출발값이지 모든 장비 교체에 충분한 크기라는 뜻이 아님.",
+      "selection_reason": "주택의 층고를 살리고 장기 유지보수로 천장을 부수는 일을 줄임.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:2981",
+        "A:24CF",
+        "M:E6723",
+        "M:E6729"
+      ],
+      "decision_type": "drawing_retained_plus_quality_requirement",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-11",
+      "category": "내부마감",
+      "title": "마루",
+      "scope_ids": [
+        "INT-03"
+      ],
+      "pricing_basis": "LX 강그린 프로맥스 루트 오크 FMKPM001-W01650000, 7×165×1200mm, 일자 시공. 같은 등급 표준색 변경은 색상 확정 때 협의하되 기준 견적은 이 모델.",
+      "included_work": "온돌 적합 접착제·바탕 함수/평활 점검·주변 신축틈·문/타일 접합·보양 포함. 도면T10→선정7mm 차이는 바탕 높이 조정으로 완성FL 유지.",
+      "shop_drawing_and_acceptance": "납품라벨·제조사 시방·바탕 함수 점검기록·온돌 가동/양생 절차·접합 단차 확인. 7mm를 기존 도면 표기처럼 기록하지 않음.",
+      "selection_reason": "실제 제품으로 가격 비교하고 헤링본·원목·특수 패턴 비용은 기본에서 제외.",
+      "research_refs": [
+        "RS-03"
+      ],
+      "drawing_evidence_refs": [
+        "A:25167"
+      ],
+      "decision_type": "explicit_drawing_spec_change",
+      "alternative_refs": [
+        "ALT-05"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-12",
+      "category": "내부마감",
+      "title": "건식 공간 바닥 타일",
+      "scope_ids": [
+        "INT-03"
+      ],
+      "pricing_basis": "도면 타일 부위에 무광 600×600 포세린, 웜그레이/라이트베이지 계열. 흡수율0.5% 이하 제품 자료 요구. 공통 자재기준 40,000원/㎡(세전, 반입자재면적 기준).",
+      "included_work": "붙임/줄눈·바탕·타공·직선재단·보양·완성 높이 조정은 별도 시공단가로 포함. 대형 슬랩/무줄눈은 기본 아님.",
+      "shop_drawing_and_acceptance": "ALW-01 기준단가와 순면적×1.10 자재계산 적용, 샘플·색차·줄눈폭 검수.",
+      "selection_reason": "큰 면적은 표준규격과 중립색으로 비용과 교체성을 통제. 이 단가는 시장가격 주장이 아닌 발주자 비교용 허용액.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:25132"
+      ],
+      "decision_type": "owner_material_allowance",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-13",
+      "category": "내부마감",
+      "title": "욕실 바닥·벽 타일",
+      "scope_ids": [
+        "INT-03",
+        "INT-04"
+      ],
+      "pricing_basis": "욕실 바닥300×300 논슬립 포세린 45,000원/㎡, 벽300×600 무광 타일30,000원/㎡. 벽 타일 높이는 도면 마감표 유지. 샤워부 물흐름에 맞는 작은 모듈을 기본 선택.",
+      "included_work": "바닥구배·드레인 접합·타공/재단·끝단금속마감·줄눈·보양 포함. 샤워실 바닥 유광타일 제외.",
+      "shop_drawing_and_acceptance": "젖은 맨발 용도 적합성 시험자료/제조사 용도 제시. 단순히 표면이 거칠다는 이유로 미끄럼 안전성을 확정하지 않음. ALW-02/03 적용.",
+      "selection_reason": "300각은 바닥구배 형성용 선택이고 벽은 표준규격으로 조절. 자재가격은 공통 허용액.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:25132",
+        "A:24EA4"
+      ],
+      "decision_type": "owner_material_allowance",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-14",
+      "category": "내부마감",
+      "title": "타일 접착·줄눈",
+      "scope_ids": [
+        "INT-03",
+        "INT-04",
+        "INT-05"
+      ],
+      "pricing_basis": "온돌/포세린 접착은 MAPEI Keraflex Maxi S1 또는 동일 국내 공급 C2TES1 시스템. 기본 줄눈은 저흡수 고내마모 시멘트계 프리미엄 제품, 샤워 바닥은 호환 에폭시 줄눈을 기본 포함.",
+      "included_work": "양면 도포 등 제조사 권장 충진시공, 보강/신축줄눈·벽바닥 모서리 탄성실란트·프라이머·양생·청소 포함.",
+      "shop_drawing_and_acceptance": "접착/방수/판재의 상호 적합성, 들뜸과 단차 확인. 단순 시멘트풀/점붙임으로 포세린을 대체하지 않음.",
+      "selection_reason": "타일 자체의 브랜드보다 부착체계·접합 내구성을 기본비에 반영.",
+      "research_refs": [
+        "RS-05"
+      ],
+      "drawing_evidence_refs": [],
+      "decision_type": "research_system_selection",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-15",
+      "category": "내부마감",
+      "title": "욕실 방수",
+      "scope_ids": [
+        "INT-05"
+      ],
+      "pricing_basis": "MAPEI Mapelastic Smart 2성분 시멘트계 탄성방수: 총 도막 최소2mm/2회 이상. 욕실 바닥 전면, 비샤워 벽300mm 이상 치켜올림, 샤워/욕조 물맞는 벽2100mm 이상 또는 도면 더 높은 기준.",
+      "included_work": "바탕보수·코너테이프·제조사 지정 보강재·관통부·드레인플랜지·턱·보호층·양생 후 담수시험 포함. 샤워 바닥 구배1~2%를 시공 목표로 반영.",
+      "shop_drawing_and_acceptance": "제조사 바탕/양생조건 충족 후 최소24시간 담수(구조/현장 허용 수심·시험방법은 감리 확인), 누수·배수 검수 및 사진 후 덮기. 문턱 높이는 도면FL/접근안전과 조정.",
+      "selection_reason": "횟수만 적는 대신 완성 도막과 접합부/시험까지 포함시켜 비교.",
+      "research_refs": [
+        "RS-04"
+      ],
+      "drawing_evidence_refs": [],
+      "decision_type": "research_system_selection",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-16",
+      "category": "내부마감",
+      "title": "벽·천장 도장",
+      "scope_ids": [
+        "INT-04"
+      ],
+      "pricing_basis": "도면 도장 부위 KCC 숲으로 웰빙 무광 수성 실내용. 기본색 웜화이트, 무광. 퍼티/연마+적합 프라이머+상도2회 이상, 바탕이 비치면 추가 도장 포함.",
+      "included_work": "판이음·피스퍼티·코너처리·오염방지·색상견본·마감보양 포함. 곰팡이 억제 도료를 방수/환기 대체로 사용하지 않음.",
+      "shop_drawing_and_acceptance": "실내 납품형의 유효 친환경/방출자료 및 TDS 제출. 횟수는 발주 요구이며 제조사 시방이 더 엄격하면 준수.",
+      "selection_reason": "고가 수입 페인트나 특수 미장보다 바탕과 조명 아래 면 품질을 우선.",
+      "research_refs": [
+        "RS-10"
+      ],
+      "drawing_evidence_refs": [
+        "A:25A9A"
+      ],
+      "decision_type": "research_product_family_selection",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-17",
+      "category": "내부마감",
+      "title": "걸레받이·몰딩·재료분리",
+      "scope_ids": [
+        "INT-06"
+      ],
+      "pricing_basis": "기성 평걸레받이 높이60mm 전후, 벽색 계열. 공용부 히든 천장몰딩. 타일/마루 접점은 최소 폭 금속 재료분리대.",
+      "included_work": "코너·끝마감·문틀 접점·실링·도장 포함. 직선/일자 기본, 장식 프로파일·금박은 제외.",
+      "shop_drawing_and_acceptance": "제조견본·선 정렬·문짝 하부/FL 단차 확인. 도면 명시 형식과 충돌은 사전 질의.",
+      "selection_reason": "단순 디테일로 견적의 범위를 고정하고 고가 장식비를 별도 선택.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:25B22"
+      ],
+      "decision_type": "owner_finish_standard",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-18",
+      "category": "가구",
+      "title": "주방·붙박이·수납",
+      "scope_ids": [
+        "INT-07"
+      ],
+      "pricing_basis": "도면에 그려진 고정가구는 기본 포함. 몸통18mm급, 문18mm급 PET 무광 표준색, E0급 또는 동등 이상 방출성능 증빙 자재. 주방/욕실 습식 하부는 내수 적합 판재와 절단면 밀봉. 상판은 국산 아크릴 인조대리석12mm+적합 보강바탕. 싱크볼3개는 ALW-13 300,000원/EA 공통 허용액(수전은 PLB-03).",
+      "included_work": "Blum CLIP top BLUMOTION 경첩, 서랍은 전개형 댐핑 레일, 표준 손잡이·발/걸레받이·싱크타공·전기/급배수접속·현장설치 포함. 가구별 길이/높이/깊이·서랍개수 명세.",
+      "shop_drawing_and_acceptance": "도면 없는 가구를 임의 추가하거나 전부 제외하지 않음. 기본구성: 하부장600mm모듈당 선반1, 서랍모듈은 도면 표시 또는 3단1조/주방1개, 상부장선반1, 키큰수납은 600mm당선반4를 공통 가정. 도면 명시 우선.",
+      "selection_reason": "고급 수입 주방 대신 국내 제작 판재/표준 표면, 반복 사용되는 철물에 품질 배분. 모듈 가정 차이는 전 업체 공통 회신으로 정리.",
+      "research_refs": [
+        "RS-11"
+      ],
+      "drawing_evidence_refs": [],
+      "decision_type": "owner_casework_standard",
+      "alternative_refs": [
+        "ALT-05"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-19",
+      "category": "가구",
+      "title": "욕실 카운터·거울·액세서리",
+      "scope_ids": [
+        "INT-07",
+        "PLB-03"
+      ],
+      "pricing_basis": "세면기3곳의 카운터/하부수납은 SP-18 사양. 일반 방습 거울, 타월바·휴지걸이·선반 각 욕실1세트. 크롬계 표준 마감.",
+      "included_work": "거울/카운터는 건축 견적, 도기/수전은 설비 견적; 타공·배수·실링 책임 포함. LED거울/매립수전은 기본 제외.",
+      "shop_drawing_and_acceptance": "세면기 크기와 카운터 타공/급배수/점검공간 대조. 이중계상 금지.",
+      "selection_reason": "화장대/거울이 기계설비 견적에서 빠지는 경계를 메움.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:EAA76"
+      ],
+      "decision_type": "drawing_scope_completed",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-20",
+      "category": "난방·급탕",
+      "title": "난방·온수 겸용 보일러",
+      "scope_ids": [
+        "PLB-04"
+      ],
+      "pricing_basis": "기준: 귀뚜라미 스텐레스 하이핀 중형 기름 50S 1대(50,000kcal/h급 난방·온수 겸용). 600L 유류탱크1대와 도면 순환펌프2대 포함. 난방전용50R/급탕전용50G 대체 금지.",
+      "included_work": "전용 연도·연소급기/배기·급유/누유방지·밸브/스트레이너·기초/방진·제어·전원/안전기기·시운전·동파대책 및 실제 용도에 맞는 보증범위 확인 포함.",
+      "shop_drawing_and_acceptance": "원도면 펌프 회로·탱크 위치·제조사 요구 안전설치, 주택 실별 부하 및 급탕 운전 조합 검토. 50S는 견적 기준모델이며 현장부하 검증 완료를 뜻하지 않음.",
+      "selection_reason": "도면 용량과 겸용 목적에 맞는 실재 제품을 선택해 난방전용 오견적을 방지. 히트펌프 변경은 비교 옵션으로 분리.",
+      "research_refs": [
+        "RS-13"
+      ],
+      "drawing_evidence_refs": [
+        "A:17A7D",
+        "M:EAAFB",
+        "M:EAAFD",
+        "M:EAACB",
+        "M:EAB27"
+      ],
+      "decision_type": "research_product_selection",
+      "alternative_refs": [
+        "ALT-01",
+        "ALT-02"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-21",
+      "category": "난방·급탕",
+      "title": "주거공간 온수 바닥난방",
+      "scope_ids": [
+        "PLB-05",
+        "ELE-05"
+      ],
+      "pricing_basis": "사람이 거주하는 도면 난방 대상 전실 온수온돌, 실별 온도조절. 열원에 적합한 인증 배관·구간별 밸브/유량조절 분배기. 욕실은 위생기구/고정가구 아래 제외한 사용영역 기준.",
+      "included_work": "배관·하부단열/단차·분배기·구동기·조절기·제어선/전선관·유량밸런싱·몰탈 전 압력시험·시운전 포함.",
+      "shop_drawing_and_acceptance": "배관 간격/루프길이/수온/펌프는 실별 부하와 제조사 시방으로 결정. 매립부 이음 최소화, 위치 기록. 비난방 다락/기계실은 도면범위와 명시적으로 구분.",
+      "selection_reason": "도면 행정실명이 사무실이어도 주택의 실별 장시간 온돌 운전을 기준으로 견적.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:E903F",
+        "M:E903E"
+      ],
+      "decision_type": "residential_use_requirement",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-22",
+      "category": "난방·급탕",
+      "title": "동시 급탕·대기시간",
+      "scope_ids": [
+        "PLB-01",
+        "PLB-04"
+      ],
+      "pricing_basis": "비교용 요구: 입수10℃ 조건에서 40℃ 혼합수 샤워2곳 각8L/min, 20분 동시사용 목표. 도면 급탕/환탕 회로 유지·시간/온도 제어, 긴 배관의 대기시간과 열손실 고려.",
+      "included_work": "보온·환탕 제어·혼합/역류방지·수압조절·밸런싱 및 실제 사용점 온도/유량 시운전 포함. 기본은50S 겸용; 별도200L 저장조는 ALT-02.",
+      "shop_drawing_and_acceptance": "카탈로그 ΔT30℃27.8LPM은 공장시험값. 공급수압·배관손실·난방동시운전 조건을 확인해 목표 미달 시 보완가격을 별도 표시. 위험한 사용점 고온출수를 방지하는 적합 제어 사용.",
+      "selection_reason": "욕조2개를 무조건 동시에 급탕하는 대형 저장설비를 기본으로 강제하지 않고 일상 2샤워 기준으로 구성.",
+      "research_refs": [
+        "RS-13"
+      ],
+      "drawing_evidence_refs": [
+        "M:EAAFD"
+      ],
+      "decision_type": "owner_hot_water_performance",
+      "alternative_refs": [
+        "ALT-02"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-23",
+      "category": "급배수",
+      "title": "급수·급탕·오배수·누수 접근",
+      "scope_ids": [
+        "PLB-01",
+        "PLB-02"
+      ],
+      "pricing_basis": "관종/관경은 도면 유지, 위생 적합 인증품. 온수·환탕 보온 및 냉수 결로방지, 배수/통기 최종 외기 개방과 드레인 트랩. 거주실 인접 배수관 차음 보강.",
+      "included_work": "밸브·청소구·계량/차단 접근·슬리브·관통 방수·위치사진·압력/통수시험·외부 수도 부동/동파대책 포함.",
+      "shop_drawing_and_acceptance": "도면 없는 작은 관경 대체금지. 고정가구 뒤 밸브/배수트랩 점검경로와 실제 구배 확인.",
+      "selection_reason": "내구성/수리 가능성을 확보하고 설비와 건축의 누락공사를 기본에 반영.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:EC6D2",
+        "M:EC6D3",
+        "M:EADF5"
+      ],
+      "decision_type": "drawing_retained_plus_quality_requirement",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-24",
+      "category": "환기",
+      "title": "전열교환 환기 기본 포함",
+      "scope_ids": [
+        "PLB-06",
+        "ELE-04",
+        "INT-02"
+      ],
+      "pricing_basis": "신규 건축주 사양: 힘펠 HUEVEN EBN 250CMH급3대(HRD-EP250IBN 기준 또는 현행 동등 후속형). H13 필터·바이패스 기능을 포함한 구성. 주거 정상 급기와 배기를 각각 600m³/h로 하는 시작 목표로 견적, 실제체적×0.5회/h 이상 중 큰 값으로 검토.",
+      "included_work": "실별 덕트·분배/흡배기구·소음기·진동절연·단열·외부캡·필터교체 점검구·전원/조절기·시운전/TAB·교체필터1회분 포함. 화장실/주방후드 배기를 환기 회수덕트와 임의 공용하지 않음.",
+      "shop_drawing_and_acceptance": "팬 정압과 H13 오염시 손실을 반영한 풍량표 제출. 345.6㎡×3.2m×0.5=약553m³/h는 초기 계산 예시이며 다락/실제높이는 재계산. 정상모드 주거실 소음 목표30dBA 이하를 장비정격이 아닌 실내 측정조건으로 제안; 배경소음/방법 기록.",
+      "selection_reason": "창호 기밀을 높이는 주택에서 상시 환기를 기본가격에 포함. 3대는 구역별 제어/점검을 위한 공통 견적 기준이지 현장 확정 설계가 아님.",
+      "research_refs": [
+        "RS-06"
+      ],
+      "drawing_evidence_refs": [],
+      "decision_type": "new_owner_residential_system",
+      "alternative_refs": [
+        "ALT-03"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-25",
+      "category": "환기",
+      "title": "욕실·주방 독립배기",
+      "scope_ids": [
+        "PLB-06"
+      ],
+      "pricing_basis": "도면 F-1 욕실환기4대, 설계풍량220CMH급 출발점 유지. 역류방지댐퍼·타이머/습도제어. 주방 후드 배기는 별도 덕트로 외부 배출.",
+      "included_work": "팬·독립 덕트·외부캡·보온/소음·역류방지·점검 및 전원/제어 포함. 후드 본체는 가전지급 범위, 덕트/마감/접속은 본공사.",
+      "shop_drawing_and_acceptance": "단순 카탈로그 최대풍량으로 도면 풍량충족 간주 금지. 실제 정압·급기경로·주거소음 점검, 배기량 증가 시 환기/실내압력 조정.",
+      "selection_reason": "욕실4대와 전열교환기를 같은 기기로 간주해 한쪽을 삭제하지 않음.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:EAAB4",
+        "M:EAA9C"
+      ],
+      "decision_type": "drawing_retained_plus_residential_control",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-26",
+      "category": "냉방",
+      "title": "LG 시스템냉방 도면 모델 기준",
+      "scope_ids": [
+        "HVAC-01"
+      ],
+      "pricing_basis": "도면 실내기11대/실외기2대를 공통 기본수량으로 가격 산정. LG RNW0200C2S 계열과 RPUW101S9S/121S9S 기준; 세부 모델/수량은 TENDER의 기기표. 현행 직접 후속형은 호환 선정서와 차이표 제출.",
+      "included_work": "기기·표준패널·개별 조절기·분기관·냉매/보온·설치/양중·장비기초/방진·전원/제어·점검구·진공/기밀/충전·시운전 포함, 항목별 금액 분리.",
+      "shop_drawing_and_acceptance": "실제 주거 재실·야간 소음·침구에 직접 닿는 기류·대형창 일사로 부하 재산정. 계통별 연결비와 배관길이 점검. 임의 대수/용량축소는 기준안 아닌 ALT-07.",
+      "selection_reason": "기존 기기표를 가격 기준으로 유지하되 과대/과소 설계를 검토할 별도 최적화안을 받음.",
+      "research_refs": [
+        "RS-07",
+        "RS-08"
+      ],
+      "drawing_evidence_refs": [
+        "M:E6855",
+        "M:E683E"
+      ],
+      "decision_type": "drawing_equipment_pricing_baseline",
+      "alternative_refs": [
+        "ALT-07"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-27",
+      "category": "냉방",
+      "title": "응축수·결로·제습 대응",
+      "scope_ids": [
+        "HVAC-02",
+        "HVAC-03",
+        "HVAC-04",
+        "ELE-04"
+      ],
+      "pricing_basis": "냉매/드레인 보온은 제주 실내외 습윤 조건에서 결로가 발생하지 않는 제조사 적합 두께·시공체계. 실내 응축수 최종배출 경로까지 포함. 제습기용 접지콘센트+배수 준비2곳을 신규 공통수량으로 반영.",
+      "included_work": "드레인구배/청소·펌프 필요시 포함·트랩/통기·기기별 통수시험·장비기초/점검구 포함행 ID 표시. 제습기 본체는 지급품.",
+      "shop_drawing_and_acceptance": "배수구배 불가 구간을 방치하지 않음. 전열교환 환기를 능동제습 보증으로 표기하지 않음. 제습기 배수 연결점의 악취/역류 차단.",
+      "selection_reason": "장마철 대응 준비는 기본으로, 중앙제습 설비와 기계값은 별도 선택.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:E6727",
+        "M:E6729",
+        "M:E6723"
+      ],
+      "decision_type": "drawing_scope_plus_owner_provision",
+      "alternative_refs": [
+        "ALT-08"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-28",
+      "category": "위생기구",
+      "title": "양변기3대",
+      "scope_ids": [
+        "PLB-03"
+      ],
+      "pricing_basis": "대림바스 CC-280 백색3대, 호환 완충 시트·앵글밸브·접속/고정 부속 일체. 일체형 전자식 변기 대신 일반 도기+교체 가능한 비데 옵션.",
+      "included_work": "도기 공급·실링·설치·배수 접속·청소/통수 포함. 비데용 안전 전원/급수 준비는 기본.",
+      "shop_drawing_and_acceptance": "배수심/급수위치·제조사 시공도·납품 모델 대조. CC-280 기준가격과 다른 제품가격을 섞지 않음.",
+      "selection_reason": "주거용 디자인과 일반 부품 교체성을 기준으로 실재 모델을 선택.",
+      "research_refs": [
+        "RS-09"
+      ],
+      "drawing_evidence_refs": [
+        "M:EAA8B"
+      ],
+      "decision_type": "research_product_selection",
+      "alternative_refs": [
+        "ALT-09"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-29",
+      "category": "위생기구",
+      "title": "세면기·수전3세트",
+      "scope_ids": [
+        "PLB-03"
+      ],
+      "pricing_basis": "도면 언더카운터 각형 세면기3개. 백색도기 ALW-04 200,000원/EA, 세면수전 크롬 싱글레버 ALW-05 180,000원/EA. 국내 서비스 가능한 대림바스급 제품자료 제출.",
+      "included_work": "팝업·트랩·앵글밸브·호스·실링·설치 별도 시공내역 포함. 카운터/거울은 SP-19로 중복금지.",
+      "shop_drawing_and_acceptance": "도면의 언더카운터 형식을 카운터 위 탑볼로 변경하지 않음. 제공 허용액은 선택 기준이며 공식 판매가격이 아님.",
+      "selection_reason": "미정 디자인은 좁은 제품군과 동일 허용액으로 통일하여 모델 확정 전 가격 비교 가능.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:EAA8C",
+        "M:EAA76"
+      ],
+      "decision_type": "owner_material_allowance",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-30",
+      "category": "위생기구",
+      "title": "샤워기2세트·욕조2개",
+      "scope_ids": [
+        "PLB-03"
+      ],
+      "pricing_basis": "선반형 노출 레인샤워2세트, 크롬, 핸드샤워 포함 ALW-06 350,000원/세트. 도면 크기에 맞는 국내 마블욕조2개 ALW-07 650,000원/EA, 욕조용 싱글레버/샤워수전2세트 ALW-08 220,000원/세트.",
+      "included_work": "욕조 지지·점검구·배수/오버플로·실링·연결 및 각종 설치비 별도 포함. 매립형 수전·자쿠지는 기본 제외.",
+      "shop_drawing_and_acceptance": "욕조와 레인샤워 수전이 별개인지 위치별 확인; 기본가격은 위의2+2세트로 통일, 중복 발견 시 모든 업체 공통 정정.",
+      "selection_reason": "청소·부품 교체가 쉬운 노출형을 기본으로 정하고 옵션을 줄임.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:EAA8F",
+        "M:EAB3A"
+      ],
+      "decision_type": "owner_material_allowance",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-31",
+      "category": "위생기구",
+      "title": "주방 수전·일반/부동 수전",
+      "scope_ids": [
+        "PLB-03"
+      ],
+      "pricing_basis": "싱크수전3개: 크롬 싱글레버 절수형 ALW-09 220,000원/EA. 일반/부동수전 합계7개 중 부동5/일반2를 R1 공통 구성으로 선택: ALW-10 100,000원×5, ALW-11 50,000원×2.",
+      "included_work": "수전 공급·접속·밸브·부동/보온·고정·통수·누수시험 포함. 주방 싱크볼은 가구에 별도 공통 허용액 적용.",
+      "shop_drawing_and_acceptance": "합계7과 비고5를12개로 더하지 않음. 실제 설치위치/동파조건은 도면/현장 대조 후 공통회신.",
+      "selection_reason": "도면의 애매한7/5 표기를 같은 비교 구성으로 구체화하되 원문과 해석을 분리.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:EAA8D",
+        "M:EAA8E",
+        "M:EAA80"
+      ],
+      "decision_type": "owner_resolution_for_pricing",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-32",
+      "category": "전기·조명",
+      "title": "일반조명·스위치",
+      "scope_ids": [
+        "ELE-02",
+        "ELE-03"
+      ],
+      "pricing_basis": "일반 매입등: LED, CRI90 이상, 거실/침실3000K·작업공간/다용도4000K, 눈부심 억제 깊은광원형. 일반 다운라이트는 드라이버 포함 ALW-12 45,000원/EA. 거실/침실 주조명 디밍 포함, 작업/욕실은 일반 점멸.",
+      "included_work": "배관배선·스위치·디밍호환 드라이버·타공보강·간접등 프로파일/확산판·전원장치·점검성 포함. 도면 각종 등 형태별 대수/m 제출.",
+      "shop_drawing_and_acceptance": "작업면 조도는 거실/침실 일반200lx, 주방작업대/책상500lx를 발주 목표로 조명배치 검토. 수치는 법정최저 주장 아님. 장식등 공급은 지급품, 설치/접속은 기본.",
+      "selection_reason": "보여지는 제품은 교체 가능하지만 눈부심·디밍·정비 접근은 처음부터 반영.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "E:32680"
+      ],
+      "decision_type": "owner_lighting_standard",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-33",
+      "category": "전기·조명",
+      "title": "전력·가전회로·난방제어",
+      "scope_ids": [
+        "ELE-01",
+        "ELE-04",
+        "ELE-05"
+      ],
+      "pricing_basis": "도면 분전반/간선 기준으로 실제 주택 가전 부하 재계산. 냉장고·인덕션·오븐·식기세척기·세탁/건조·보일러·냉방·환기 회로를 필요한 용량으로 분리.",
+      "included_work": "접지·과전류/누전 보호·서지보호·회로명 라벨·옥외/욕실 적합 기구·난방조절기 전원/통신선·비데/제습 준비·검사 포함.",
+      "shop_drawing_and_acceptance": "선굵기/차단기/분리발주 등은 담당 전기설계자 검토. 전기공사업체가 수전/분전반 여유·동시사용·모터기동을 반영.",
+      "selection_reason": "표준 사무실 조명/콘센트만으로 주택 주방과 난방을 처리하지 않음.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "M:E903F",
+        "E:32829"
+      ],
+      "decision_type": "residential_electrical_requirement",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-34",
+      "category": "전기·통신",
+      "title": "주거 LAN·무선망",
+      "scope_ids": [
+        "ELE-06",
+        "ELE-07"
+      ],
+      "pricing_basis": "도면 통신함/인입/단자를 기본 포함. CAT6 순동 실내배선·단자 라벨/시험. 천장 AP용 데이터+PoE 배선3개소, 중앙 통신함 전원/환기 준비를 신규 공통수량으로 포함.",
+      "included_work": "케이블·단자·통신함·패치패널·접속/인증시험·외부인입 공사 경계 포함. AP/공유기 본체와 통신상품 요금은 지급/별도.",
+      "shop_drawing_and_acceptance": "CCA 케이블 대체금지. AP 위치는 주거구역별 현장배치 검토. 과도한 홈서버/홈오토메이션/전동커튼은 기본 제외.",
+      "selection_reason": "주택 전체의 유선 기반을 먼저 확보하고 전자기기는 교체 가능한 지급품으로 분리.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "E:1D96E"
+      ],
+      "decision_type": "owner_network_standard",
+      "alternative_refs": [
+        "ALT-10"
+      ],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-35",
+      "category": "외부·안전",
+      "title": "외부포장·난간·조경",
+      "scope_ids": [
+        "CIV-09",
+        "CIV-10",
+        "CIV-11"
+      ],
+      "pricing_basis": "도면 포장·테라스·담장/난간·주차·조경 신설 범위 모두 견적. 차도포장은 도면 구조 유지, 테라스 표면은 미끄럼/외부 적합 재료와 구배. 식재는 도면 수종/수량 우선.",
+      "included_work": "지정/기초·배면배수·경계석·철물 방청·복구·관수준비·준공청소 포함. 식재표 없으면 동일 수량 확정 전 수종별 단가만 별도, 부지 전체 평당 조경 일괄금액 금지.",
+      "shop_drawing_and_acceptance": "옹벽/난간 구조·풍압·추락방지·배수와 실내FL 연결을 담당자 확인. 조경/포장 미상 구간은 공통 경계도 기반 재비교.",
+      "selection_reason": "건물값만 비교해 외부공사가 나중에 크게 추가되는 것을 방지.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "A:697",
+        "A:7E3"
+      ],
+      "decision_type": "drawing_scope_retained",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-36",
+      "category": "검사·관리",
+      "title": "주거 안전·검사·준공",
+      "scope_ids": [
+        "ELE-08",
+        "QA-01",
+        "QA-02",
+        "QA-03",
+        "QA-04"
+      ],
+      "pricing_basis": "도면 소방기구/감지기 포함. 주거 침실·피난동선 감지와 연소설비 관련 CO경보기의 적합 배치를 추가 검토하고 기본견적에 반영. 은폐공정 검측·방수·창호접합·설비/전기 시운전 및 준공인수 포함.",
+      "included_work": "샘플·시험비·성적서·준공도·회로/밸브 라벨·숨은공정사진·기기/필터 목록·교육·보수 접수창구 포함.",
+      "shop_drawing_and_acceptance": "구조/방화/전기/설비/용도 관련 법정 요건과 변경절차는 설계·감리 책임자가 별도 확인. 주택이라는 문서 제목이 행정허가 변경이나 보증자격을 의미하지 않음.",
+      "selection_reason": "견적의 주거 성능 기준과 법정 서류를 혼동하지 않으면서 생활 안전과 증빙을 기본비로 확보.",
+      "research_refs": [],
+      "drawing_evidence_refs": [
+        "E:45560",
+        "E:459D7",
+        "E:459DC"
+      ],
+      "decision_type": "owner_quality_requirement",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    },
+    {
+      "id": "SP-37",
+      "category": "검사·관리",
+      "title": "가설·양중·현장관리·간접비",
+      "scope_ids": [
+        "GEN-01",
+        "GEN-02",
+        "GEN-03",
+        "GEN-04",
+        "COMM-01",
+        "COMM-02"
+      ],
+      "pricing_basis": "현장관리·가설/전기수도·안전/보양·제주 운송/반입/양중·청소/폐기물·공정관리·보험/보증·일반관리비·이윤을 항목별 제시. 본체와 실내마감의 공종별 소계를 나누되 전체 기준안 총액을 함께 제시.",
+      "included_work": "해당 공사에 필요한 공통비는 포함, 다른 항목에 이미 포함된 운송/양중/시험비를 재합산하지 않음. 실제 소장/공기/공정표·법인/보증제출 포함.",
+      "shop_drawing_and_acceptance": "기관부담금/관청 실비는 금액 확인 여부와 증빙정산 방식 별도. 세전/세금/세후합계 구분.",
+      "selection_reason": "자재 품목은 같지만 공통비와 현장책임이 빠진 값싼 견적을 막음.",
+      "research_refs": [],
+      "drawing_evidence_refs": [],
+      "decision_type": "owner_commercial_requirement",
+      "alternative_refs": [],
+      "status": "specified_for_comparative_quotation",
+      "construction_release": false
+    }
+  ],
+  "material_allowances": [
+    {
+      "id": "ALW-01",
+      "name": "건식 바닥 포세린600각",
+      "unit": "m2",
+      "material_allowance_ex_vat_krw": 40000,
+      "common_pricing_quantity": null,
+      "quantity_basis": "순시공면적×1.10",
+      "scope_id": "INT-03",
+      "spec_id": "SP-12",
+      "material_waste_factor": 1.1,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-02",
+      "name": "욕실 바닥 논슬립 포세린300각",
+      "unit": "m2",
+      "material_allowance_ex_vat_krw": 45000,
+      "common_pricing_quantity": null,
+      "quantity_basis": "순시공면적×1.10",
+      "scope_id": "INT-03",
+      "spec_id": "SP-13",
+      "material_waste_factor": 1.1,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-03",
+      "name": "욕실 벽 무광타일300×600",
+      "unit": "m2",
+      "material_allowance_ex_vat_krw": 30000,
+      "common_pricing_quantity": null,
+      "quantity_basis": "순시공면적×1.10",
+      "scope_id": "INT-04",
+      "spec_id": "SP-13",
+      "material_waste_factor": 1.1,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-04",
+      "name": "언더카운터 각형 세면기",
+      "unit": "EA",
+      "material_allowance_ex_vat_krw": 200000,
+      "common_pricing_quantity": 3,
+      "quantity_basis": "기기표3개",
+      "scope_id": "PLB-03",
+      "spec_id": "SP-29",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-05",
+      "name": "세면기 싱글레버수전",
+      "unit": "EA",
+      "material_allowance_ex_vat_krw": 180000,
+      "common_pricing_quantity": 3,
+      "quantity_basis": "세면기3개와1:1",
+      "scope_id": "PLB-03",
+      "spec_id": "SP-29",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-06",
+      "name": "노출 레인샤워+핸드샤워",
+      "unit": "SET",
+      "material_allowance_ex_vat_krw": 350000,
+      "common_pricing_quantity": 2,
+      "quantity_basis": "기기표2세트",
+      "scope_id": "PLB-03",
+      "spec_id": "SP-30",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-07",
+      "name": "마블욕조 본체",
+      "unit": "EA",
+      "material_allowance_ex_vat_krw": 650000,
+      "common_pricing_quantity": 2,
+      "quantity_basis": "기기표2개",
+      "scope_id": "PLB-03",
+      "spec_id": "SP-30",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-08",
+      "name": "욕조용 수전+샤워",
+      "unit": "SET",
+      "material_allowance_ex_vat_krw": 220000,
+      "common_pricing_quantity": 2,
+      "quantity_basis": "욕조2개 부속, 레인샤워와 별도 비교 가정",
+      "scope_id": "PLB-03",
+      "spec_id": "SP-30",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-09",
+      "name": "주방 싱크수전",
+      "unit": "EA",
+      "material_allowance_ex_vat_krw": 220000,
+      "common_pricing_quantity": 3,
+      "quantity_basis": "기기표3개",
+      "scope_id": "PLB-03",
+      "spec_id": "SP-31",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-10",
+      "name": "부동수전",
+      "unit": "EA",
+      "material_allowance_ex_vat_krw": 100000,
+      "common_pricing_quantity": 5,
+      "quantity_basis": "합계7개 중5개로 R1 해석",
+      "scope_id": "PLB-03",
+      "spec_id": "SP-31",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-11",
+      "name": "일반수전",
+      "unit": "EA",
+      "material_allowance_ex_vat_krw": 50000,
+      "common_pricing_quantity": 2,
+      "quantity_basis": "합계7개 중 나머지2개",
+      "scope_id": "PLB-03",
+      "spec_id": "SP-31",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-12",
+      "name": "일반 LED매입등+드라이버",
+      "unit": "EA",
+      "material_allowance_ex_vat_krw": 45000,
+      "common_pricing_quantity": null,
+      "quantity_basis": "도면 산출, 다른 종류 등기구는 별도 실견적",
+      "scope_id": "ELE-03",
+      "spec_id": "SP-32",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    },
+    {
+      "id": "ALW-13",
+      "name": "스테인리스 주방 싱크볼+배수구",
+      "unit": "EA",
+      "material_allowance_ex_vat_krw": 300000,
+      "common_pricing_quantity": 3,
+      "quantity_basis": "싱크수전3개에 맞춘 신규 공통 가정3개",
+      "scope_id": "INT-07",
+      "spec_id": "SP-18",
+      "material_waste_factor": 1.0,
+      "includes": "상품 본체/명시 부속, 표준 포장과 제주 현장 반입까지의 자재 공급비",
+      "excludes": "설치 노무·시공부자재·바탕/배관배선·양중 특수장비·부가세. 별도 시공행에서 견적",
+      "basis_type": "owner_comparison_allowance_not_observed_market_price",
+      "settlement_rule": "선정 전 전 업체 동일 값. 발주자 승인 구매명세·수량·납품/반품 증빙으로 차액 정산 조건을 계약에 명시. 설치비는 별도 합의; 손실계수 재적용 금지."
+    }
+  ],
+  "options": [
+    {
+      "id": "ALT-01",
+      "title": "공기열 히트펌프 난방·급탕 전환",
+      "spec_refs": [
+        "SP-20",
+        "SP-21",
+        "SP-22"
+      ],
+      "scope": "국내 서비스 가능한 공기열 히트펌프+수배관/저장조/예비열원/제어·수전증설 포함. 도면 난방·온수 성능을 동일하게 맞출 것.",
+      "return_requirement": "50S/유류탱크/연도 중 삭제분 음수, 추가장비/전기/설계/공사비 양수, 공기 영향. 설계 외기조건에서의 출력·제상·부분부하·운전비 가정 제시. 절감률/회수년수 임의 보장 금지.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-02",
+      "title": "200L 간접가열 급탕 저장조",
+      "spec_refs": [
+        "SP-20",
+        "SP-22"
+      ],
+      "scope": "단열형200L 저장조1대와 적합 열교환/혼합/역류/안전·위생관리 제어, 배관/보온/시운전 포함.",
+      "return_requirement": "2샤워 목표가 기본시스템으로 충족되면 필수품 아님. 욕조동시사용/피크 대응 증액과 재가열시간·열원 호환 제시.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-03",
+      "title": "환기장치 구성 최적화",
+      "spec_refs": [
+        "SP-24"
+      ],
+      "scope": "250급3대를 다른 대수/형식으로 변경하되 실제체적0.5회/h이상, 정상 목표풍량·H13/바이패스·주거소음·점검성 유지.",
+      "return_requirement": "기기 절감액뿐 아니라 덕트/소음기/점검구/필터/제어의 전체 증감, 풍량/정압 계산 제출.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-04",
+      "title": "다른 창호브랜드·진공유리",
+      "spec_refs": [
+        "SP-07"
+      ],
+      "scope": "기준 개폐/분할/치수 유지, 동일 이상 전체창 성능과 풍압/유리안전·방충/하드웨어 포함.",
+      "return_requirement": "제품ID별 기준 대비 증감, 공급·보증·납기·프레임 보이는 폭. 수입/진공유리는 기본금액에 섞지 않음.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-05",
+      "title": "디자인 마감 업그레이드",
+      "spec_refs": [
+        "SP-04",
+        "SP-11",
+        "SP-18"
+      ],
+      "scope": "수입 지붕재, 원목/헤링본, 대형슬랩 상판·특수도장 등은 해당 품목 별도.",
+      "return_requirement": "각 품목 원안삭제/신안추가·시공 및 바탕 변경·공기 영향, 선택하지 않으면 기본사양 유지.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-06",
+      "title": "외단열 변경/강화",
+      "spec_refs": [
+        "SP-05"
+      ],
+      "scope": "승인된 열교/단열 계산에 따라 단열재 변경·두께 증대·철물 접합 변경.",
+      "return_requirement": "외벽면/창턱/처마/석재고정·열교 영향 포함. 법적으로 필요한 보완은 임의 선택옵션이 아니라 설계 정합성 이견으로 별도 통지.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-07",
+      "title": "냉방 주거부하 최적화",
+      "spec_refs": [
+        "SP-26"
+      ],
+      "scope": "실별 주거 사용/일사/유리/외피/환기부하 재계산 후 실내기·실외기 대수/용량 구성 조정.",
+      "return_requirement": "11/2대 기준금액과 별도 비교. 기준안을 조용히 줄이지 말고 선정서·야간운전/소음·제어·기존패널/천장 영향 제출.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-08",
+      "title": "능동 제습장치",
+      "spec_refs": [
+        "SP-27"
+      ],
+      "scope": "중앙/분산 제습 장비 및 전원·응축수·운전/습도제어·소음처리.",
+      "return_requirement": "환기장치만으로 제습 보장하지 않음. 용량/운전조건·초기비·유지비 별도, 기본은 지급 제습기용2개소 준비.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-09",
+      "title": "전자비데 본체3대",
+      "spec_refs": [
+        "SP-28"
+      ],
+      "scope": "CC-280 호환 일반비데3대, 접속/설치·전원 안전 확인.",
+      "return_requirement": "일체형전자변기 전환이 아닌 부착식 기준. 브랜드/모델/보증과 대당금액 별도.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    },
+    {
+      "id": "ALT-10",
+      "title": "보안·스마트홈 장비",
+      "spec_refs": [
+        "SP-34"
+      ],
+      "scope": "CCTV/인터폰 고도화/AP본체/전동커튼/홈오토메이션 장비와 필요한 추가배선.",
+      "return_requirement": "기본은 CAT6와AP3개소 인프라. 선택장비의 구매/설치/통신비를 구분.",
+      "selected_into_base": false,
+      "price_delta_ex_vat": null
+    }
+  ],
+  "cooling_schedule": [
+    {
+      "id": "IAC-20",
+      "model_reported": "RNW0200C2S",
+      "common_pricing_quantity": 2,
+      "cooling_kw_reported": 2.0,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-23",
+      "model_reported": "RNW0230C2S",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 2.3,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-32",
+      "model_reported": "RNW0320C2S",
+      "common_pricing_quantity": 2,
+      "cooling_kw_reported": 3.2,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-40",
+      "model_reported": "RNW0400C2S",
+      "common_pricing_quantity": 2,
+      "cooling_kw_reported": 4.0,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-52",
+      "model_reported": "RNW0520C2S",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 5.2,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-60A",
+      "model_reported": "RNW0601A2U",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 6.0,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "IAC-145A",
+      "model_reported": "RNW1451A2U",
+      "common_pricing_quantity": 2,
+      "cooling_kw_reported": 14.5,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "OAC-10",
+      "model_reported": "RPUW101S9S",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 28.0,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    },
+    {
+      "id": "OAC-12",
+      "model_reported": "RPUW121S9S",
+      "common_pricing_quantity": 1,
+      "cooling_kw_reported": 33.6,
+      "quantity_origin": "drawing_schedule_transcription_adopted_for_price_comparison",
+      "verified_installed_quantity": null
+    }
+  ],
+  "new_owner_pricing_quantities": [
+    {
+      "id": "NEW-ERV",
+      "name": "250CMH급 전열교환 환기장치",
+      "quantity": 3,
+      "unit": "EA",
+      "spec_id": "SP-24",
+      "source": "R1 owner pricing addition; not observed in drawing"
+    },
+    {
+      "id": "NEW-DH-POINT",
+      "name": "제습기 전원·배수 준비",
+      "quantity": 2,
+      "unit": "POINT",
+      "spec_id": "SP-27",
+      "source": "R1 owner pricing addition; not observed in drawing"
+    },
+    {
+      "id": "NEW-AP-POINT",
+      "name": "천장AP PoE/LAN 인프라",
+      "quantity": 3,
+      "unit": "POINT",
+      "spec_id": "SP-34",
+      "source": "R1 owner pricing addition; not observed in drawing"
+    }
+  ],
+  "owner_supplied": {
+    "equipment_bodies": [
+      "냉장고·인덕션·오븐·식기세척기·세탁/건조기",
+      "후드 본체·장식 펜던트",
+      "AP/공유기·제습기·이동가구/커튼"
+    ],
+    "contractor_included": [
+      "도면 및 R1에 따른 반입 협의·전용회로/급배수/덕트·설치 타공·최종 접속·보양",
+      "주방/붙박이 등 도면 고정가구 및 일반 조명·위생기구 본체"
+    ],
+    "rule": "지급품 본체 구매비만 제외. 전문 제조사 설치가 필수인 본체는 제조사 설치와 시공사 연결준비 경계를 명시. 도면 외 개소/추가규모는 공통회신 후 변경."
+  },
+  "scope_spec_mapping": {
+    "GEN-01": [
+      "SP-01",
+      "SP-37"
+    ],
+    "GEN-02": [
+      "SP-37"
+    ],
+    "GEN-03": [
+      "SP-37"
+    ],
+    "GEN-04": [
+      "SP-37"
+    ],
+    "CIV-01": [
+      "SP-02"
+    ],
+    "CIV-02": [
+      "SP-03"
+    ],
+    "CIV-03": [
+      "SP-03"
+    ],
+    "CIV-04": [
+      "SP-02"
+    ],
+    "CIV-05": [
+      "SP-02"
+    ],
+    "CIV-06": [
+      "SP-03"
+    ],
+    "CIV-07": [
+      "SP-03"
+    ],
+    "CIV-08": [
+      "SP-03"
+    ],
+    "CIV-09": [
+      "SP-35"
+    ],
+    "CIV-10": [
+      "SP-35"
+    ],
+    "CIV-11": [
+      "SP-35"
+    ],
+    "STR-01": [
+      "SP-02"
+    ],
+    "STR-02": [
+      "SP-02"
+    ],
+    "STR-03": [
+      "SP-02"
+    ],
+    "STR-04": [
+      "SP-02"
+    ],
+    "ENV-01": [
+      "SP-04"
+    ],
+    "ENV-02": [
+      "SP-04"
+    ],
+    "ENV-03": [
+      "SP-05"
+    ],
+    "ENV-04": [
+      "SP-05"
+    ],
+    "ENV-05": [
+      "SP-05"
+    ],
+    "ENV-06": [
+      "SP-06"
+    ],
+    "WIN-01": [
+      "SP-07"
+    ],
+    "WIN-02": [
+      "SP-08"
+    ],
+    "WIN-03": [
+      "SP-06"
+    ],
+    "INT-01": [
+      "SP-09"
+    ],
+    "INT-02": [
+      "SP-10",
+      "SP-24"
+    ],
+    "INT-03": [
+      "SP-11",
+      "SP-12",
+      "SP-13",
+      "SP-14"
+    ],
+    "INT-04": [
+      "SP-13",
+      "SP-14",
+      "SP-16"
+    ],
+    "INT-05": [
+      "SP-14",
+      "SP-15"
+    ],
+    "INT-06": [
+      "SP-17"
+    ],
+    "INT-07": [
+      "SP-18",
+      "SP-19"
+    ],
+    "INT-08": [
+      "SP-08"
+    ],
+    "PLB-01": [
+      "SP-22",
+      "SP-23"
+    ],
+    "PLB-02": [
+      "SP-23"
+    ],
+    "PLB-03": [
+      "SP-19",
+      "SP-28",
+      "SP-29",
+      "SP-30",
+      "SP-31"
+    ],
+    "PLB-04": [
+      "SP-20",
+      "SP-22"
+    ],
+    "PLB-05": [
+      "SP-21"
+    ],
+    "PLB-06": [
+      "SP-24",
+      "SP-25"
+    ],
+    "PLB-07": [
+      "SP-03"
+    ],
+    "HVAC-01": [
+      "SP-26"
+    ],
+    "HVAC-02": [
+      "SP-27"
+    ],
+    "HVAC-03": [
+      "SP-27"
+    ],
+    "HVAC-04": [
+      "SP-27"
+    ],
+    "ELE-01": [
+      "SP-33"
+    ],
+    "ELE-02": [
+      "SP-32"
+    ],
+    "ELE-03": [
+      "SP-32"
+    ],
+    "ELE-04": [
+      "SP-24",
+      "SP-27",
+      "SP-33"
+    ],
+    "ELE-05": [
+      "SP-21",
+      "SP-33"
+    ],
+    "ELE-06": [
+      "SP-34"
+    ],
+    "ELE-07": [
+      "SP-34"
+    ],
+    "ELE-08": [
+      "SP-36"
+    ],
+    "QA-01": [
+      "SP-36"
+    ],
+    "QA-02": [
+      "SP-36"
+    ],
+    "QA-03": [
+      "SP-36"
+    ],
+    "QA-04": [
+      "SP-36"
+    ],
+    "COMM-01": [
+      "SP-37"
+    ],
+    "COMM-02": [
+      "SP-37"
+    ]
+  }
+}

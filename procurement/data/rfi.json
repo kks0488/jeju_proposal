@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "priority_definition": {
-    "P0": "확정견적 발행 전 기준 정합성/안전·도서 승인 확인. 미해결 상태의 견적은 조건부 예산견적만.",
-    "P1": "비교견적 기준/범위 확정. 미선정 재료는 동일 잠정금액·동일 조건이 서면 발행된 경우만 비교."
+    "P0": "구조·도서 정합성 등 해당 공종 착수 전 책임기술자 확인. R1 기준으로 견적은 진행하되 미해결 부분을 확정 시공 지시로 사용하지 않음.",
+    "P1": "R1의 제품·사양·허용액으로 비교견적 진행. 추가 확인이 필요한 위치·상세·수량 이견은 공통회신으로 정리."
   },
   "items": [
     {
       "id": "RFI-001",
-      "priority": "P0",
-      "title": "허가·계약 기준 용도와 면적",
+      "priority": "P1",
+      "title": "주택 사용 기준 확인 완료 · 원본 행정표기 별도 관리",
       "assignee_role": "건축사 + 건축주",
-      "status": "open",
+      "status": "owner_use_clarified_admin_records_separate",
       "observation": "기존 저장소는 주택 계획, A 개요는 제2종 근린생활시설(사무소). 연면적345.60㎡, 건축면적405.06㎡, 유효대지2814㎡ 표기.",
-      "request": "이번 견적의 실제 대상·승인 도서·용도·동별 범위를 서면 확인. 다락 및 산입부분59.46㎡, 외부공사 대상면적을 별도 표시. 용도 변경을 전제한다면 적법한 설계·승인 절차와 범위를 건축사가 확인.",
-      "bid_impact": "다른 용도·면적의 평당 견적 혼합 금지. 답변 전 계약용 확정견적 발행 보류.",
+      "request": "견적은 R1 주택 성능기준으로 진행. 원본 용도/허가자료와 필요한 행정·설계 절차는 별도 관리.",
+      "bid_impact": "기존의 용도 확인 전 견적보류 조건을 해제. 행정자료를 주택 허가로 변조하지 않음.",
       "evidence_refs": [
         "A:1AA",
         "A:1A5",
@@ -22,12 +22,16 @@
         "A:5D2"
       ],
       "prior_source": "RESEARCH.md 현재 설계",
-      "answer": null,
-      "answered_by": null,
-      "answer_date": null,
+      "answer": "건축주가 실제 주택 사용과 주택 명칭의 견적을 직접 지시함. R1부터 난방·급탕·환기는 상시 거주 주택 기준으로 산정. 행정허가 변경 승인이라는 뜻은 아님.",
+      "answered_by": "건축주(대화)",
+      "answer_date": "2026-10-12",
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-35"
+      ]
     },
     {
       "id": "RFI-002",
@@ -50,7 +54,9 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": []
     },
     {
       "id": "RFI-003",
@@ -68,7 +74,9 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": []
     },
     {
       "id": "RFI-004",
@@ -90,7 +98,12 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-10",
+        "SP-27"
+      ]
     },
     {
       "id": "RFI-005",
@@ -112,7 +125,11 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-02"
+      ]
     },
     {
       "id": "RFI-006",
@@ -138,7 +155,12 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-03",
+        "SP-06"
+      ]
     },
     {
       "id": "RFI-007",
@@ -162,7 +184,12 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-03",
+        "SP-23"
+      ]
     },
     {
       "id": "RFI-008",
@@ -188,7 +215,13 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-01",
+        "SP-10",
+        "SP-27"
+      ]
     },
     {
       "id": "RFI-009",
@@ -209,7 +242,11 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-09"
+      ]
     },
     {
       "id": "RFI-010",
@@ -235,7 +272,12 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-07",
+        "SP-08"
+      ]
     },
     {
       "id": "RFI-011",
@@ -263,7 +305,16 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-05",
+        "SP-11",
+        "SP-12",
+        "SP-13",
+        "SP-16",
+        "SP-17"
+      ]
     },
     {
       "id": "RFI-012",
@@ -289,7 +340,13 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-10",
+        "SP-26",
+        "SP-27"
+      ]
     },
     {
       "id": "RFI-013",
@@ -313,7 +370,12 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-20",
+        "SP-22"
+      ]
     },
     {
       "id": "RFI-014",
@@ -341,7 +403,15 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-19",
+        "SP-28",
+        "SP-29",
+        "SP-30",
+        "SP-31"
+      ]
     },
     {
       "id": "RFI-015",
@@ -363,7 +433,12 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-23",
+        "SP-25"
+      ]
     },
     {
       "id": "RFI-016",
@@ -384,7 +459,11 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-32"
+      ]
     },
     {
       "id": "RFI-017",
@@ -406,7 +485,13 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-23",
+        "SP-33",
+        "SP-34"
+      ]
     },
     {
       "id": "RFI-018",
@@ -424,7 +509,9 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": []
     },
     {
       "id": "RFI-019",
@@ -446,7 +533,11 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-35"
+      ]
     },
     {
       "id": "RFI-020",
@@ -472,7 +563,12 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-02",
+        "SP-09"
+      ]
     },
     {
       "id": "RFI-021",
@@ -490,7 +586,9 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": []
     },
     {
       "id": "RFI-022",
@@ -508,7 +606,9 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": []
     },
     {
       "id": "RFI-023",
@@ -526,7 +626,9 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": []
     },
     {
       "id": "RFI-024",
@@ -544,7 +646,9 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": []
     },
     {
       "id": "RFI-025",
@@ -568,7 +672,12 @@
       "answer_date": null,
       "approved_by": null,
       "closed_at": null,
-      "issued_addendum_id": null
+      "issued_addendum_id": null,
+      "quote_hold_under_R1": false,
+      "R1_spec_refs": [
+        "SP-36"
+      ]
     }
-  ]
+  ],
+  "R1_update": "주택 사용·사양 미정으로 견적을 중단하지 않는다. R1의 지정 사양으로 견적하고 도면/공학적 충돌은 별도 이견으로 회신."
 }

@@ -1,26 +1,41 @@
-# 견적 준비 자료 작업 지침
+# 제주 주택 견적 — 에이전트 작업 지침 R1
+
+## 사용자 지시와 현재 기준
+
+사용자는 건축주/발주자다. 2026-10-12 직접 지시로 **실제 사용은 주택**이며, 사양은 리서치해 우리가 선택하고 시공업체가 동일기준으로 견적하도록 한다. 대외 제목과 난방/급탕/환기·생활설비는 주택 기준으로 쓴다. 원본 행정 기재를 고치거나 허가상 주택으로 승인됐다고 주장하지 않는다. 이 차이를 다시 미확정 질문으로 돌려 견적 준비를 멈추지 않는다.
+
+현재 가격기준은 `data/owner-specifications.json`의 **JEJU-HOUSE-RFQ-20261012-R1**이다. 이전 R0의 사양 미정·용도 확인 전 견적보류를 현행조건으로 되살리지 않는다.
 
 ## 읽는 순서
 
-`README.md` → `data/project.json` → `DRAWING-REVIEW.md` → `data/source-manifest.json` → `data/drawings.json` → `data/rfi.json` → `data/requirements.json` → 필요한 `data/evidence.json` 레코드 → `RFQ.md` / `BID-RETURN.md` / `QUANTITY-PROTOCOL.md`.
+`README.md` → `TENDER.md` → `data/owner-specifications.json` → `data/research-sources.json` → 필요한 도면근거 `data/evidence.json`/`data/source-manifest.json` → `data/tender-response-template.json`.
 
-## 단일 기준과 증거
+`OWNER-DECISIONS.md`는 건축주 선택 이유, `contractor/`는 업체에게 공유할 부분이다. 기존 업체조사·순위·내부 전략·과거질의를 업체용 패키지에 섞지 않는다.
 
-- 구조화 데이터의 정본은 `data/*.json`이다. `DRAWING-REGISTER.md`, `RFI.md`, `EQUIPMENT.md`, `SCOPE.md`, `REQUIREMENTS.md`, `EVIDENCE.md` 및 HTML은 `scripts/build.py`로 생성한다. 생성물을 직접 고쳐 정본과 어긋나게 하지 않는다.
-- 89개는 도면번호 후보이고 19행은 기기표 전사다. 정식 발행 시트/발주 수량으로 승격하지 않는다. 확인되지 않은 값은 null이며 0과 다르다.
-- 기존 주택 계획과 새 도면의 사무소 표기를 분리한다. 임의로 ‘실제로는 주택이므로’ 덮어쓰거나 위법으로 단정하지 않는다.
-- 출처 파일 해시·객체handle·위치·원문 발췌를 유지한다. 신규 파일을 받으면 신규 소스/버전을 만들고 이전 근거를 조용히 덮어쓰지 않는다.
-- 질문은 `RFI-ID`, 과거 요구는 `REQ-ID`, 견적행은 공통항목ID, 추가통보는 `ADD-ID`로 연결한다. 승인 없는 답변은 종결 처리하지 않는다.
-- 기타 저장소의 오래된 면적/지붕/구조/가격 가정을 최신 근거로 가져오지 않는다. 현재 메인 업체와 순위·과거 실사 기록은 이 업데이트로 변경하지 않는다.
+## 데이터 규칙
 
-## 공개/비공개 경계
+- 기준사양 `SP-ID`, 공통비용항목 기존61개ID, 자재허용액 `ALW-ID`, 옵션 `ALT-ID`, 제조사출처 `RS-ID`를 유지한다.
+- 제조사 제품사실·도면전사·발주자 제안/허용액을 구별한다. 13개 허용액은 실제 공급가/시장평균이 아니며 허위 구매가로 설명하지 않는다.
+- 기기표 전사값을 R1 고정 가격비교수량으로 채택했지만 실측/적산 승인값으로 승격하지 않는다. 250급환기3대/AP3개소/제습2개소는 명시적 신규 제안이다.
+- 7mm LX마루 선택과 도면T10 차이를 명시하고 마감FL 조정비를 포함한다. 50S겸용을50R전용으로 바꾸지 않는다. 큰 창의 안전유리/프레임 크기를 표준 제품에 억지로 맞추지 않는다.
+- 구조·부하·풍압·안전·법정 적합성은 건축주 사양 선택과 다르다. 견적은 진행하되 검증 안 된 시공/허가 승인을 주장하지 않는다.
+- 원문 근거 hash/handle을 보존한다. 신규 소스 버전은 별도 기록한다. 기존 후보 업체의 평가순위/실적을 이번 사양 선정으로 수정하지 않는다.
 
-원본 DWG/DXF/PDF 전체, 전체 텍스트, 연락처·서명·인증정보, 내부 협의 메모, 작성된 업체별 견적·가격·조건은 기본적으로 공개 금지다. `.local/` 같은 gitignored 경로에 두고 공개 문서에는 검토된 발췌/빈 양식만 둔다. 원본에 외부 공유 제한이 표시된 작업 내용을 공개 발췌로 전사하지 않는다.
+## 생성과 검사
 
-비공개 파일을 보내 달라는 이유로 비공개 저장소 새로 만들기/업체 전송/권한 변경을 자동으로 하지 않는다. 사용자 승인과 도서 배포 권한을 확인한다.
+`build_tender.py`가 R1 JSON에서 `TENDER.md`, `OWNER-DECISIONS.md`, `SPEC-RESEARCH.md`, 업체용 `contractor/`, ZIP을 생성한다. `build.py`는 기존6개등록부와 전체HTML/진입링크를 생성한다. 두 스크립트는 루트 빌드 명령으로 순서대로 실행되도록 연결돼 있다.
 
-## 변경과 검증
+```sh
+python procurement/scripts/build.py
+python procurement/scripts/validate.py
+python procurement/scripts/validate_tender.py
+python procurement/scripts/test_validate.py
+```
 
-`python scripts/build.py`로 생성하고 `python scripts/validate.py`를 통과시킨다. 공식 도면을 검증한 것과 데이터/링크 검사 통과를 구별한다. 렌더링과 브라우저 검사를 수행하지 않았으면 해당 상태를 그대로 남긴다.
+Python Markdown/ezdxf 요구사항은 `procurement/requirements.txt`. 브라우저 점검은 이미 설치된 Chrome/Playwright를 사용하고 로컬 서버를 띄우지 않는다. R1회신 양식은 별도 구조이며 R0의 `validate.py --bid`에 그대로 입력하지 않는다.
 
-루트 `index.html`과 `site-v3/published/index.html`은 원래 갤러리를 보존하고 견적 준비 링크만 추가한다. 갤러리를 재생성한 경우 `scripts/build.py`를 다시 실행해 링크를 복구한다. 기존 루트 AGENTS의 검토 후 명시적 stage/commit/push 원칙을 따른다. 기존 분석/갤러리 전체를 대체하거나 무관한 자동화·서버를 실행하지 않는다.
+## 공개 범위
+
+원본 CAD/전체 추출/작업메모/연락처와 작성된 업체별가격은 `.local/` 등 비공개 경로. 공개할 것은 검토된 원문발췌·사양·발주자의 공통 허용액·빈 회신양식이다. 업체전송/구매/계약체결은 별도 사용자 지시 없이는 하지 않는다.
+
+R0 원본은 `history/R0/`와 Git이력에 남아 있다. 루트/갤러리의 다른 조사·사진을 보존하고 견적사양 진입영역만 변경한다. 루트 AGENTS의 명시적 stage/검토/commit/normal push/원격검증 원칙을 유지한다.

@@ -23,6 +23,13 @@ try {
     if(result.h1!==1||result.bodyOverflow||result.articleLength<100||result.currentNav!==1)errors.push({file,width,colorScheme,...result});
     results.push({file,width,colorScheme,passed:result.h1===1&&!result.bodyOverflow&&result.articleLength>100&&result.currentNav===1});
    }
+   await page.goto(pathToFileURL(path.join(root,'contractor','index.html')).href,{waitUntil:'load'});
+   const tender=await page.evaluate(()=>({h1:document.querySelectorAll('h1').length,bodyOverflow:document.documentElement.scrollWidth>innerWidth+2,specAnchors:document.querySelectorAll('a[id^="sp-"]').length,hasR1:document.body.innerText.includes('JEJU-HOUSE-RFQ-20261012-R1')}));
+   const tenderPassed=tender.h1===1&&!tender.bodyOverflow&&tender.specAnchors===37&&tender.hasR1;
+   results.push({file:'contractor/index.html',width,colorScheme,passed:tenderPassed});
+   if(!tenderPassed)errors.push({file:'contractor/index.html',width,colorScheme,...tender});
+   await page.locator('a[href="#sp-20"]').first().click();
+   if(!page.url().endsWith('#sp-20'))errors.push({width,colorScheme,error:'Contractor spec anchor did not navigate'});
    // Follow a real cross-page evidence link, and exercise expandable contents.
    await page.goto(pathToFileURL(path.join(root,'RFI.html')).href);
    await page.locator('details.toc summary').click();

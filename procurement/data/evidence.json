@@ -5833,6 +5833,312 @@
       "evidence_level": "converted_dxf_text",
       "visual_verified": false,
       "approved": false
+    },
+    {
+      "handle": "E6871",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        707642.47,
+        -360804.19
+      ],
+      "height": 132.3529411764706,
+      "text": "RNW0200C2S",
+      "id": "M:E6871",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6870",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        707878.18,
+        -361171.82
+      ],
+      "height": 132.3529411764706,
+      "text": "2,000 W",
+      "id": "M:E6870",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6889",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        701626.52,
+        -353125.51
+      ],
+      "height": 132.3529411764706,
+      "text": "RNW0230C2S",
+      "id": "M:E6889",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6888",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        701862.24,
+        -353493.14
+      ],
+      "height": 132.3529411764706,
+      "text": "2,300 W",
+      "id": "M:E6888",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6891",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        723946.26,
+        -355494.3
+      ],
+      "height": 132.3529411764706,
+      "text": "RNW0320C2S",
+      "id": "M:E6891",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6890",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        724181.98,
+        -355861.93
+      ],
+      "height": 132.3529411764706,
+      "text": "3,200 W",
+      "id": "M:E6890",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6899",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        704646.26,
+        -353121.44
+      ],
+      "height": 132.3529411764706,
+      "text": "RNW0400C2S",
+      "id": "M:E6899",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6898",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        704881.98,
+        -353489.07
+      ],
+      "height": 132.3529411764706,
+      "text": "4,000 W",
+      "id": "M:E6898",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68A1",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        719620.41,
+        -355501.56
+      ],
+      "height": 132.3529411764706,
+      "text": "RNW0520C2S",
+      "id": "M:E68A1",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68A0",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        719856.13,
+        -355869.19
+      ],
+      "height": 132.3529411764706,
+      "text": "5,200 W",
+      "id": "M:E68A0",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68A9",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        701481.22,
+        -363430.23
+      ],
+      "height": 132.3529411764706,
+      "text": "RNW0601A2U",
+      "id": "M:E68A9",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68A8",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        701726.97,
+        -363797.86
+      ],
+      "height": 132.3529411764706,
+      "text": "6,000 W",
+      "id": "M:E68A8",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68B1",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        715408.08,
+        -366749.21
+      ],
+      "height": 132.3529411764706,
+      "text": "RNW1451A2U",
+      "id": "M:E68B1",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E68B0",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        715596.46,
+        -367116.84
+      ],
+      "height": 132.3529411764706,
+      "text": "14,500 W",
+      "id": "M:E68B0",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6879",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        753385.38,
+        -357004.13
+      ],
+      "height": 132.3529411764706,
+      "text": "RPUW121S9S",
+      "id": "M:E6879",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6878",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        753592.98,
+        -357371.75
+      ],
+      "height": 132.3529411764706,
+      "text": "33,600 W",
+      "id": "M:E6878",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6881",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        751934.95,
+        -357004.13
+      ],
+      "height": 132.3529411764706,
+      "text": "RPUW101S9S",
+      "id": "M:E6881",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
+    },
+    {
+      "handle": "E6880",
+      "type": "TEXT",
+      "container": "*Model_Space",
+      "layer": "text",
+      "xy": [
+        752142.56,
+        -357371.75
+      ],
+      "height": 132.3529411764706,
+      "text": "28,000 W",
+      "id": "M:E6880",
+      "source_id": "M",
+      "evidence_level": "converted_dxf_text",
+      "visual_verified": false,
+      "approved": false
     }
   ]
 }

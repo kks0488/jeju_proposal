@@ -1,19 +1,21 @@
 {
-  "baseline_commit": "21a56eee814e781f0dcb41a1325fc7104244712b",
-  "public_package_validation": "passed",
-  "bid_validator_synthetic_tests": 14,
-  "extractor_smoke": "synthetic text / mtext / block attribute passed",
-  "gallery_preservation": "after removing two new entry blocks, both HTML files equal original HEAD byte-for-byte",
-  "build_idempotence": "passed",
-  "browser_smoke": "60 page/viewport/appearance configurations passed; browser-report.json",
+  "baseline_commit": "8ca15a9e37d6e4e5d114cca54e70079aac7c76f8",
+  "package_id": "JEJU-HOUSE-RFQ-20261012-R1",
+  "r1_data_mutation_tests": 10,
+  "legacy_bid_synthetic_tests": 14,
+  "browser_page_viewport_theme_configurations": 76,
+  "static_local_links": 1393,
+  "generated_build_idempotent": true,
+  "gallery_preservation": "Only procurement entry blocks changed; other content matches baseline byte-for-byte",
+  "curated_contractor_pack_files": 7,
+  "raw_drawings_in_contractor_pack": false,
+  "limitations": [
+    "Not a verified CAD geometry takeoff",
+    "Not field-load/window-safety/permit certification",
+    "Material allowances are owner comparison budgets, not observed supplier prices"
+  ],
   "legacy_npm_test": {
-    "status": "pre_existing_failure_reproduced_on_pristine_HEAD",
-    "error": "Base template changed; review transformation",
-    "changed_in_this_update": false
-  },
-  "limits": [
-    "No original CAD/PDF visual validation",
-    "No verified quantity takeoff",
-    "No Vercel deployment claimed"
-  ]
+    "status": "pre-existing failure recorded in R0 and not changed in R1",
+    "message": "Base template changed; review transformation"
+  }
 }

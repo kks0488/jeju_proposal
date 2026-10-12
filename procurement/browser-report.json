@@ -1,7 +1,7 @@
 {
   "passed": true,
   "scope": "Chrome offline DOM/layout/navigation smoke; not CAD/PDF visual validation or cross-browser certification",
-  "pageConfigurations": 60,
+  "pageConfigurations": 76,
   "viewports": [
     390,
     1440
@@ -56,6 +56,12 @@
       "passed": true
     },
     {
+      "file": "OWNER-DECISIONS.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
       "file": "PREPARATION.html",
       "width": 390,
       "colorScheme": "light",
@@ -98,7 +104,25 @@
       "passed": true
     },
     {
+      "file": "SPEC-RESEARCH.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "TENDER.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
       "file": "index.html",
+      "width": 390,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "contractor/index.html",
       "width": 390,
       "colorScheme": "light",
       "passed": true
@@ -146,6 +170,12 @@
       "passed": true
     },
     {
+      "file": "OWNER-DECISIONS.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
       "file": "PREPARATION.html",
       "width": 1440,
       "colorScheme": "light",
@@ -188,7 +218,25 @@
       "passed": true
     },
     {
+      "file": "SPEC-RESEARCH.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "TENDER.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
       "file": "index.html",
+      "width": 1440,
+      "colorScheme": "light",
+      "passed": true
+    },
+    {
+      "file": "contractor/index.html",
       "width": 1440,
       "colorScheme": "light",
       "passed": true
@@ -236,6 +284,12 @@
       "passed": true
     },
     {
+      "file": "OWNER-DECISIONS.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
       "file": "PREPARATION.html",
       "width": 390,
       "colorScheme": "dark",
@@ -278,7 +332,25 @@
       "passed": true
     },
     {
+      "file": "SPEC-RESEARCH.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "TENDER.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
       "file": "index.html",
+      "width": 390,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "contractor/index.html",
       "width": 390,
       "colorScheme": "dark",
       "passed": true
@@ -326,6 +398,12 @@
       "passed": true
     },
     {
+      "file": "OWNER-DECISIONS.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
       "file": "PREPARATION.html",
       "width": 1440,
       "colorScheme": "dark",
@@ -368,7 +446,25 @@
       "passed": true
     },
     {
+      "file": "SPEC-RESEARCH.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "TENDER.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
       "file": "index.html",
+      "width": 1440,
+      "colorScheme": "dark",
+      "passed": true
+    },
+    {
+      "file": "contractor/index.html",
       "width": 1440,
       "colorScheme": "dark",
       "passed": true

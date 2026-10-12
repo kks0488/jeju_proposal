@@ -1,0 +1,27 @@
+{
+  "package_id": "JEJU-HOUSE-RFQ-20261012-R1",
+  "note": "발주자가 별도 전달할 DWG3개. 이 패키지에는 원본 CAD가 들어 있지 않다. 수신일은 도면의 정식 발행일이 아님.",
+  "files": [
+    {
+      "source_id": "A",
+      "filename": "세화리 1523-11 (건축).dwg",
+      "bytes": 19524117,
+      "sha256": "2b8de92342f07d3f2b0dfbfc8e53de964ece9004806ef3a6f4a40f696353edb7",
+      "received_date": "2026-10-12"
+    },
+    {
+      "source_id": "E",
+      "filename": "세화리 1523-11(전기,통신도면).dwg",
+      "bytes": 5780224,
+      "sha256": "761fedcf52f48455edf878e1853aa5532d3ec9d0a693c025affcf751c6277668",
+      "received_date": "2026-10-12"
+    },
+    {
+      "source_id": "M",
+      "filename": "세화리 1523-11 (설비).dwg",
+      "bytes": 4087370,
+      "sha256": "d86a7cacf307f47abb92c4305afa896a70d9cc86b23d655be3fd575c3f71e2e0",
+      "received_date": "2026-10-12"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 # 제주 주택 시공사 비교 — 하백 · GAU · 다봄
 
 <!--procurement-readme-start-->
-## 2026-10-12 도면 검토·견적 준비 추가
+## 주택 건축주 지정사양 R1 — 시공사 견적 요청
 
-**[도면·견적 준비 자료](procurement/README.md)** · **[브라우저로 보기](https://kks0488.github.io/jeju_proposal/procurement/)**
+**[시공사 전달용 통합 사양서](https://kks0488.github.io/jeju_proposal/procurement/contractor/)** · **[전달용 ZIP](procurement/jeju-house-contractor-R1.zip)** · **[건축주 검토자료](procurement/README.md)**
 
-업로드된 DWG 3개의 1차 검토, 설계 질의 25건, 공통 견적항목 61개, 업체 견적요청·회신 양식을 추가했습니다. 기존 주택 계획과 도면상 사무소 용도는 확인이 필요하며, 아직 확정 물량/발행본이 아닙니다. 기존 갤러리·업체 조사·순위는 보존했습니다. 에이전트는 [procurement/AGENTS.md](procurement/AGENTS.md)를 먼저 읽으세요.
+상시 거주 주택 기준으로37개 사양·13개 공통 자재 허용액·10개 옵션을61개 견적항목에 연결했습니다. 난방/급탕·환기·창호·마감의 기준 제품과 포함범위가 들어 있으며, 도면3개를 별도 첨부해 동일 견적을 받습니다. 원본 분석·시공사 조사·순위는 보존했고, R1 사양과 미검증 시공/제작 승인을 구분합니다. 에이전트는 [procurement/AGENTS.md](procurement/AGENTS.md)를 먼저 읽으세요.
 <!--procurement-readme-end-->
 
 

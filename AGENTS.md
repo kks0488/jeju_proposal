@@ -21,3 +21,7 @@ Hooks are local to this clone, not carried by a Git clone. In other environments
 ## Procurement review workspace
 
 For CAD evidence, drawing/RFI registers, and contractor RFQ materials, first read `procurement/AGENTS.md`. The public procurement package contains reviewed excerpts and empty templates only; original CAD, internal comments, and filled contractor bids stay private. After gallery regeneration, rerun `procurement/scripts/build.py` to preserve the procurement entry links.
+
+### Current owner RFQ revision R1
+
+The owner has explicitly confirmed residential use. Use the title and performance basis "제주 주택" for R1 contractor specifications; preserve administrative/source evidence separately without claiming permit conversion. `procurement/data/owner-specifications.json` is the current pricing basis, with researched product choices, explicit allowances and separate alternatives. Do not reinstate R0 quotation holds or ask the owner to choose everything again. `procurement/contractor/` is the curated contractor-facing share pack; raw CAD is supplied separately and filled bids remain private.

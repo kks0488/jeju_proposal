@@ -166,7 +166,7 @@ def validate_package():
  if data['bid-template.json']['status']!='template_not_submitted':errors.append('public bid is not empty template')
  for i in data['bid-template.json']['items']:
   if i['quote_status']!='not_priced' or i['amount_ex_vat'] is not None:errors.append('public bid contains prices')
- parsed={p.resolve():Page(p.read_text(encoding='utf-8')) for p in ROOT.glob('*.html')};links=0
+ parsed={p.resolve():Page(p.read_text(encoding='utf-8')) for p in list(ROOT.glob('*.html'))+list((ROOT/'contractor').glob('*.html'))};links=0
  for p,page in parsed.items():
   if page.h1!=1:errors.append(p.name+' must have one h1')
   if len(page.ids)!=len(set(page.ids)):errors.append(p.name+' duplicate HTML ids')
